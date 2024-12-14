@@ -42,6 +42,11 @@ Noun
 
 - An entry into a dictionary. Consists of a stroke that maps to a translation.
 
+## Dictionary
+Noun
+
+- A file containing one or more entries.
+
 ## Translation
 Noun
 
