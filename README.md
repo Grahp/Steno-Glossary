@@ -79,3 +79,8 @@ Noun
 
 ## Extension Stroke?
 - TODO A subsequent stroke used in multi-syllable words to extend the previous stroke
+
+# Other Sources
+
+- Learn Plover! Glossary: https://www.openstenoproject.org/learn-plover/glossary.html
+- Steno Explainers: https://sammdot.ca/steno/explainers
