@@ -21,12 +21,14 @@ Verb
 Noun
 
 - TODO A steno stroke.
+  - A dash `-` (or star `*` if it is present) is used to denote which **stroke segment** the key belongs to. `T` belongs to the left bank, `-T` belongs to the right bank.
+- The representation of a steno stroke.
 
 Verb
 
 - The act of pressing down all the **keys** in a **stroke**.
 
-## Chord bank
+## Stroke segment
 Noun
 
 - TODO The starters (left hand), vowels (thumbs) or enders (right hand) of a **stroke**.
@@ -97,13 +99,13 @@ Noun
 ## Skeleton Stroke
 Noun
 
-- A **stroke** with **keys** in the starter and ender **banks**, but no vowels
+- A **stroke** with **keys** in the starter and ender **segments**, but no vowels
 
 ## Base Stroke?
 Noun
 
-- A stroke that uses only keys in the vowel **bank** or keys only in the ender **bank**
-  - Differs from a **skeleton stroke** in that it only has keys in one of the **chord banks**
+- A stroke that uses only keys in the vowel **segment** or keys only in the ender **segment**
+  - Differs from a **skeleton stroke** in that it only has keys in one of the **stroke segment**
 
 ## Extension Stroke?
 - TODO A subsequent **stroke** used in multi-syllable words to extend the previous **stroke**
