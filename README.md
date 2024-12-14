@@ -37,6 +37,12 @@ Noun
 
 - One or more strokes that map to a translation.
 
+## Translation
+Noun
+
+- TODO Some text or command or such that is outputted
+  - This has a representation in plover
+
 ## Entry
 Noun
 
@@ -46,18 +52,23 @@ Noun
 Noun
 
 - A file containing one or more entries.
-
-## Translation
-Noun
-
-- TODO Some text or command or such that is outputted
-  - This has a representation in plover
+  - Dictionaries may "belong" to a theory, or be largely theory-independent
 
 ## Conflict
 
 - TODO An outline with multiple possible translations?
 - TODO An outline with more than one sensible translation?
 - TODO An outline who can't be figured out?
+
+## Theory Rule
+Noun
+
+- TODO A rule defining how strokes should be turned into translations
+
+## Theory
+Noun
+
+- A set of theory rules.
 
 ## Word Boundary
 
