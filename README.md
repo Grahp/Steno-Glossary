@@ -3,8 +3,7 @@
 ## Key
 Noun
 
-- TODO Like `S` or `^` or something.
-
+- TODO Keys on a steno keyboard (`S`, `T`, `^`, `A`)
 
 ## Chord
 Noun
