@@ -136,7 +136,7 @@ Adj.
 TODO
 Adj.
 
-- A term used to describe **theories** (and **dictionaries**) that have different modes. When **stroking** an **outline**, they may map to different **translations** based on the mode you are in.
+- A term used to describe **theories** (and **dictionaries**) that have one or more modes. When **stroking** an **outline**, they may map to different **translations** based on the mode you are in.
   - There is typically a **stroke** or dedicated **key** used to enter and exit the mode.
 
 
