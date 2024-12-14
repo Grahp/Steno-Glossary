@@ -53,6 +53,7 @@ Noun
 
 - A file containing one or more entries.
   - Dictionaries may "belong" to a theory, or be largely theory-independent
+- The particular implementation of a theory
 
 ## Conflict
 
@@ -64,6 +65,8 @@ Noun
 Noun
 
 - TODO A rule defining how strokes should be turned into translations
+  - Theory rules can generally be phonetic or orthographic.
+  - A theory rule may encompass many strokes, or be a single override to avoid a conflict
 
 ## Theory
 Noun
