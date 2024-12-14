@@ -31,7 +31,9 @@ Verb
 ## Stroke segment
 Noun
 
-- TODO The starters (left hand), vowels (thumbs) or enders (right hand) of a **stroke**.
+- TODO One independent part of a **stroke**.
+  - TODO Starters, Vowels, Enders, and symbols.
+- TODO A grouping of **keys**
 
 ## Outline
 Noun
