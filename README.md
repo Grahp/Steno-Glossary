@@ -77,7 +77,8 @@ Noun
 TODO
 
 ## Brief
-TODO
+Noun
+TODO - An abbreviated **outline**. Typically used to reduce the number of **strokes** required for a **translation**
 
 ## Templated Brief
 Noun
