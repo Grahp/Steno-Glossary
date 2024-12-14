@@ -37,8 +37,9 @@ Noun
 ## Translation
 Noun
 
-- TODO Some text or command or such that is outputted
-  - This has a representation in plover
+- TODO A word, phrase, prefix, suffix, or command that is outputted.
+- These are defined in **theories**, and implemented in **dictionaries**
+  * TODO Plover Dictionary Format
 
 ## Entry
 Noun
