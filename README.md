@@ -18,12 +18,10 @@ Verb
 ## Stroke
 Noun
 
-TODO
-- A steno stroke.
+- TODO A steno stroke.
 
 Verb
 
-TODO
 - The act of pressing down all the **keys** in a **stroke**.
 
 ## Chord bank
