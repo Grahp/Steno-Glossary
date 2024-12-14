@@ -8,7 +8,7 @@ Noun
 ## Chord
 Noun
 
-- A group of **keys** that typically represent a sound.
+- A group of **keys** that typically represent some part of a **translation**. This may be a phonetic or orthographic sequence.
 
 Verb
 - The act of pressing down all **keys** in a **chord**.
