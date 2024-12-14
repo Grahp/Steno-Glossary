@@ -78,17 +78,17 @@ TODO
 
 ## Brief
 Noun
-TODO - An abbreviated **outline**. Typically used to reduce the number of **strokes** required for a **translation**
+TODO - An abbreviated **outline**. Typically used to reduce the number of **strokes** required for a **translation**.
 
 ## Templated Brief
 Noun
 
-- TODO A **brief** who can be broken down into separately-defined rules that typically apply to multiple **briefs**
+- TODO A **brief** who can be broken down into separately-defined rules that typically apply to multiple **briefs**.
 
 ## Arbitrary Brief
 Noun
 
-- TODO A **brief** who has no rules dictating it. These are typically just based on feel
+- TODO A **brief** who has no rules dictating it.
 
 ## Base Stroke?
 - TODO A word for non-**skeleton strokes** that can use vowels and enders
