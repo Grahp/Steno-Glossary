@@ -3,17 +3,17 @@
 ## Key
 Noun
 
-- TODO Keys on a steno keyboard (`S`, `T`, `^`, `A`)
+- TODO Keys on a steno keyboard (`S`, `T`, `^`, `A`).
 
 ## Chord
 Noun
 
-- A group of keys that typically represent a sound.
+- A group of **keys** that typically represent a sound.
 
 Verb
-- The act of pressing down all keys in a chord.
-- Sometimes used interchangeably with stroke (please stop).
-- TODO Can also refer to the act of stenoing itself
+- The act of pressing down all **keys** in a **chord**.
+- Sometimes used interchangeably with **stroke** (please stop).
+- TODO Can also refer to the act of stenoing itself.
 
 ## Stroke
 Noun
@@ -24,18 +24,18 @@ TODO
 Verb
 
 TODO
-- The act of pressing down all the keys in a stroke.
+- The act of pressing down all the **keys** in a **stroke**.
 
 ## Chord group
 TODO
 Noun
 
-- TODO The starters (left hand), vowels (thumbs) or enders (right hand) of a stroke.
+- TODO The starters (left hand), vowels (thumbs) or enders (right hand) of a **stroke**.
 
 ## Outline
 Noun
 
-- One or more strokes that map to a translation.
+- One or more **strokes** that typically map to a **translation**.
 
 ## Translation
 Noun
@@ -46,53 +46,55 @@ Noun
 ## Entry
 Noun
 
-- An entry into a dictionary. Consists of a stroke that maps to a translation.
+- An entry into a **dictionary**. Consists of an **outline** that maps to a **translation**.
 
 ## Dictionary
 Noun
 
-- A file containing one or more entries.
-  - Dictionaries may "belong" to a theory, or be largely theory-independent
-- The particular implementation of a theory
+- A file containing one or more **entries**.
+  - Dictionaries may "belong" to a **theory**, or be largely theory-independent
+- The particular implementation of a **theory**
 
 ## Conflict
 
-- TODO An outline with multiple possible translations?
-- TODO An outline with more than one sensible translation?
-- TODO An outline who can't be figured out?
+- TODO An **outline** with multiple possible **translations**?
+- TODO An **outline** with more than one sensible **translation**?
+- TODO An **outline** who can't be figured out?
 
 ## Theory Rule
 Noun
 
-- TODO A rule defining how strokes should be turned into translations
+- TODO A rule defining how **strokes** should be turned into **translations**.
   - Theory rules can generally be phonetic or orthographic.
-  - A theory rule may encompass many strokes, or be a single override to avoid a conflict
+  - A theory rule may encompass many **strokes**, or be a single override to avoid a **conflict**
 
 ## Theory
 Noun
 
-- A set of theory rules.
+- A set of **theory rules**.
 
 ## Word Boundary
+TODO
 
+## Brief
 TODO
 
 ## Templated Brief
 Noun
 
-- TODO A brief who can be broken down into separately-defined rules that typically apply to multiple briefs
+- TODO A **brief** who can be broken down into separately-defined rules that typically apply to multiple **briefs**
 
 ## Arbitrary Brief
 Noun
 
-- TODO A brief who has no rules dictating it. These are typically just based on feel
+- TODO A **brief** who has no rules dictating it. These are typically just based on feel
 
 ## Base Stroke?
-- TODO A word for non-skeleton strokes that can use vowels and enders
-  - The opposite of a modifier / filler / extension stroke
+- TODO A word for non-**skeleton strokes** that can use vowels and enders
+  - The opposite of a **modifier / filler / extension stroke**
 
 ## Extension Stroke?
-- TODO A subsequent stroke used in multi-syllable words to extend the previous stroke
+- TODO A subsequent **stroke** used in multi-syllable words to extend the previous **stroke**
 
 # Other Sources
 
