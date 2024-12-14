@@ -1,5 +1,7 @@
 # Steno Glossary
 
+Contributions welcome :)
+
 ## Key
 Noun
 
