@@ -53,10 +53,14 @@ Noun
 - The particular implementation of a **theory**
 
 ## Conflict
+Noun
 
 - TODO An **outline** with multiple possible **translations**?
 - TODO An **outline** with more than one sensible **translation**?
 - TODO An **outline** who can't be figured out?
+
+Adj.
+- TODO An **outline** that has a conflict.
 
 ## Theory Rule
 Noun
