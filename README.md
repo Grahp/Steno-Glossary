@@ -31,9 +31,8 @@ Verb
 ## Stroke segment
 Noun
 
-- TODO One independent part of a **stroke**.
-  - TODO Starters, Vowels, Enders, and symbols.
-- TODO A grouping of **keys**
+- A group of **keys** that represents one independent part of a **stroke**.
+    - Stroke segments typically include Starters, Vowels, Enders, and Symbols.
 
 ## Outline
 Noun
@@ -45,7 +44,7 @@ Noun
 
 - TODO A word, phrase, prefix, suffix, or command that is outputted.
 - These are defined in **theories**, and implemented in **dictionaries**
-  * TODO Plover Dictionary Format
+  - TODO Plover Dictionary Format
 
 ## Entry
 Noun
@@ -82,7 +81,9 @@ Noun
 - A set of **theory rules**.
 
 ## Word Boundary
-TODO
+Noun
+
+- TODO A type of **conflict** that comes from having multiple possible **translations** from a sequence of **strokes**
 
 ## Brief
 Noun
