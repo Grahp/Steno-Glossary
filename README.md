@@ -6,23 +6,21 @@ Contributions welcome :)
 Noun
 
 - A key on a steno keyboard that belongs to a specific **bank**.
-  - While some keys have the same name (`S` and `-S`), these are different keys, differentiated by their **banks**.
+  - While some keys have the same name (`S` and `-S`), these are different keys, differentiated by their **banks**, that happen to use the same key character to represent them.
 
 ## Chord
 Noun
 
-- A set of **keys** that typically represent some part of an **stroke**. This may be a phonetic or orthographic sequence.
-  - A chord may possible have 0 **keys**?
+- A (possibly empty) set of **keys**. They may be a phonetic or orthographic sequence, such as a letter sequence or phoneme.
 
 Verb
-- The act of pressing down all **keys** in a **chord**.
-- Sometimes used interchangeably with **stroke** (please stop).
-- TODO Can also refer to the act of stenoing itself?
+- The act of pressing down multiple **keys** on a steno keyboard.
+- Sometimes used interchangeably with **stroke**.
 
 ## Stroke
 Noun
 
-- A sequence of **chords**.
+- A non-empty set of **keys** that typically maps to an **outline**.
 
 See Outline Pattern
 
@@ -41,6 +39,7 @@ Noun
 Noun
 
 - A sequence of one or more **strokes**.
+  - These **strokes** must consist of one or more **keys**.
 
 ## Translation
 Noun
