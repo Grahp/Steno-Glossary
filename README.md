@@ -22,10 +22,9 @@ Verb
 ## Stroke
 Noun
 
-- The representation of a steno stroke.
 - A sequence of **chords**.
 
-See String Outline
+See Outline Pattern
 
 Verb
 
