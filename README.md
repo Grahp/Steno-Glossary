@@ -152,7 +152,7 @@ Adj.
   - There is typically a **stroke** or dedicated **key** used to enter and exit the mode.
 
 
-## String Outline
+## String Outline / Outline Pattern?
 Noun
 
 - The format that **Plover** uses to store **outlines** as strings.
