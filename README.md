@@ -37,7 +37,7 @@ Noun
 ## Outline
 Noun
 
-- One or more **strokes** that typically map to a **translation**.
+- A sequence of one or more **strokes**.
 
 ## Translation
 Noun
