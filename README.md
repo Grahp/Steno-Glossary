@@ -21,18 +21,18 @@ Verb
 Noun
 
 - TODO A steno stroke.
-  - A dash `-` (or star `*` if it is present) is used to denote which **stroke segment** the key belongs to. `T` belongs to the left bank, `-T` belongs to the right bank.
+  - A dash `-` (or star `*` if it is present) is used to denote which **bank** the key belongs to. `T` belongs to the left bank, `-T` belongs to the right bank.
 - The representation of a steno stroke.
 
 Verb
 
 - The act of pressing down all the **keys** in a **stroke**.
 
-## Stroke segment
+## Bank
 Noun
 
 - A group of **keys** that represents one independent part of a **stroke**.
-    - Stroke segments typically include Starters, Vowels, Enders, and Symbols.
+    - TODO Banks typically include Starters, Vowels, Enders, Symbols, Upper, and Lower
 
 ## Outline
 Noun
@@ -57,6 +57,8 @@ Noun
 - A file containing one or more **entries**.
   - Dictionaries may "belong" to a **theory**, or be largely theory-independent
 - The particular implementation of a **theory**
+
+## Write-out
 
 ## Conflict
 Noun
@@ -102,13 +104,13 @@ Noun
 ## Skeleton Stroke
 Noun
 
-- A **stroke** with **keys** in the starter and ender **segments**, but no vowels
+- A **stroke** with **keys** in the starter and ender **banks**, but no vowels
 
 ## Base Stroke?
 Noun
 
-- A stroke that uses only keys in the vowel **segment** or keys only in the ender **segment**
-  - Differs from a **skeleton stroke** in that it only has keys in one of the **stroke segment**
+- A stroke that uses only keys in the vowel **bank** or keys only in the ender **bank**
+  - Differs from a **skeleton stroke** in that it only has keys in one of the **banks**
 
 ## Extension Stroke?
 - TODO A subsequent **stroke** used in multi-syllable words to extend the previous **stroke**
