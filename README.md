@@ -16,14 +16,13 @@ Noun
 Verb
 - The act of pressing down all **keys** in a **chord**.
 - Sometimes used interchangeably with **stroke** (please stop).
-- TODO Can also refer to the act of stenoing itself.
+- TODO Can also refer to the act of stenoing itself?
 
 ## Stroke
 Noun
 
-- TODO A set of chords?
-- TODO A steno stroke.
 - The representation of a steno stroke.
+- A sequence of **chords**.
 
 See String Outline
 
@@ -152,16 +151,16 @@ Adj.
   - There is typically a **stroke** or dedicated **key** used to enter and exit the mode.
 
 
-## String Outline / Outline Pattern?
+## (String) Outline Pattern
 Noun
 
 - The format that **Plover** uses to store **outlines** as strings.
-  - Includes non-keys such as `-` to denote the lack of keys in the vowel **bank**, and `/` to denote a new **stroke**
+  - Includes non-keys such as `-` to denote the lack of keys in the vowel **bank**, and `/` to denote a new **stroke**.
 
 ## Raw Steno
 Noun
 
-- TODO a bunch of **string outlines**?
+- TODO a sequence of **outline patterns**?
 
 
 
