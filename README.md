@@ -5,7 +5,8 @@ Contributions welcome :)
 ## Key
 Noun
 
-- TODO Keys on a steno keyboard (`S`, `T`, `^`, `A`).
+- A key on a steno keyboard that belongs to a specific **bank**.
+  - While some keys have the same name (`S` and `-S`), these are different keys, differentiated by their **banks**.
 
 ## Chord
 Noun
@@ -34,6 +35,7 @@ Verb
 Noun
 
 - A group of **keys** that represents one independent part of a **stroke**.
+    - TODO maybe not strokes? Could be outlines idk
     - TODO Banks typically include Starters, Vowels, Enders, Symbols, Upper, and Lower
 
 ## Outline
