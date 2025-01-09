@@ -10,7 +10,8 @@ Noun
 ## Chord
 Noun
 
-- A group of **keys** that typically represent some part of a **translation**. This may be a phonetic or orthographic sequence.
+- A set of **keys** that typically represent some part of an **stroke**. This may be a phonetic or orthographic sequence.
+  - A chord may possible have 0 **keys**?
 
 Verb
 - The act of pressing down all **keys** in a **chord**.
@@ -20,9 +21,11 @@ Verb
 ## Stroke
 Noun
 
+- TODO A set of chords?
 - TODO A steno stroke.
-  - A dash `-` (or star `*` if it is present) is used to denote which **bank** the key belongs to. `T` belongs to the left bank, `-T` belongs to the right bank.
 - The representation of a steno stroke.
+
+See String Outline
 
 Verb
 
@@ -147,6 +150,18 @@ Adj.
 
 - A term used to describe **theories** (and **dictionaries**) that have one or more modes. When **stroking** an **outline**, they may map to different **translations** based on the mode you are in.
   - There is typically a **stroke** or dedicated **key** used to enter and exit the mode.
+
+
+## String Outline
+Noun
+
+- The format that **Plover** uses to store **outlines** as strings.
+  - Includes non-keys such as `-` to denote the lack of keys in the vowel **bank**, and `/` to denote a new **stroke**
+
+## Raw Steno
+Noun
+
+- TODO a bunch of **string outlines**?
 
 
 
