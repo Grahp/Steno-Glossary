@@ -47,7 +47,7 @@ Noun
   - Banks on the **WSI layout** are Starters, Vowels, and Enders.
 
 Notes:
-- **Keys** in these banks are often referred to by their bank, such as "a starter"
+- **Keys** in these banks are often referred to by their bank, such as "a starter" or "an ender".
 
 ## Outline
 Noun
@@ -65,19 +65,31 @@ Noun
 ## Entry
 Noun
 
-- An entry into a **dictionary**. Consists of an **outline** that maps to a **translation**.
+- An **outline** that maps to a **translation**, typically stored in a **dictionary**.
+
+Notes:
+- TODO These mappings come from **theory rules**.
+  - They are trying to satisfy the theory rules?
 
 ## Dictionary
 Noun
 
-- A file containing one or more **entries**.
-  - Dictionaries may "belong" to a **theory**, or be largely theory-independent
-- The particular implementation of a **theory**
+- A collection of **entries**, typically stored in a file.
+
+Notes:
+- A dictionary is the implementation of a **theory**.
+- Dictionaries may be designed for one **theory**, or be largely **theory**-independent.
 
 ## Write-out
+TODO
+
+- TODO an entry that uses rules only?
+  - If I split rules and templates, then this is fine I guess?
 
 ## Conflict
 Noun
+
+TODO this has to do with theory rules, and how they could create multiple valid entries
 
 - TODO An **outline** with multiple possible **translations**?
 - TODO An **outline** with more than one sensible **translation**?
