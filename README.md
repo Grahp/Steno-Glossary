@@ -6,10 +6,10 @@ WIP, Contributions welcome :)
 Noun
 
 TODO a non-cyclical definition
-- A key on a [**steno keyboard**](#steno-keyboard) or **steno layout**.
+- A key on a **steno keyboard** or **steno layout**.
 
 Notes:
-- While some keys may have the same name (`S`, the starter, and `-S`, the ender), these are different keys, differentiated by what **bank(s)** they are in, that happen to use the same key character to represent them.
+- While some keys may have the same name (`S`, the starter, and `-S`, the ender), these are different keys, differentiated by what [**bank(s)**](#bank) they are in, that happen to use the same key character to represent them.
   - These keys can be referred to by their **raw steno** form, like `"-S"`
 
 ## Chord
