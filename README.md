@@ -121,7 +121,7 @@ Adj.
 Noun
 
 - A rule defining how [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline) should map to a [**translation**](#translation), or a part of a [**translation**](#translation).
-  - A rule may do this phonetically, orthographically, shape-based, or completely arbitrarily.
+  - A rule may do this phonetically, orthographically, based on shape, or completely arbitrarily.
 
 Notes:
 - TODO A theory rule may cover many [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline), or be a single override to avoid a conflict (see theory rule coverage).
