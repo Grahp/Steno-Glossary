@@ -19,6 +19,7 @@ Noun
 - A set of **keys**. A chord may consist of 0 **keys**, making it "empty".
   - TODO They may be a phonetic or orthographic sequence, such as a letter sequence or phoneme.
   - TODO Chords typically map to some part of a **translation**?
+  - TODO chords can also be shape based!
 
 Verb
 - The act of pressing down the set of **keys** that make up a chord on a **steno keyboard**.
@@ -134,6 +135,9 @@ Noun
 
 - A **stroke** with **keys** in the starter and ender **banks**, but no vowels
 
+Notes:
+- TODO A briefing technique.
+
 ## Base Stroke?
 Noun
 
@@ -216,3 +220,7 @@ Noun
 - Pseudosteno?
   - Looks like quartz expansions
 - Shrimplification?
+- Folding
+- Dropping
+- Clip-on
+- More software and shit?
