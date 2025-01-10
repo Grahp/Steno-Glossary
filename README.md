@@ -9,7 +9,7 @@ TODO a non-cyclical definition
 - A key on a **steno keyboard** or **steno layout**.
 
 Notes:
-- While some keys may have the same name (`S`, the starter, and `-S`, the ender), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them.
+- While some keys may have the same name (`S`, the [**starter**](#starter), and `-S`, the [**ender**](#ender)), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them.
   - These keys can be referred to by their [**raw steno**](#raw-steno) form, like `"-S"`
 
 ## Chord
