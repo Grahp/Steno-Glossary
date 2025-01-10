@@ -1,14 +1,19 @@
 # Steno Glossary
 
-Contributions welcome :)
+WIP, Contributions welcome :)
 
 ## Key
 Noun
 
-- A key on a steno keyboard that belongs to a specific **bank**.
+TODO a non-cyclical definition
+- A key on a **steno keyboard** or **steno layout**.
 
 Notes:
-- While some keys have the same name (`S`, the starter, and `-S`, the ender), these are different keys, differentiated by their **banks**, that happen to use the same key character to represent them.
+- While some keys may have the same name (`S`, the starter, and `-S`, the ender), these are different keys, differentiated by what **bank(s)** they are in, that happen to use the same key character to represent them.
+- Having some unique way to refer to a key without conflicts?
+  - Raw steno does a good job at this (`-S` and such).
+- Keys are the smallest unit of meaning in steno?
+  - Chords may be as well idk
 
 TODO
 See **Stroke Pattern**.
@@ -44,11 +49,14 @@ Verb
 ## Bank
 Noun
 
-- A group of **keys** that represents one independent part of a **stroke**.
+TODO still not satisfied.
+
+- A group of **keys** that are positioned in a specific area on a **steno layout**.
   - Banks on the **WSI layout** are Starters, Vowels, and Enders.
 
 Notes:
-- **Keys** in these banks are often referred to by their bank, such as "a starter" or "an ender".
+TODO that ain't right? Keys may be qualified by their bank and referred to that way?
+- **Keys** can be referred to by their bank, such as "a starter" or "an ender".
 
 ## Outline
 Noun
@@ -138,17 +146,6 @@ Noun
 Notes:
 - TODO A briefing technique.
 
-## Base Stroke?
-Noun
-
-- A stroke that uses only keys in the vowel **bank** or keys only in the ender **bank**
-  - Differs from a **skeleton stroke** in that it only has keys in one of the **banks**
-
-## Extension Stroke?
-- TODO A subsequent **stroke** used in multi-syllable words to extend the previous **stroke**
-  - TODO Differs from **prefix and suffix strokes** in that it may be a part of a larger word, a word itself, etc.
-
-
 ## Fingerspelling
 TODO
 Verb
@@ -161,13 +158,12 @@ Adj.
 - A **theory** that is used to fingerspell.
 
 ## Orthospelling
-TODO
 Verb
 
-- TODO **Stroking** one or more letters at a time to output words.
-  - Differs from **fingerspelling** in that multiple letters are **stroked** at a time.
-- TODO A **Theory** whose **Theory rules** are strictly orthographic instead of phonetic?
-  - I don't believe the chords are what's orthographic, but the theory rules
+- TODO Using an orthographic **theory**.
+
+Noun
+- TODO A **theory** whose **theory rules** are strictly orthographic instead of phonetic?
 
 Adj.
 
@@ -176,11 +172,13 @@ Adj.
 
 
 ## Modal
-TODO
 Adj.
 
-- A term used to describe **theories** (and **dictionaries**) that have one or more modes. When **stroking** an **outline**, they may map to different **translations** based on the mode you are in.
-  - There is typically a **stroke** or dedicated **key** used to enter and exit the mode.
+- A characteristic of a **theory** where **theory rules** can change depending on the current active mode?
+- A characteristic of a **dictionary** where **outlines** can refer to different **translations** depending on the current active mode.
+
+Notes:
+- TODO There is typically a **stroke** or dedicated **key** used to switch between modes.
 
 
 ## Outline Pattern
