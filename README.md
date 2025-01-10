@@ -5,7 +5,6 @@ WIP, Contributions welcome :)
 ## Key
 Noun
 
-TODO a non-cyclical definition
 - A key on a **steno keyboard** or **steno layout**.
 
 Notes:
@@ -25,18 +24,16 @@ Verb
 ## Stroke
 Noun
 
-TODO stroke emptiness
-
 - A non-empty set of [**keys**](#key) that typically maps to an [**outline**](#outline).
 
 Notes:
-- The difference between a stroke and a [**chord**](#chord) is that a stroke cannot be empty, while a [**chord**](#chord) can, and [**chords**](#chord) are usually building blocks to build strokes, while strokes often exist on their own, or mostly on their own.
+- The difference between a stroke and a [**chord**](#chord) is that a stroke cannot be empty, while a [**chord**](#chord) can, and [**chords**](#chord) are usually building blocks to build strokes, while strokes often exist on their own, or mostly on their own, usually only being modified via affixes and common patterns.
 
 See [**Outline Pattern**](#outline-pattern).
 
 Verb
 
-- The act of pressing down the set of [**keys**](#key) that make up a stroke on a [**steno keyboard**](#steno-keyboard).
+- The act of pressing down the set of [**keys**](#key) that make up a stroke on a **steno keyboard**.
 
 ## Bank
 Noun
@@ -63,6 +60,11 @@ Noun
 Adj.
 
 - Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the ender [**bank**](#bank).
+
+## Vowel
+Adj.
+
+- Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the vowel [**bank**](#bank).
 
 ## Outline
 Noun
@@ -108,13 +110,15 @@ TODO
 ## Conflict
 Noun
 
-TODO this has to do with theory rules, and how they could create multiple valid entries
+TODO adjective?
+TODO this is not outline specific, I don't think.
 
-- TODO An [**outline**](#outline) with multiple possible [**translations**](#translation)?
-- TODO An [**outline**](#outline) with more than one sensible [**translation**](#translation)?
-- TODO An [**outline**](#outline) who can't be figured out?
+- An outline that has multiple valid translations based on the theory rules that affect it.
 
-Adj.
+Notes:
+- This leads to overlapping entries, where there are more than one outlines mapping to different translations.
+- TODO Conflicts arise when multiple(?) theory rules specify a translation from an outline, which leads to overlap.
+
 - TODO An [**outline**](#outline) that has a conflict.
 
 ## Theory Rule
@@ -136,14 +140,25 @@ Noun
 
 - A set of [**theory rules**](#theory-rule).
 
+Notes:
+- Usually has a name (probably bird related for some reason)
+- May have learning resources, a wiki, a specification, etc.
+
 ## Word Boundary
 Noun
+
+- Has to do with theory rules
+- comes from not knowing where the words start an end in a sequence of strokes, or an outline.
 
 - TODO A type of [**conflict**](#conflict) that comes from having multiple possible [**translations**](#translation) from a sequence of [**strokes**](#stroke).
 
 ## Brief
 Noun
-TODO - An abbreviated [**outline**](#outline). Typically used to reduce the number of [**strokes**](#stroke) required for a [**translation**](#translation).
+- An "abbreviated" [**outline**](#outline), used to reduce the number of [**strokes**](#strokes) required to output a [**translation**](#translation).
+
+Notes:
+- Defined by [**theory rules**](#theory-rule)
+See [**theory rule**](#theory-rule)
 
 ## Templated Brief
 Noun
@@ -249,3 +264,4 @@ TODO a sequence of [**outline patterns**](#outline-patterns)
 - More software and shit?
 - Phrasing?
 - Commands
+- Conflict resolution?
