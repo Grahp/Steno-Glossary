@@ -6,17 +6,11 @@ WIP, Contributions welcome :)
 Noun
 
 TODO a non-cyclical definition
-- A key on a **steno keyboard** or **steno layout**.
+- A key on a [**steno keyboard**](#steno-keyboard) or **steno layout**.
 
 Notes:
 - While some keys may have the same name (`S`, the starter, and `-S`, the ender), these are different keys, differentiated by what **bank(s)** they are in, that happen to use the same key character to represent them.
-- Having some unique way to refer to a key without conflicts?
-  - Raw steno does a good job at this (`-S` and such).
-- Keys are the smallest unit of meaning in steno?
-  - Chords may be as well idk
-
-TODO
-See **Stroke Pattern**.
+  - These keys can be referred to by their **raw steno** form, like `"-S"`
 
 ## Chord
 Noun
@@ -52,9 +46,23 @@ TODO still not satisfied.
 - A group of **keys** that are positioned in a specific area on a **steno layout**.
   - Banks on the **WSI layout** are Starters, Vowels, and Enders.
 
-Notes:
-TODO that ain't right? Keys may be qualified by their bank and referred to that way?
-- **Keys** can be referred to by their bank, such as "a starter" or "an ender".
+## Starter
+Noun
+
+- A **key**, **chord**, **stroke**, or **outline** in the starter **bank**.
+
+Adj.
+
+- Referring to a  **key**, **chord**, **stroke**, or **outline** being in the starter **bank**.
+
+## Ender
+Noun
+
+- A **key**, **chord**, **stroke**, or **outline** in the ender **bank**.
+
+Adj.
+
+- Referring to a  **key**, **chord**, **stroke**, or **outline** being in the ender **bank**.
 
 ## Outline
 Noun
@@ -65,9 +73,13 @@ Noun
 ## Translation
 Noun
 
-- TODO A word, phrase, prefix, suffix, or command that is outputted.
-- These are defined in **theories**, and implemented in **dictionaries**
-  - TODO Plover Dictionary Format
+- A sequence of characters that may represent a word, phrase, prefix, suffix, command, etc.
+
+Notes:
+- Translations are compound, and may be combined to form another translation.
+- Translations are used in **entries**, and are mapped from [**outlines**](#outlines).
+
+See **entry**, **outlines**, and **theory rule**.
 
 ## Entry
 Noun
@@ -233,3 +245,5 @@ Noun
 - Dropping
 - Clip-on
 - More software and shit?
+- Phrasing?
+- Commands
