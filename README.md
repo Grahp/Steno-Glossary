@@ -24,47 +24,17 @@ Verb
 ## Stroke
 Noun
 
-- A non-empty set of [**keys**](#key) that typically maps to an [**outline**](#outline).
+TODO strokes don't map to outlines?
+
+- A non-empty set of [**keys**](#key).
 
 Notes:
 - The difference between a stroke and a [**chord**](#chord) is that a stroke cannot be empty, while a [**chord**](#chord) can, and [**chords**](#chord) are usually building blocks to build strokes, while strokes often exist on their own, or mostly on their own, usually only being modified via affixes and common patterns.
-
-See [**Outline Pattern**](#outline-pattern).
+- TODO sort of parental to chords?
 
 Verb
 
 - The act of pressing down the set of [**keys**](#key) that make up a stroke on a **steno keyboard**.
-
-## Bank
-Noun
-
-TODO still not satisfied.
-
-- A group of [**keys**](#key) that are positioned in a specific area on a [**steno layout**](#steno-layout).
-  - Banks on the **WSI layout** are Starters, Vowels, and Enders.
-
-## Starter
-Noun
-
-- A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the starter [**bank**](#bank).
-
-Adj.
-
-- Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the starter [**bank**](#bank).
-
-## Ender
-Noun
-
-- A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the ender [**bank**](#bank).
-
-Adj.
-
-- Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the ender [**bank**](#bank).
-
-## Vowel
-Adj.
-
-- Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the vowel [**bank**](#bank).
 
 ## Outline
 Noun
@@ -100,6 +70,37 @@ Noun
 Notes:
 - A dictionary is the implementation of a [**theory**](#theory).
 - Dictionaries may be designed for one [**theory**](#theory), or be largely [**theory**](#theory)-independent.
+
+## Bank
+Noun
+
+TODO still not satisfied.
+
+- A group of [**keys**](#key) that are positioned in a specific area on a [**steno layout**](#steno-layout).
+  - Banks on the **WSI layout** are Starters, Vowels, and Enders.
+
+## Starter
+Noun
+
+- A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the starter [**bank**](#bank).
+
+Adj.
+
+- Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the starter [**bank**](#bank).
+
+## Ender
+Noun
+
+- A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the ender [**bank**](#bank).
+
+Adj.
+
+- Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the ender [**bank**](#bank).
+
+## Vowel
+Adj.
+
+- Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the vowel [**bank**](#bank).
 
 ## Write-out
 TODO
