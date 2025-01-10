@@ -22,11 +22,9 @@ See **Stroke Pattern**.
 Noun
 
 - A set of **keys**. A chord may consist of 0 **keys**, making it "empty".
-  - TODO They may be a phonetic or orthographic sequence, such as a letter sequence or phoneme.
-  - TODO Chords typically map to some part of a **translation**?
-  - TODO chords can also be shape based!
 
 Verb
+
 - The act of pressing down the set of **keys** that make up a chord on a **steno keyboard**.
 - Often used interchangeably with **stroke**.
 
@@ -110,9 +108,15 @@ Adj.
 ## Theory Rule
 Noun
 
-- TODO A rule defining how **strokes** should be turned into **translations**.
-  - Theory rules can generally be phonetic or orthographic.
-  - A theory rule may encompass many **strokes**, or be a single override to avoid a **conflict**
+- A rule defining how **chords**, **strokes**, or **outlines** should map to a **translation**, or a part of a **translation**.
+  - A rule may do this phonetically, orthographically, shape based, or completely arbitrarily.
+
+Notes:
+- TODO A theory rule may cover many chords strokes or outlines, or be a single override to avoid a conflict (see theory rule coverage)
+
+## Theory Rule Coverage?
+
+How far-reaching a theory rule is?
 
 ## Theory
 Noun
@@ -133,10 +137,10 @@ Noun
 
 - TODO A **brief** who can be broken down into separately-defined rules that typically apply to multiple **briefs**.
 
-## Arbitrary Brief
+## Arbitrary Brief (Arb)
 Noun
 
-- TODO A **brief** who has no rules dictating it.
+- A **brief** that is defined by **theory rules** that are completely arbitrary.
 
 ## Skeleton Stroke
 Noun
@@ -148,28 +152,34 @@ Notes:
 
 ## Fingerspelling
 TODO
-Verb
 
-- TODO **Stroking** letters one at a time to output words.
-  - Differs from **orthospelling** in that typically only one letter is **stroked** at a time.
+Verb
+- The use of a fingerspelling **theory**.
+
+Noun
+- A fingerspelling **theory**?
 
 Adj.
 
-- A **theory** that is used to fingerspell.
+- Describing a **theory** that is composed of only fingerspelling rules?
+- Describing a **theory** whose rules are just writing letters one at a time or maybe more than one at a time.
+
+Notes:
+- TODO Differs from **orthospelling** in that it's typically only done one letter at a time.
+  - TODO Can be done multiple letters at a time, but still it's about letters and not orthography, really.
+- **Orthospelling** theories can also be modal, which fingerspelling theories typically aren't.
 
 ## Orthospelling
 Verb
 
-- TODO Using an orthographic **theory**.
+- The use of an orthospelling **theory**.
 
 Noun
-- TODO A **theory** whose **theory rules** are strictly orthographic instead of phonetic?
+- An orthospelling **theory**.
 
 Adj.
-
-- An Orthospelling **theory**.
-  - Orthospelling **theories** may be **modal**, which **fingerspelling** **theories** typically aren't.
-
+- Describing a **theory rule** that is orthographic.
+- Describing a **theory** that is composed of orthographic **theory rules**.
 
 ## Modal
 Adj.
