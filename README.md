@@ -6,34 +6,48 @@ Contributions welcome :)
 Noun
 
 - A key on a steno keyboard that belongs to a specific **bank**.
-  - While some keys have the same name (`S` and `-S`), these are different keys, differentiated by their **banks**, that happen to use the same key character to represent them.
+
+Notes:
+- While some keys have the same name (`S`, the starter, and `-S`, the ender), these are different keys, differentiated by their **banks**, that happen to use the same key character to represent them.
+
+TODO
+See **Stroke Pattern**.
 
 ## Chord
 Noun
 
-- A (possibly empty) set of **keys**. They may be a phonetic or orthographic sequence, such as a letter sequence or phoneme.
+- A set of **keys**. A chord may consist of 0 **keys**, making it "empty".
+  - TODO They may be a phonetic or orthographic sequence, such as a letter sequence or phoneme.
+  - TODO Chords typically map to some part of a **translation**?
 
 Verb
-- The act of pressing down multiple **keys** on a steno keyboard.
-- Sometimes used interchangeably with **stroke**.
+- The act of pressing down the set of **keys** that make up a chord on a **steno keyboard**.
+- Often used interchangeably with **stroke**.
 
 ## Stroke
 Noun
 
+TODO stroke emptiness
+
 - A non-empty set of **keys** that typically maps to an **outline**.
 
-See Outline Pattern
+Notes:
+- The difference between a stroke and a **chord** is that a stroke cannot be empty, while a **chord** can, and **chords** are usually building blocks to build strokes, while strokes often exist on their own, or mostly on their own.
+
+See **Outline Pattern**.
 
 Verb
 
-- The act of pressing down all the **keys** in a **stroke**.
+- The act of pressing down the set of **keys** that make up a stroke on a **steno keyboard**.
 
 ## Bank
 Noun
 
 - A group of **keys** that represents one independent part of a **stroke**.
-    - TODO maybe not strokes? Could be outlines idk
-    - TODO Banks typically include Starters, Vowels, Enders, Symbols, Upper, and Lower
+  - Banks on the **WSI layout** are Starters, Vowels, and Enders.
+
+Notes:
+- **Keys** in these banks are often referred to by their bank, such as "a starter"
 
 ## Outline
 Noun
@@ -136,6 +150,8 @@ Verb
 
 - TODO **Stroking** one or more letters at a time to output words.
   - Differs from **fingerspelling** in that multiple letters are **stroked** at a time.
+- TODO A **Theory** whose **Theory rules** are strictly orthographic instead of phonetic?
+  - I don't believe the chords are what's orthographic, but the theory rules
 
 Adj.
 
@@ -151,11 +167,19 @@ Adj.
   - There is typically a **stroke** or dedicated **key** used to enter and exit the mode.
 
 
-## (String) Outline Pattern
+## Outline Pattern
 Noun
+
+TODO is this Plover specific?
 
 - The format that **Plover** uses to store **outlines** as strings.
   - Includes non-keys such as `-` to denote the lack of keys in the vowel **bank**, and `/` to denote a new **stroke**.
+
+## Stroke Pattern
+Noun
+
+- TODO like an outline pattern, but for a stroke
+- Not plover specific
 
 ## Raw Steno
 Noun
@@ -170,3 +194,13 @@ Noun
 
 - Learn Plover! Glossary: https://www.openstenoproject.org/learn-plover/glossary.html
 - Steno Explainers: https://sammdot.ca/steno/explainers
+
+# TODO
+
+- Untrans
+  - outlines that don't have an entry and instead typically show up as their raw steno / stroke pattern
+- Plover
+- WSI
+- Pseudosteno?
+  - Looks like quartz expansions
+- Shrimplification?
