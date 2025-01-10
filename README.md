@@ -6,7 +6,7 @@ WIP, Contributions welcome :)
 Noun
 
 TODO a non-cyclical definition
-- A key on a [**steno keyboard**](#steno-keyboard) or [**steno layout**](#steno-layout).
+- A key on a **steno keyboard** or **steno layout**.
 
 Notes:
 - While some keys may have the same name (`S`, the starter, and `-S`, the ender), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them.
@@ -19,7 +19,7 @@ Noun
 
 Verb
 
-- The act of pressing down the set of [**keys**](#key) that make up a chord on a [**steno keyboard**](#steno-keyboard).
+- The act of pressing down the set of [**keys**](#key) that make up a chord on a **steno keyboard**.
 - Often used interchangeably with [**stroke**](#stroke).
 
 ## Stroke
@@ -44,7 +44,7 @@ Noun
 TODO still not satisfied.
 
 - A group of [**keys**](#key) that are positioned in a specific area on a [**steno layout**](#steno-layout).
-  - Banks on the [**WSI layout**](#wsi-layout) are Starters, Vowels, and Enders.
+  - Banks on the **WSI layout** are Starters, Vowels, and Enders.
 
 ## Starter
 Noun
@@ -127,6 +127,7 @@ Notes:
 - TODO A theory rule may cover many [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline), or be a single override to avoid a conflict (see theory rule coverage).
 
 ## Theory Rule Coverage?
+Noun
 
 How far-reaching a theory rule is?
 
@@ -209,7 +210,7 @@ Noun
 TODO is this Plover specific?
 TODO raw steno might just be a better term to encompass all of this
 
-- The format that [**Plover**](#plover) uses to store [**outlines**](#outline) as strings.
+- The format that **Plover** uses to store [**outlines**](#outline) as strings.
   - Includes non-keys such as `-` to denote the lack of keys in the vowel [**bank**](#bank), and `/` to denote a new [**stroke**](#stroke).
 
 ## Stroke Pattern
@@ -222,6 +223,7 @@ Noun
 Noun
 
 TODO a sequence of [**outline patterns**](#outline-patterns)
+- TODO untranslated outlines and strokes?
 
 
 
