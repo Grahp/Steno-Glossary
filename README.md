@@ -187,6 +187,7 @@ Adj.
 Noun
 
 TODO is this Plover specific?
+TODO raw steno might just be a better term to encompass all of this
 
 - The format that **Plover** uses to store **outlines** as strings.
   - Includes non-keys such as `-` to denote the lack of keys in the vowel **bank**, and `/` to denote a new **stroke**.
