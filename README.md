@@ -6,69 +6,69 @@ WIP, Contributions welcome :)
 Noun
 
 TODO a non-cyclical definition
-- A key on a **steno keyboard** or **steno layout**.
+- A key on a [**steno keyboard**](#steno-keyboard) or [**steno layout**](#steno-layout).
 
 Notes:
-- While some keys may have the same name (`S`, the starter, and `-S`, the ender), these are different keys, differentiated by what [**bank(s)**](#bank) they are in, that happen to use the same key character to represent them.
-  - These keys can be referred to by their **raw steno** form, like `"-S"`
+- While some keys may have the same name (`S`, the starter, and `-S`, the ender), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them.
+  - These keys can be referred to by their [**raw steno**](#raw-steno) form, like `"-S"`
 
 ## Chord
 Noun
 
-- A set of **keys**. A chord may consist of 0 **keys**, making it "empty".
+- A set of [**keys**](#key). A chord may consist of 0 [**keys**](#key), making it "empty".
 
 Verb
 
-- The act of pressing down the set of **keys** that make up a chord on a **steno keyboard**.
-- Often used interchangeably with **stroke**.
+- The act of pressing down the set of [**keys**](#key) that make up a chord on a [**steno keyboard**](#steno-keyboard).
+- Often used interchangeably with [**stroke**](#stroke).
 
 ## Stroke
 Noun
 
 TODO stroke emptiness
 
-- A non-empty set of **keys** that typically maps to an **outline**.
+- A non-empty set of [**keys**](#key) that typically maps to an [**outline**](#outline).
 
 Notes:
-- The difference between a stroke and a **chord** is that a stroke cannot be empty, while a **chord** can, and **chords** are usually building blocks to build strokes, while strokes often exist on their own, or mostly on their own.
+- The difference between a stroke and a [**chord**](#chord) is that a stroke cannot be empty, while a [**chord**](#chord) can, and [**chords**](#chord) are usually building blocks to build strokes, while strokes often exist on their own, or mostly on their own.
 
-See **Outline Pattern**.
+See [**Outline Pattern**](#outline-pattern).
 
 Verb
 
-- The act of pressing down the set of **keys** that make up a stroke on a **steno keyboard**.
+- The act of pressing down the set of [**keys**](#key) that make up a stroke on a [**steno keyboard**](#steno-keyboard).
 
 ## Bank
 Noun
 
 TODO still not satisfied.
 
-- A group of **keys** that are positioned in a specific area on a **steno layout**.
-  - Banks on the **WSI layout** are Starters, Vowels, and Enders.
+- A group of [**keys**](#key) that are positioned in a specific area on a [**steno layout**](#steno-layout).
+  - Banks on the [**WSI layout**](#wsi-layout) are Starters, Vowels, and Enders.
 
 ## Starter
 Noun
 
-- A **key**, **chord**, **stroke**, or **outline** in the starter **bank**.
+- A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the starter [**bank**](#bank).
 
 Adj.
 
-- Referring to a  **key**, **chord**, **stroke**, or **outline** being in the starter **bank**.
+- Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the starter [**bank**](#bank).
 
 ## Ender
 Noun
 
-- A **key**, **chord**, **stroke**, or **outline** in the ender **bank**.
+- A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the ender [**bank**](#bank).
 
 Adj.
 
-- Referring to a  **key**, **chord**, **stroke**, or **outline** being in the ender **bank**.
+- Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the ender [**bank**](#bank).
 
 ## Outline
 Noun
 
-- A sequence of one or more **strokes**.
-  - These **strokes** must consist of one or more **keys**.
+- A sequence of one or more [**strokes**](#stroke).
+  - These [**strokes**](#stroke) must consist of one or more [**keys**](#key).
 
 ## Translation
 Noun
@@ -77,27 +77,27 @@ Noun
 
 Notes:
 - Translations are compound, and may be combined to form another translation.
-- Translations are used in **entries**, and are mapped from [**outlines**](#outlines).
+- Translations are used in [**entries**](#entry), and are mapped from [**outlines**](#outlines).
 
-See **entry**, **outlines**, and **theory rule**.
+See [**entry**](#entry), [**outlines**](#outlines), and [**theory rule**](#theory-rule).
 
 ## Entry
 Noun
 
-- An **outline** that maps to a **translation**, typically stored in a **dictionary**.
+- An [**outline**](#outline) that maps to a [**translation**](#translation), typically stored in a [**dictionary**](#dictionary).
 
 Notes:
-- TODO These mappings come from **theory rules**.
+- TODO These mappings come from [**theory rules**](#theory-rule).
   - They are trying to satisfy the theory rules?
 
 ## Dictionary
 Noun
 
-- A collection of **entries**, typically stored in a file.
+- A collection of [**entries**](#entry), typically stored in a file.
 
 Notes:
-- A dictionary is the implementation of a **theory**.
-- Dictionaries may be designed for one **theory**, or be largely **theory**-independent.
+- A dictionary is the implementation of a [**theory**](#theory).
+- Dictionaries may be designed for one [**theory**](#theory), or be largely [**theory**](#theory)-independent.
 
 ## Write-out
 TODO
@@ -110,21 +110,21 @@ Noun
 
 TODO this has to do with theory rules, and how they could create multiple valid entries
 
-- TODO An **outline** with multiple possible **translations**?
-- TODO An **outline** with more than one sensible **translation**?
-- TODO An **outline** who can't be figured out?
+- TODO An [**outline**](#outline) with multiple possible [**translations**](#translation)?
+- TODO An [**outline**](#outline) with more than one sensible [**translation**](#translation)?
+- TODO An [**outline**](#outline) who can't be figured out?
 
 Adj.
-- TODO An **outline** that has a conflict.
+- TODO An [**outline**](#outline) that has a conflict.
 
 ## Theory Rule
 Noun
 
-- A rule defining how **chords**, **strokes**, or **outlines** should map to a **translation**, or a part of a **translation**.
-  - A rule may do this phonetically, orthographically, shape based, or completely arbitrarily.
+- A rule defining how [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline) should map to a [**translation**](#translation), or a part of a [**translation**](#translation).
+  - A rule may do this phonetically, orthographically, shape-based, or completely arbitrarily.
 
 Notes:
-- TODO A theory rule may cover many chords strokes or outlines, or be a single override to avoid a conflict (see theory rule coverage)
+- TODO A theory rule may cover many [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline), or be a single override to avoid a conflict (see theory rule coverage).
 
 ## Theory Rule Coverage?
 
@@ -133,31 +133,31 @@ How far-reaching a theory rule is?
 ## Theory
 Noun
 
-- A set of **theory rules**.
+- A set of [**theory rules**](#theory-rule).
 
 ## Word Boundary
 Noun
 
-- TODO A type of **conflict** that comes from having multiple possible **translations** from a sequence of **strokes**
+- TODO A type of [**conflict**](#conflict) that comes from having multiple possible [**translations**](#translation) from a sequence of [**strokes**](#stroke).
 
 ## Brief
 Noun
-TODO - An abbreviated **outline**. Typically used to reduce the number of **strokes** required for a **translation**.
+TODO - An abbreviated [**outline**](#outline). Typically used to reduce the number of [**strokes**](#stroke) required for a [**translation**](#translation).
 
 ## Templated Brief
 Noun
 
-- TODO A **brief** who can be broken down into separately-defined rules that typically apply to multiple **briefs**.
+- TODO A [**brief**](#brief) that can be broken down into separately-defined rules that typically apply to multiple [**briefs**](#brief).
 
 ## Arbitrary Brief (Arb)
 Noun
 
-- A **brief** that is defined by **theory rules** that are completely arbitrary.
+- A [**brief**](#brief) that is defined by [**theory rules**](#theory-rule) that are completely arbitrary.
 
 ## Skeleton Stroke
 Noun
 
-- A **stroke** with **keys** in the starter and ender **banks**, but no vowels
+- A [**stroke**](#stroke) with [**keys**](#key) in the starter and ender [**banks**](#bank), but no vowels
 
 Notes:
 - TODO A briefing technique.
@@ -166,41 +166,41 @@ Notes:
 TODO
 
 Verb
-- The use of a fingerspelling **theory**.
+- The use of a fingerspelling [**theory**](#theory).
 
 Noun
-- A fingerspelling **theory**?
+- A fingerspelling [**theory**](#theory)?
 
 Adj.
 
-- Describing a **theory** that is composed of only fingerspelling rules?
-- Describing a **theory** whose rules are just writing letters one at a time or maybe more than one at a time.
+- Describing a [**theory**](#theory) that is composed of only fingerspelling rules?
+- Describing a [**theory**](#theory) whose rules are just writing letters one at a time or maybe more than one at a time.
 
 Notes:
-- TODO Differs from **orthospelling** in that it's typically only done one letter at a time.
+- TODO Differs from [**orthospelling**](#orthospelling) in that it's typically only done one letter at a time.
   - TODO Can be done multiple letters at a time, but still it's about letters and not orthography, really.
-- **Orthospelling** theories can also be modal, which fingerspelling theories typically aren't.
+- [**Orthospelling**](#orthospelling) theories can also be modal, which fingerspelling theories typically aren't.
 
 ## Orthospelling
 Verb
 
-- The use of an orthospelling **theory**.
+- The use of an orthospelling [**theory**](#theory).
 
 Noun
-- An orthospelling **theory**.
+- An orthospelling [**theory**](#theory).
 
 Adj.
-- Describing a **theory rule** that is orthographic.
-- Describing a **theory** that is composed of orthographic **theory rules**.
+- Describing a [**theory rule**](#theory-rule) that is orthographic.
+- Describing a [**theory**](#theory) that is composed of orthographic [**theory rules**](#theory-rule).
 
 ## Modal
 Adj.
 
-- A characteristic of a **theory** where **theory rules** can change depending on the current active mode?
-- A characteristic of a **dictionary** where **outlines** can refer to different **translations** depending on the current active mode.
+- A characteristic of a [**theory**](#theory) where [**theory rules**](#theory-rule) can change depending on the current active mode?
+- A characteristic of a [**dictionary**](#dictionary) where [**outlines**](#outlines) can refer to different [**translations**](#translation) depending on the current active mode.
 
 Notes:
-- TODO There is typically a **stroke** or dedicated **key** used to switch between modes.
+- TODO There is typically a [**stroke**](#stroke) or dedicated [**key**](#key) used to switch between modes.
 
 
 ## Outline Pattern
@@ -209,19 +209,19 @@ Noun
 TODO is this Plover specific?
 TODO raw steno might just be a better term to encompass all of this
 
-- The format that **Plover** uses to store **outlines** as strings.
-  - Includes non-keys such as `-` to denote the lack of keys in the vowel **bank**, and `/` to denote a new **stroke**.
+- The format that [**Plover**](#plover) uses to store [**outlines**](#outline) as strings.
+  - Includes non-keys such as `-` to denote the lack of keys in the vowel [**bank**](#bank), and `/` to denote a new [**stroke**](#stroke).
 
 ## Stroke Pattern
 Noun
 
 - TODO like an outline pattern, but for a stroke
-- Not plover specific
+- Not Plover specific
 
 ## Raw Steno
 Noun
 
-- TODO a sequence of **outline patterns**?
+TODO a sequence of [**outline patterns**](#outline-patterns)
 
 
 
