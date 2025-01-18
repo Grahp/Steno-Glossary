@@ -46,11 +46,11 @@ Noun
 ## Translation
 Noun
 
-- A sequence of characters that may represent a word, phrase, prefix, suffix, command, etc.
+- A sequence of characters that may represent a word, phrase, affix, **Plover command**, or other arbitrary output.
 
 Notes:
-- Translations are compound, and may be combined to form another translation.
-- Translations are used in [**entries**](#entry), and are mapped from [**outlines**](#outlines).
+- Translations are composable, and can be combined to form new translations.
+- Translations are used in [**entries**](#entry), and are mapped from [**outlines**](#outlines), as specified by [**theory rules**](#theory-rule).
 
 See [**entry**](#entry), [**outlines**](#outlines), and [**theory rule**](#theory-rule).
 
