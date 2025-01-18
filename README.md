@@ -5,7 +5,7 @@ WIP, Contributions welcome :)
 ## Key
 Noun
 
-- A key on a **steno layout**.
+- A key on a [**steno layout**](#steno-layout).
 
 Notes:
 - While some keys may share the same name (`S`, the [**starter**](#starter), and `-S`, the [**ender**](#ender)), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them.
@@ -17,8 +17,8 @@ Noun
 - A set of [**keys**](#key). A chord may consist of 0 [**keys**](#key), making it "empty".
 
 Notes:
-- Chords are sets of keys, and thus cannot span more than one [**stroke**].
-  - For example, `"-G/-R"` is not a chord, it is an [**outline**] made up of 2 chords.
+- Chords are sets of keys, and thus cannot span more than one [**stroke**](#stroke).
+  - For example, `"-G/-R"` is not a chord, it is an [**outline**](#outline) made up of 2 chords.
 - Chords can be composed. Composing 2 chords results in a chord whose [**keys**](#key) are the set of [**keys**](#key) that are in the first chord, and [**keys**](#key) that are in the second chord.
   - Thus, composing empty chords is fine.
 
@@ -74,12 +74,12 @@ Notes:
 ## Dictionary
 Noun
 
-- A mapping between outlines and translations.
+- A mapping between [**outlines**](#outline) and [**translations**](#translation).
   - May be enumerated, and stored in formats such as JSON or RTF, or a function that provides a translation given an outline.
 
 Notes:
-- Plover uses JSON files to represent it's dictionaries. For more information about Plover's dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format).
-- A dictionary is the realization of a theory?
+- **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format).
+- A dictionary is the realization of a [**theory**](#theory)?
 
 ## Bank
 Noun
