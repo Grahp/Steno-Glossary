@@ -5,10 +5,10 @@ WIP, Contributions welcome :)
 ## Key
 Noun
 
-- A key on a **steno keyboard** or **steno layout**.
+- A key on a **steno layout**.
 
 Notes:
-- While some keys may have the same name (`S`, the [**starter**](#starter), and `-S`, the [**ender**](#ender)), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them.
+- While some keys may share the same name (`S`, the [**starter**](#starter), and `-S`, the [**ender**](#ender)), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them.
   - These keys can be referred to by their [**raw steno**](#raw-steno) form, like `"-S"`.
 
 ## Chord
@@ -16,14 +16,16 @@ Noun
 
 - A set of [**keys**](#key). A chord may consist of 0 [**keys**](#key), making it "empty".
 
+Notes:
+- TODO Because chords are a set of [**keys**](#key), they can only span one [**stroke**](#stroke).
+- Chords can be composed. Composing 2 chords results in a chord whose [**keys**](#key) are the set of [**keys**](#key) that are in the first chord, and [**keys**](#key) that are in the second chord.
+  - Thus, composing empty chords is fine.
+
 Verb
 
+TODO steno machine!
 - The act of pressing down the set of [**keys**](#key) that make up a chord on a **steno keyboard**.
 - Often used interchangeably with [**stroke**](#stroke).
-
-Notes:
-- Because chords are a set of [**keys**](#key), they can only span one [**stroke**](#stroke).
-- Chords are mapped to translations by [**theory rules**](#theory-rule)
 
 ## Stroke
 Noun
@@ -31,22 +33,26 @@ Noun
 - A non-empty set of [**keys**](#key).
 
 Notes:
-- The difference between a stroke and a [**chord**](#chord) is that a stroke cannot be empty, while a [**chord**](#chord) can, and [**chords**](#chord) are usually building blocks to build strokes, while strokes often exist on their own, or mostly on their own, usually only being modified via affixes and common patterns.
+- The difference between a stroke and a [**chord**](#chord) is that a stroke cannot be empty, while a [**chord**](#chord) can, and [**chords**](#chord) are usually building blocks to build strokes, while strokes exist largely on their own, only being modified via affixes and common patterns.
+- Strokes can be composed in the same way as [**chords**](#chord). Strokes are typically not combined as much as [**chords**](#chord) are, however.
 
 Verb
 
-- The act of pressing down the set of [**keys**](#key) that make up a stroke on a **steno keyboard**.
+- The act of pressing down the set of [**keys**](#key) that make up a stroke on a **steno machine**.
 
 ## Outline
 Noun
 
 - A sequence of one or more [**strokes**](#stroke).
-  - These [**strokes**](#stroke) must consist of one or more [**keys**](#key).
+
+Notes:
+- TODO outlines do not stop other outlines from applying to the same sequence of strokes.
+  - Or in other words, you can have overlapping outlines.
 
 ## Translation
 Noun
 
-- A sequence of characters that may represent a word, phrase, affix, **Plover command**, or other arbitrary output.
+- A sequence of characters that may represent a word, phrase, affix, **Plover command**, punctuation, or any other arbitrary output.
 
 Notes:
 - Translations are composable, and can be combined to form new translations.
@@ -106,6 +112,8 @@ Adj.
 ## Write-out
 TODO
 
+- This should talk about how much outlines follow theory rules or like how weird they are.
+  - Maybe unify theory rule coverage with this idea?
 - TODO an entry that uses rules only?
   - If I split rules and templates, then this is fine I guess?
 
@@ -162,6 +170,7 @@ Noun
 
 Notes:
 - Defined by [**theory rules**](#theory-rule)
+- Tends to deviate from most [**theory rules**](#theory-rule).
 See [**theory rule**](#theory-rule)
 
 ## Templated Brief
@@ -222,45 +231,52 @@ Adj.
 Notes:
 - TODO There is typically a [**stroke**](#stroke) or dedicated [**key**](#key) used to switch between modes.
 
-
-## Outline Pattern
-Noun
-
-TODO is this Plover specific?
-TODO raw steno might just be a better term to encompass all of this
-
-- The format that **Plover** uses to store [**outlines**](#outline) as strings.
-  - Includes non-keys such as `-` to denote the lack of keys in the vowel [**bank**](#bank), and `/` to denote a new [**stroke**](#stroke).
-
-## Stroke Pattern
-Noun
-
-- TODO like an outline pattern, but for a stroke
-- Not Plover specific
-
 ## Raw Steno
 Noun
+TODO verb, adj.
 
-TODO a sequence of [**outline patterns**](#outline-patterns)
-- TODO untranslated outlines and strokes?
+- The format for representing [**outlines**](#outline) as strings.
+- Strokes or outlines represented as strings?
 
+Notes:
+- Includes non-[**keys**](#key) such as `-` to denote the lack of [**keys**](#key) in the [**vowel**](#vowel) [**bank**](#bank), and `/` to denote a new [**stroke**](#stroke).
+- TODO Could be either strokes or outlines, depending on what it is (paper tape is strokes, `PEUBG/KH-R` is outlines.)
 
+## Untranslate / Untranslated Stroke / Untran
+Noun
+TODO adj as well
 
+- TODO Outlines that aren't mapped to any translations, and show up as raw steno.
 
+## Steno Layout
+TODO I have no idea lmao.
+
+## WSI Layout
+TODO a steno layout
+
+## Extended Stenotype Layout
+TODO another steno layout, but this one has 2 more keys :)
+
+## Steno Machine
+TODO can refer to professional or hobbyist
+
+## Steno Writer
+TODO just professional
+
+## (Hobbyist) Steno Keyboard
+TODO just hobbyist
 
 # Other Sources
 
-- Learn Plover! Glossary: https://www.openstenoproject.org/learn-plover/glossary.html
-- Steno Explainers: https://sammdot.ca/steno/explainers
+- Learn Plover! - Glossary: https://www.openstenoproject.org/learn-plover/glossary.html
+- Steno Explainers - https://sammdot.ca/steno/explainers
+- Lapwing Glossary - https://lapwing.aerick.ca/Glossary.html#steno-theory
 
 # TODO
 
-- Untrans
-  - outlines that don't have an entry and instead typically show up as their raw steno / stroke pattern
-- Plover
-- WSI
+- Steno Engine
+  - Plover
 - Pseudosteno?
-  - Looks like quartz expansions
 - Shrimplification?
 - Folding
 - Dropping
@@ -269,3 +285,5 @@ TODO a sequence of [**outline patterns**](#outline-patterns)
 - Phrasing?
 - Commands
 - Conflict resolution?
+- Steno Order
+- Syllabic Splitting
