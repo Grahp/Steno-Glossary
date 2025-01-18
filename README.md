@@ -69,15 +69,17 @@ Noun
 Notes:
 - TODO These mappings come from [**theory rules**](#theory-rule).
   - They are trying to satisfy the theory rules?
+  - They are the realization of theory rules?
 
 ## Dictionary
 Noun
 
-- A collection of [**entries**](#entry), typically stored in a file.
+- A mapping between outlines and translations.
+  - May be enumerated, and stored in formats such as JSON or RTF, or a function that provides a translation given an outline.
 
 Notes:
-- A dictionary is the implementation of a [**theory**](#theory).
-- Dictionaries may be designed for one [**theory**](#theory), or be largely [**theory**](#theory)-independent.
+- Plover uses JSON files to represent it's dictionaries. For more information about Plover's dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format).
+- A dictionary is the realization of a theory?
 
 ## Bank
 Noun
@@ -125,6 +127,7 @@ TODO adjective?
 TODO this is not outline specific, I don't think.
 
 - An outline that has multiple valid translations based on the theory rules that affect it.
+- TODO can also refer to dictionaries overriding each other.
 
 Notes:
 - This leads to overlapping entries, where there are more than one outlines mapping to different translations.
@@ -156,6 +159,7 @@ Noun
 Notes:
 - Usually has a name (probably bird related for some reason)
 - May have learning resources, a wiki, a specification, etc.
+- Theories may be designed to work well with other theories (such as a number system), or to exist independently.
 
 ## Word Boundary
 Noun
@@ -167,7 +171,8 @@ Noun
 
 ## Brief
 Noun
-- An "abbreviated" [**outline**](#outline), used to reduce the number of [**strokes**](#strokes) required to output a [**translation**](#translation).
+
+- Short for abbreviated or abbreviation, An "abbreviated" [**outline**](#outline), used to reduce the number of [**strokes**](#strokes) required to output a [**translation**](#translation).
 
 Notes:
 - Defined by [**theory rules**](#theory-rule)
@@ -205,11 +210,29 @@ Adj.
 
 - Describing a [**theory**](#theory) that is composed of only fingerspelling rules?
 - Describing a [**theory**](#theory) whose rules are just writing letters one at a time or maybe more than one at a time.
+- Describing a theory whose rules consist of writing letters one at a time
+- Describing a theory designed to 
+- Describing a theory comprised of largely monographic rules.
+- Describing a theory comprised of rules where you write letters one at a time, and sometimes more than one at a time
+- Describing a theory designed to output letters one at a time?
+- Describing a theory whose rules are about writing letters one at a time
+- Describing A theory whose rules pertain to writing letters one at a time
+- Outputting letters one at a time...
+- Having the ability to write letters one at a time.
+- Describing a theory allowing for the output of individual charaters
+_autonomous_ characters
+- Describing a theory designed to output autonomous characters 
+This emphasizes that multiple can be present
+A set of theory rules designed to output autonomous characters
+- A theory composed of a set of theory rules designed to output autonomous characters.
+Not designed, but it's mean to do it,.
+- A set of theory rules mostly designed to output autonomous characters.
 
 Notes:
 - TODO Differs from [**orthospelling**](#orthospelling) in that it's typically only done one letter at a time.
   - TODO Can be done multiple letters at a time, but still it's about letters and not orthography, really.
 - [**Orthospelling**](#orthospelling) theories can also be modal, which fingerspelling theories typically aren't.
+- Orthospelling is more about broader orthographic patters?
 
 ## Orthospelling
 Verb
@@ -251,6 +274,7 @@ TODO adj as well
 
 ## Steno Layout
 TODO I have no idea lmao.
+- Not a physical thing
 
 ## WSI Layout
 TODO a steno layout
@@ -259,19 +283,27 @@ TODO a steno layout
 TODO another steno layout, but this one has 2 more keys :)
 
 ## Steno Machine
-TODO can refer to professional or hobbyist
+- TODO A chorded stenographic input device.
+
+Notes:
+- TODO Refers to both professional and hobbyist keyboards.
 
 ## Steno Writer
-TODO just professional
+
+- TODO A professional steno machine.
+(the machine isn't professional the user is ._.)
 
 ## (Hobbyist) Steno Keyboard
-TODO just hobbyist
+
+- TODO A steno machine made for hobbyists.
 
 # Other Sources
 
 - Learn Plover! Glossary - https://www.openstenoproject.org/learn-plover/glossary.html
 - Steno Explainers - https://sammdot.ca/steno/explainers
 - Lapwing Glossary - https://lapwing.aerick.ca/Glossary.html#steno-theory
+- Plover Wiki Steno Hardware Terminology - https://plover.wiki/index.php/Steno_hardware_terminology
+- Plover Wiki Glossary - https://plover.wiki/index.php/Glossary
 
 # TODO
 
@@ -287,4 +319,8 @@ TODO just hobbyist
 - Commands
 - Conflict resolution?
 - Steno Order
+  - As defined by layout
 - Syllabic Splitting
+  - As defined by theory
+- Mandatory (outline / entry)
+- Programmatic dictionary
