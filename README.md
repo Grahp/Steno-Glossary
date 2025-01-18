@@ -9,7 +9,7 @@ Noun
 
 Notes:
 - While some keys may have the same name (`S`, the [**starter**](#starter), and `-S`, the [**ender**](#ender)), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them.
-  - These keys can be referred to by their [**raw steno**](#raw-steno) form, like `"-S"`
+  - These keys can be referred to by their [**raw steno**](#raw-steno) form, like `"-S"`.
 
 ## Chord
 Noun
@@ -21,16 +21,17 @@ Verb
 - The act of pressing down the set of [**keys**](#key) that make up a chord on a **steno keyboard**.
 - Often used interchangeably with [**stroke**](#stroke).
 
+Notes:
+- Because chords are a set of [**keys**](#key), they can only span one [**stroke**](#stroke).
+- Chords are mapped to translations by [**theory rules**](#theory-rule)
+
 ## Stroke
 Noun
-
-TODO strokes don't map to outlines?
 
 - A non-empty set of [**keys**](#key).
 
 Notes:
 - The difference between a stroke and a [**chord**](#chord) is that a stroke cannot be empty, while a [**chord**](#chord) can, and [**chords**](#chord) are usually building blocks to build strokes, while strokes often exist on their own, or mostly on their own, usually only being modified via affixes and common patterns.
-- TODO sort of parental to chords?
 
 Verb
 
@@ -124,6 +125,8 @@ Notes:
 
 ## Theory Rule
 Noun
+
+TODO could apply to a sequence of these things (\[stroke match, anything, chord match] is a valid thing for rules to apply)
 
 - A rule defining how [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline) should map to a [**translation**](#translation), or a part of a [**translation**](#translation).
   - A rule may do this phonetically, orthographically, based on shape, or completely arbitrarily.
