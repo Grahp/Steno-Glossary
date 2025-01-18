@@ -17,7 +17,8 @@ Noun
 - A set of [**keys**](#key). A chord may consist of 0 [**keys**](#key), making it "empty".
 
 Notes:
-- TODO Because chords are a set of [**keys**](#key), they can only span one [**stroke**](#stroke).
+- Chords are sets of keys, and thus cannot span more than one [**stroke**].
+  - For example, `"-G/-R"` is not a chord, it is an [**outline**] made up of 2 chords.
 - Chords can be composed. Composing 2 chords results in a chord whose [**keys**](#key) are the set of [**keys**](#key) that are in the first chord, and [**keys**](#key) that are in the second chord.
   - Thus, composing empty chords is fine.
 
@@ -29,7 +30,8 @@ Verb
 ## Stroke
 Noun
 
-- A non-empty set of [**keys**](#key).
+- A non-empty set of [**keys**](#key). Typically composed of [**chords**](#chord).
+  - Strokes are not strictly a collection of [**chords**](#chord). However, [**chords**](#chord) are typically composed to create strokes. They are both sets of [**keys**](#key) that can exist independently, however.
 
 Notes:
 - The difference between a stroke and a [**chord**](#chord) is that a stroke cannot be empty, while a [**chord**](#chord) can, and [**chords**](#chord) are usually building blocks to build strokes, while strokes exist largely on their own, only being modified via affixes and common patterns.
@@ -267,7 +269,7 @@ TODO just hobbyist
 
 # Other Sources
 
-- Learn Plover! - Glossary: https://www.openstenoproject.org/learn-plover/glossary.html
+- Learn Plover! Glossary - https://www.openstenoproject.org/learn-plover/glossary.html
 - Steno Explainers - https://sammdot.ca/steno/explainers
 - Lapwing Glossary - https://lapwing.aerick.ca/Glossary.html#steno-theory
 
