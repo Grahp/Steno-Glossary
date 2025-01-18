@@ -23,8 +23,7 @@ Notes:
 
 Verb
 
-TODO steno machine!
-- The act of pressing down the set of [**keys**](#key) that make up a chord on a **steno keyboard**.
+- The act of pressing down the set of [**keys**](#key) that constitute a chord on a **steno machine**.
 - Often used interchangeably with [**stroke**](#stroke).
 
 ## Stroke
@@ -38,7 +37,7 @@ Notes:
 
 Verb
 
-- The act of pressing down the set of [**keys**](#key) that make up a stroke on a **steno machine**.
+- The act of pressing down the set of [**keys**](#key) that constitute a stroke on a **steno machine**.
 
 ## Outline
 Noun
