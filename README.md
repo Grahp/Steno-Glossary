@@ -24,7 +24,7 @@ Notes:
 
 Verb
 
-- The act of pressing down the set of [**keys**](#key) that constitute a chord on a **steno machine**.
+- The act of pressing down the set of [**keys**](#key) that constitute a chord on a [**steno machine**](#steno-machine).
 - Often used interchangeably with [**stroke**](#stroke).
 
 ## Stroke
@@ -39,7 +39,7 @@ Notes:
 
 Verb
 
-- The act of pressing down the set of [**keys**](#key) that constitute a stroke on a **steno machine**.
+- The act of pressing down the set of [**keys**](#key) that constitute a stroke on a [**steno machine**](#steno-machine).
 
 ## Outline
 Noun
@@ -47,8 +47,7 @@ Noun
 - A sequence of one or more [**strokes**](#stroke).
 
 Notes:
-- TODO outlines do not stop other outlines from applying to the same sequence of strokes.
-  - Or in other words, you can have overlapping outlines.
+- [**Strokes**](#stroke) can belong to multiple outlines.
 
 ## Translation
 Noun
