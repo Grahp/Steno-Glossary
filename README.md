@@ -17,7 +17,7 @@ Noun
 - A set of [**keys**](#key). A chord may consist of 0 [**keys**](#key), making it "empty".
 
 Notes:
-- Chords are sets of keys, and thus cannot span more than one [**stroke**](#stroke).
+- Chords are sets of [**keys**](#key), and thus cannot span more than one [**stroke**](#stroke).
   - For example, `"-G/-R"` is not a chord, it is an [**outline**](#outline) made up of 2 chords.
 - Chords can be composed. Composing 2 chords results in a chord whose [**keys**](#key) are the set of [**keys**](#key) that are in the first chord, and [**keys**](#key) that are in the second chord.
   - Thus, composing empty chords is fine.
@@ -35,7 +35,7 @@ Noun
 
 Notes:
 - The difference between a stroke and a [**chord**](#chord) is that a stroke cannot be empty, while a [**chord**](#chord) can, and [**chords**](#chord) are usually building blocks to build strokes, while strokes exist largely on their own, only being modified via affixes and common patterns.
-- Strokes can be composed in the same way as [**chords**](#chord). Strokes are typically not combined as much as [**chords**](#chord) are, however.
+- Strokes can be composed in the same way as [**chords**](#chord) (see [**chords**](#chord)). Strokes are typically not combined as much as [**chords**](#chord) are, however.
 
 Verb
 
@@ -52,23 +52,20 @@ Notes:
 ## Translation
 Noun
 
-- A sequence of characters that may represent a word, phrase, affix, **Plover command**, punctuation, or any other arbitrary output.
+- A sequence of characters that may represent a word, phrase, any part of a word or phrase, affix, **Plover command**, punctuation, or any other arbitrary output.
 
 Notes:
-- Translations are composable, and can be combined to form new translations.
-- Translations are used in [**entries**](#entry), and are mapped from [**outlines**](#outlines), as specified by [**theory rules**](#theory-rule).
-
-See [**entry**](#entry), [**outlines**](#outlines), and [**theory rule**](#theory-rule).
+- Translations are composable, and can be composed to form new translations.
+- Translations are used in [**entries**](#entry) and [**dictionaries**](#dictionary), and are mapped from [**outlines**](#outlines), as specified by [**theory rules**](#theory-rule).
 
 ## Entry
 Noun
 
-- An [**outline**](#outline) that maps to a [**translation**](#translation), typically stored in a [**dictionary**](#dictionary).
+- An [**outline**](#outline) that maps to a [**translation**](#translation). 
 
 Notes:
-- TODO These mappings come from [**theory rules**](#theory-rule).
-  - They are trying to satisfy the theory rules?
-  - They are the realization of theory rules?
+- May be stored in a [**dictionary**](#dictionary) or generated on-the-fly.
+- These mappings are specified by [**theory rules**](#theory-rule).
 
 ## Dictionary
 Noun
@@ -78,7 +75,48 @@ Noun
 
 Notes:
 - **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format).
-- A dictionary is the realization of a [**theory**](#theory)?
+- **Plover** also supports programmatic (python) dictionaries, which take an [**outline**](#outline) and turn it into a [**translation**](#translation) on-the-fly.
+- Can be thought of as the realization of a [**theory**](#theory).
+
+## Conflict
+Adj.
+
+- An [**outline**](#outline) that has a conflict.
+
+Noun
+
+- TODO An [**outline**](#outline) with multiple valid [**translations**](#translation) it could map to, coming from [**theory rules**](#theory-rule) overlapping.
+- A [**dictionary**](#dictionary) overriding another [**dictionary**](#dictionary) with lower priority.
+
+
+## Theory Rule
+Noun
+
+TODO could apply to a sequence of these things (\[stroke match, anything, chord match] is a valid thing for rules to apply)
+
+- A rule defining how any pattern of [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline) should map to [**translations**](#translation).
+  - May do this phonetically, orthographically, based on shape, or completely arbitrarily.
+
+Notes:
+- TODO A theory rule may match many [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline), or be a single override to avoid a [**conflict**](#conflict)
+
+## Theory
+Noun
+
+- A set of [**theory rules**](#theory-rule).
+
+Notes:
+- Usually has a name (probably bird related for some reason)
+- May have learning resources, a wiki, a specification, etc.
+- Theories may be designed to work well with other theories (such as a number theory, symbol theory, or movement theory), or to exist independently.
+
+## Word Boundary
+Noun
+
+- Has to do with theory rules
+- comes from not knowing where the words start an end in a sequence of strokes, or an outline.
+
+- TODO A type of [**conflict**](#conflict) that comes from having multiple possible [**translations**](#translation) from a sequence of [**strokes**](#stroke).
 
 ## Bank
 Noun
@@ -107,6 +145,10 @@ Adj.
 - Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the ender [**bank**](#bank).
 
 ## Vowel
+Noun
+
+- A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the vowel [**bank**](#bank).
+
 Adj.
 
 - Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the vowel [**bank**](#bank).
@@ -119,57 +161,10 @@ TODO
 - TODO an entry that uses rules only?
   - If I split rules and templates, then this is fine I guess?
 
-## Conflict
-Noun
-
-TODO adjective?
-TODO this is not outline specific, I don't think.
-
-- An outline that has multiple valid translations based on the theory rules that affect it.
-- TODO can also refer to dictionaries overriding each other.
-
-Notes:
-- This leads to overlapping entries, where there are more than one outlines mapping to different translations.
-- TODO Conflicts arise when multiple(?) theory rules specify a translation from an outline, which leads to overlap.
-
-- TODO An [**outline**](#outline) that has a conflict.
-
-## Theory Rule
-Noun
-
-TODO could apply to a sequence of these things (\[stroke match, anything, chord match] is a valid thing for rules to apply)
-
-- A rule defining how [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline) should map to a [**translation**](#translation), or a part of a [**translation**](#translation).
-  - A rule may do this phonetically, orthographically, based on shape, or completely arbitrarily.
-
-Notes:
-- TODO A theory rule may cover many [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline), or be a single override to avoid a conflict (see theory rule coverage).
-
-## Theory Rule Coverage?
-Noun
-
-How far-reaching a theory rule is?
-
-## Theory
-Noun
-
-- A set of [**theory rules**](#theory-rule).
-
-Notes:
-- Usually has a name (probably bird related for some reason)
-- May have learning resources, a wiki, a specification, etc.
-- Theories may be designed to work well with other theories (such as a number system), or to exist independently.
-
-## Word Boundary
-Noun
-
-- Has to do with theory rules
-- comes from not knowing where the words start an end in a sequence of strokes, or an outline.
-
-- TODO A type of [**conflict**](#conflict) that comes from having multiple possible [**translations**](#translation) from a sequence of [**strokes**](#stroke).
-
 ## Brief
 Noun
+
+TODO maybe move to conflict and use in theory rule definition?
 
 - Short for abbreviated or abbreviation, An "abbreviated" [**outline**](#outline), used to reduce the number of [**strokes**](#strokes) required to output a [**translation**](#translation).
 
@@ -191,7 +186,7 @@ Noun
 ## Skeleton Stroke
 Noun
 
-- A [**stroke**](#stroke) with [**keys**](#key) in the starter and ender [**banks**](#bank), but no vowels
+- A [**stroke**](#stroke) with [**keys**](#key) in the [**starter**](#starter) and [**ender**](#ender) [**banks**](#bank), but no [**vowels**](#vowel)
 
 Notes:
 - TODO A briefing technique.
@@ -207,25 +202,10 @@ Noun
 
 Adj.
 
-- Describing a [**theory**](#theory) that is composed of only fingerspelling rules?
-- Describing a [**theory**](#theory) whose rules are just writing letters one at a time or maybe more than one at a time.
-- Describing a theory whose rules consist of writing letters one at a time
-- Describing a theory designed to 
-- Describing a theory comprised of largely monographic rules.
-- Describing a theory comprised of rules where you write letters one at a time, and sometimes more than one at a time
-- Describing a theory designed to output letters one at a time?
-- Describing a theory whose rules are about writing letters one at a time
-- Describing A theory whose rules pertain to writing letters one at a time
-- Outputting letters one at a time...
-- Having the ability to write letters one at a time.
-- Describing a theory allowing for the output of individual charaters
-_autonomous_ characters
-- Describing a theory designed to output autonomous characters 
-This emphasizes that multiple can be present
-A set of theory rules designed to output autonomous characters
-- A theory composed of a set of theory rules designed to output autonomous characters.
-Not designed, but it's mean to do it,.
-- A set of theory rules mostly designed to output autonomous characters.
+- A theory that mostly outputs autonomous characters. That is, they usually exist on their own, but can be joined with other characters to output them a few at a time.
+
+TODO
+- A theory that used to output autonomous characters, outputting characters one at a time.
 
 Notes:
 - TODO Differs from [**orthospelling**](#orthospelling) in that it's typically only done one letter at a time.
