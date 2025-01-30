@@ -15,7 +15,7 @@ Noun
 
 - A set of [**keys**](#key) that typically represent some part of a [**translation**](#translation).
 
-Notes:
+**Notes**
 - A chord may be empty, and thus represent no [**translation**](#translation), or an "empty" [**translation**](#translation).
 - Chords are the building blocks of [**strokes**](#strokes), and are the smallest meaningful unit in steno.
 - Chords are sets of [**keys**](#key), and thus cannot "span" more than one [**stroke**](#stroke).
@@ -35,7 +35,7 @@ Noun
 
 - A set of [**keys**](#key), typically constructed out of [**chords**](#chord).
 
-Notes:
+**Notes**
 - Strokes cannot be empty, unlike [**chords**](#chord).
 - The differences between a stroke and a [**chord**](#chord) are that strokes cannot be empty, while [**chord**](#chord)s can, [**chord**](#chord)s are only used to represent simple [**translations**](#translation), such as a sound or orthographic sequence, while strokes are more complex, and usually exist on their own, only being modified via affixes and common patterns.
 - Strokes can be composed together to form [**outlines**](#outline).
@@ -49,25 +49,25 @@ Noun
 
 - A sequence of one or more [**strokes**](#stroke).
 
-Notes:
+**Notes**
 - [**Strokes**](#stroke) can belong to multiple outlines.
 - Outlines are only sequences of [**strokes**](#stroke), not [**chords**](#chord) or [**keys**](#key). It may appear that a [**key**](#key) or [**chord**](#chord), such as `T-` or `-PBLG` are in an outline, but these are actually [**strokes**](#stroke) that contain 1 [**chord**](#chord) each.
 
 ## Translation
 Noun
 
-- A sequence of characters that may represent a word, phrase, any part of a word or phrase, sound, affix, **Plover command**, punctuation, or any other arbitrary output.
+- Text that may represent a word, phrase, any part of a word or phrase, sound, affix, **Plover command**, punctuation, or any other arbitrary output.
 
-Notes:
-- Translations are composable, and can be composed to form new translations.
-- Translations are used in [**entries**](#entry) and [**dictionaries**](#dictionary), and are mapped from [**outlines**](#outlines), as specified by [**theory rules**](#theory-rule).
+**Notes**
+- Translations can be combined, composed, or concatenated to form new translations.
+- Translations are used in [**dictionaries**](#dictionary) as output.
 
 ## Entry
 Noun
 
 - An [**outline**](#outline) that maps to a [**translation**](#translation). 
 
-Notes:
+**Notes**
 - May be stored in a [**dictionary**](#dictionary) or generated on-the-fly.
 - These mappings are specified by [**theory rules**](#theory-rule).
 
@@ -77,9 +77,9 @@ Noun
 - A mapping between [**outlines**](#outline) and [**translations**](#translation), typically constructed out of [**entries**](#entry).
   - May be enumerated, and stored in formats such as JSON or RTF, or a function that provides a translation given an outline.
 
-Notes:
+**Notes**
 - **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format).
-- **Plover** also supports programmatic (python) dictionaries, which take an [**outline**](#outline) and turn it into a [**translation**](#translation) on-the-fly.
+- **Plover** also supports **programmatic (python) dictionaries**, which take an [**outline**](#outline) and turn it into a [**translation**](#translation) on-the-fly.
 - Can be thought of as the realization of a [**theory**](#theory).
 
 ## Conflict
@@ -101,7 +101,7 @@ TODO could apply to a sequence of these things (\[stroke match, anything, chord 
 - A rule defining how any pattern of [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline) should map to [**translations**](#translation).
   - May do this phonetically, orthographically, based on shape, or completely arbitrarily.
 
-Notes:
+**Notes**
 - TODO A theory rule may match many [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline), or be a single override to avoid a [**conflict**](#conflict)
 
 ## Theory
@@ -109,7 +109,7 @@ Noun
 
 - A set of [**theory rules**](#theory-rule).
 
-Notes:
+**Notes**
 - Usually has a name (probably bird related for some reason)
 - May have learning resources, a wiki, a specification, etc.
 - Theories may be designed to work well with other theories (such as a number theory, symbol theory, or movement theory), or to exist independently.
@@ -172,7 +172,7 @@ TODO maybe move to conflict and use in theory rule definition?
 
 - Short for abbreviated or abbreviation, An "abbreviated" [**outline**](#outline), used to reduce the number of [**strokes**](#strokes) required to output a [**translation**](#translation).
 
-Notes:
+**Notes**
 - Defined by [**theory rules**](#theory-rule)
 - Tends to deviate from most [**theory rules**](#theory-rule).
 See [**theory rule**](#theory-rule)
@@ -192,7 +192,7 @@ Noun
 
 - A [**stroke**](#stroke) with [**keys**](#key) in the [**starter**](#starter) and [**ender**](#ender) [**banks**](#bank), but no [**vowels**](#vowel)
 
-Notes:
+**Notes**
 - TODO A briefing technique.
 
 ## Fingerspelling
@@ -211,7 +211,7 @@ Adj.
 TODO
 - A theory that used to output autonomous characters, outputting characters one at a time.
 
-Notes:
+**Notes**
 - TODO Differs from [**orthospelling**](#orthospelling) in that it's typically only done one letter at a time.
   - TODO Can be done multiple letters at a time, but still it's about letters and not orthography, really.
 - [**Orthospelling**](#orthospelling) theories can also be modal, which fingerspelling theories typically aren't.
@@ -235,7 +235,7 @@ Adj.
 - A characteristic of a [**theory**](#theory) where [**theory rules**](#theory-rule) can change depending on the current active mode?
 - A characteristic of a [**dictionary**](#dictionary) where [**outlines**](#outlines) can refer to different [**translations**](#translation) depending on the current active mode.
 
-Notes:
+**Notes**
 - TODO There is typically a [**stroke**](#stroke) or dedicated [**key**](#key) used to switch between modes.
 
 ## Raw Steno
@@ -247,7 +247,7 @@ Noun
 
 - The format for representing  [**keys**](#key), [**chords**](#chord), [**strokes**](#stroke), and [**outlines**](#outline) in textual form.
 
-Notes:
+**Notes**
 - Includes non-[**keys**](#key) such as `-` to denote the lack of [**keys**](#key) in the [**vowel bank**](#vowel), and `/` to denote the start of a new [**stroke**](#stroke).
 - Raw steno is ambiguous. `T-` could refer to the [**starter**](#starter) `T-`, the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, or the [**outline**](#outline) consisting of only the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`.
 
@@ -270,7 +270,7 @@ TODO another steno layout, but this one has 2 more keys :)
 ## Steno Machine
 - TODO A chorded stenographic input device.
 
-Notes:
+**Notes**
 - TODO Refers to both professional and hobbyist keyboards.
 
 ## Steno Writer
