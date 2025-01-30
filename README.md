@@ -17,33 +17,34 @@ Noun
 - A set of [**keys**](#key) that typically represent some part of a [**translation**](#translation).
 
 Notes:
-- A chord may be empty, and map thus represent no translation.
+- A chord may be empty, and map thus represent no [**translation**](#translation).
+  - TODO Or the empty translation?
 - Chords are the building blocks of [**strokes**](#strokes), and are the smallest meaningful unit in steno.
 - Chords are sets of [**keys**](#key), and thus cannot "span" more than one [**stroke**](#stroke).
-  - For example, `-G/-R` is not a chord, it is an [**outline**](#outline) made up of 2 chords.
-- Chords can be composed. Composing 2 chords results in a [**stroke**](#stroke) with the set of [**keys**](#key) in both chords.
-- Chords and strokes look identical in raw steno form. The stroke `TPH-` and the chord `TPH-` appear the same, but they may be different.
+  - For example, `-G/-R` is not a chord, it is an [**outline**](#outline) made up of 2 [**strokes**](#stroke), each made up of 1 chord.
+- Chords can be composed. Composing 2 chords results in a [**stroke**](#stroke) with the set of [**keys**](#key) in the first chord, and keys in the second chord.
+- Chords and strokes look identical in [**raw steno form**](#raw-steno). The [**stroke**](#stroke) `TPH-` and the chord `TPH-` appear the same, but they may be different.
 
 Verb
 
-- The act of pressing down the set of [**keys**](#key) that constitute a chord on a [**steno machine**](#steno-machine).
+- The act of simultaneously pressing down the set of [**keys**](#key) that constitute a chord on a [**steno machine**](#steno-machine).
 - Often used interchangeably with [**stroke**](#stroke).
 
 ## Stroke
 Noun
 
-TODO what is the fundamental purpose of a stroke?
+<!-- TODO what is the fundamental purpose of a stroke? -->
 
 - A set of [**keys**](#key), typically constructed out of [**chords**](#chord).
 
 Notes:
 - Strokes cannot be empty, unlike [**chords**](#chord).
-- The differences between a stroke and a chord are that strokes cannot be empty, while chords can, and chords are only used to represent simple translations, such as a sound or orthographic sequence, while strokes are more complex, and usually exist on their own, only being modified via affixes and common patterns.
+- The differences between a stroke and a [**chord**](#chord) are that strokes cannot be empty, while [**chord**](#chord)s can, [**chord**](#chord)s are only used to represent simple [**translations**](#translation), such as a sound or orthographic sequence, while strokes are more complex, and usually exist on their own, only being modified via affixes and common patterns.
 - Strokes can be composed together to form [**outlines**](#outline).
 
 Verb
 
-- The act of pressing down the set of [**keys**](#key) that constitute a stroke on a [**steno machine**](#steno-machine).
+- The act of simultaneously pressing down the set of [**keys**](#key) that constitute a stroke on a [**steno machine**](#steno-machine).
 
 ## Outline
 Noun
