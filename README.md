@@ -8,8 +8,7 @@ Noun
 - A key on a [**steno layout**](#steno-layout).
 
 Notes:
-- While some keys may share the same name (`S`, the [**starter**](#starter), and `-S`, the [**ender**](#ender)), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them.
-  - These keys can be referred to by their [**raw steno**](#raw-steno) form, like "`-S`".
+- While some keys may share the same name (`S`, the [**starter**](#starter), and `-S`, the [**ender**](#ender), for example), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them. These keys can be referred to by their [**raw steno**](#raw-steno) form, like "`S`" and "`-S`".
 
 ## Chord
 Noun
@@ -76,7 +75,7 @@ Notes:
 ## Dictionary
 Noun
 
-- A mapping between [**outlines**](#outline) and [**translations**](#translation).
+- A mapping between [**outlines**](#outline) and [**translations**](#translation), typically constructed out of [**entries**](#entry)
   - May be enumerated, and stored in formats such as JSON or RTF, or a function that provides a translation given an outline.
 
 Notes:
