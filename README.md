@@ -14,13 +14,15 @@ Notes:
 ## Chord
 Noun
 
-- A set of [**keys**](#key). A chord may consist of 0 [**keys**](#key), making it "empty".
+- A set of [**keys**](#key) that typically represent some part of a [**translation**](#translation).
 
 Notes:
-- Chords are sets of [**keys**](#key), and thus cannot span more than one [**stroke**](#stroke).
-  - For example, `"-G/-R"` is not a chord, it is an [**outline**](#outline) made up of 2 chords.
-- Chords can be composed. Composing 2 chords results in a chord whose [**keys**](#key) are the set of [**keys**](#key) that are in the first chord, and [**keys**](#key) that are in the second chord.
-  - Thus, composing empty chords is fine.
+- A chord may be empty, and map thus represent no translation.
+- Chords are the building blocks of [**strokes**](#strokes), and are the smallest meaningful unit in steno.
+- Chords are sets of [**keys**](#key), and thus cannot "span" more than one [**stroke**](#stroke).
+  - For example, `-G/-R` is not a chord, it is an [**outline**](#outline) made up of 2 chords.
+- Chords can be composed. Composing 2 chords results in a [**stroke**](#stroke) with the set of [**keys**](#key) in both chords.
+- Chords and strokes look identical in raw steno form. The stroke `TPH-` and the chord `TPH-` appear the same, but they may be different.
 
 Verb
 
@@ -30,12 +32,14 @@ Verb
 ## Stroke
 Noun
 
-- A non-empty set of [**keys**](#key). Typically composed of [**chords**](#chord).
-  - Strokes are not strictly a collection of [**chords**](#chord). However, [**chords**](#chord) are typically composed to create strokes. They are both sets of [**keys**](#key) that can exist independently, however.
+TODO what is the fundamental purpose of a stroke?
+
+- A set of [**keys**](#key), typically constructed out of [**chords**](#chord).
 
 Notes:
-- The difference between a stroke and a [**chord**](#chord) is that a stroke cannot be empty, while a [**chord**](#chord) can, and [**chords**](#chord) are usually building blocks to build strokes, while strokes exist largely on their own, only being modified via affixes and common patterns.
-- Strokes can be composed in the same way as [**chords**](#chord) (see [**chords**](#chord)). Strokes are typically not combined as much as [**chords**](#chord) are, however.
+- Strokes cannot be empty, unlike [**chords**](#chord).
+- The differences between a stroke and a chord are that strokes cannot be empty, while chords can, and chords are only used to represent simple translations, such as a sound or orthographic sequence, while strokes are more complex, and usually exist on their own, only being modified via affixes and common patterns.
+- Strokes can be composed together to form [**outlines**](#outline).
 
 Verb
 
@@ -48,11 +52,12 @@ Noun
 
 Notes:
 - [**Strokes**](#stroke) can belong to multiple outlines.
+- Outlines are only sequences of [**strokes**](#stroke), not [**chords**](#chord) or [**keys**](#key). It may appear that a [**key**](#key) or [**chord**](#chord), such as `T-` or `-PBLG` are in an outline, but these are actually [**strokes**](#stroke) that contain 1 [**chord**](#chord) each.
 
 ## Translation
 Noun
 
-- A sequence of characters that may represent a word, phrase, any part of a word or phrase, affix, **Plover command**, punctuation, or any other arbitrary output.
+- A sequence of characters that may represent a word, phrase, any part of a word or phrase, sound, affix, **Plover command**, punctuation, or any other arbitrary output.
 
 Notes:
 - Translations are composable, and can be composed to form new translations.
