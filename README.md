@@ -242,21 +242,21 @@ Notes:
 ## Raw Steno
 Adj.
 
-- A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) represented in raw steno form.
+- Describing a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) represented in raw steno form.
 
 Noun
 
-- The format for representing  [**keys**](#key), [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline) in textual form.
+- The format for representing  [**keys**](#key), [**chords**](#chord), [**strokes**](#stroke), and [**outlines**](#outline) in textual form.
 
 Notes:
-- Includes non-[**keys**](#key) such as `-` to denote the lack of [**keys**](#key) in the [**vowel**](#vowel) [**bank**](#bank), and `/` to denote a new [**stroke**](#stroke).
+- Includes non-[**keys**](#key) such as `-` to denote the lack of [**keys**](#key) in the [**vowel bank**](#vowel), and `/` to denote the start of a new [**stroke**](#stroke).
 - Raw steno is ambiguous. `T-` could refer to the [**starter**](#starter) `T-`, the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, or the [**outline**](#outline) consisting of only the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`.
 
 ## Untranslate / Untranslated Stroke / Untran
 Noun
 TODO adj as well
 
-- TODO Outlines that aren't mapped to any translations, and show up as raw steno.
+- TODO An outline that no dictionary has a translation for, and it shows up as raw steno.
 
 ## Steno Layout
 TODO I have no idea lmao.
@@ -285,11 +285,11 @@ Notes:
 
 # Other Sources
 
-- Learn Plover! Glossary - https://www.openstenoproject.org/learn-plover/glossary.html
-- Steno Explainers - https://sammdot.ca/steno/explainers
-- Lapwing Glossary - https://lapwing.aerick.ca/Glossary.html#steno-theory
-- Plover Wiki Steno Hardware Terminology - https://plover.wiki/index.php/Steno_hardware_terminology
-- Plover Wiki Glossary - https://plover.wiki/index.php/Glossary
+- [Learn Plover! Glossary](https://www.openstenoproject.org/learn-plover/glossary.html)
+- [Steno Explainers](https://sammdot.ca/steno/explainers)
+- [Lapwing Glossary](https://lapwing.aerick.ca/Glossary.html#steno-theory)
+- [Plover Wiki Steno Hardware Terminology](https://plover.wiki/index.php/Steno_hardware_terminology)
+- [Plover Wiki Glossary](https://plover.wiki/index.php/Glossary)
 
 # TODO
 
@@ -310,3 +310,4 @@ Notes:
   - As defined by theory
 - Mandatory (outline / entry)
 - Programmatic dictionary
+- Paper tape
