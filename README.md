@@ -74,13 +74,13 @@ Noun
 ## Dictionary
 Noun
 
-- A mapping between [**outlines**](#outline) and [**translations**](#translation), typically constructed out of [**entries**](#entry).
-  - May be enumerated, and stored in formats such as JSON or RTF, or a function that provides a translation given an outline.
+- A mapping between [**outlines**](#outline) and [**translations**](#translations).
 
 **Notes**
-- **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format).
-- **Plover** also supports **programmatic (python) dictionaries**, which take an [**outline**](#outline) and turn it into a [**translation**](#translation) on-the-fly.
-- Can be thought of as the realization of a [**theory**](#theory).
+- Dictionaries may consist of enumerated [**entries**](#entry), and stored in file formats such as JSON or RTF, or generated on-the-fly by a **programmatic dictionary**.
+- The purpose of a dictionary is to provide the ability to give it an [**outline**](#outline) and it will give you back a [**translation**](#translation).
+<!-- - **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format). -->
+- Because an [**entry**](#entry)'s job is to fulfill a [**theory rule**](#theory-rule), dictionaries can be thought of as the realization of a [**theory**](#theory).
 
 ## Conflict
 Adj.
