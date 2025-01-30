@@ -9,7 +9,7 @@ Noun
 
 Notes:
 - While some keys may share the same name (`S`, the [**starter**](#starter), and `-S`, the [**ender**](#ender)), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them.
-  - These keys can be referred to by their [**raw steno**](#raw-steno) form, like `"-S"`.
+  - These keys can be referred to by their [**raw steno**](#raw-steno) form, like "`-S`".
 
 ## Chord
 Noun
