@@ -75,7 +75,7 @@ Notes:
 ## Dictionary
 Noun
 
-- A mapping between [**outlines**](#outline) and [**translations**](#translation), typically constructed out of [**entries**](#entry)
+- A mapping between [**outlines**](#outline) and [**translations**](#translation), typically constructed out of [**entries**](#entry).
   - May be enumerated, and stored in formats such as JSON or RTF, or a function that provides a translation given an outline.
 
 Notes:
