@@ -240,15 +240,17 @@ Notes:
 - TODO There is typically a [**stroke**](#stroke) or dedicated [**key**](#key) used to switch between modes.
 
 ## Raw Steno
-Noun
-TODO verb, adj.
+Adj.
 
-- The format for representing [**outlines**](#outline) as strings.
-- Strokes or outlines represented as strings?
+- A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) represented in raw steno form.
+
+Noun
+
+- The format for representing  [**keys**](#key), [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline) in textual form.
 
 Notes:
 - Includes non-[**keys**](#key) such as `-` to denote the lack of [**keys**](#key) in the [**vowel**](#vowel) [**bank**](#bank), and `/` to denote a new [**stroke**](#stroke).
-- TODO Could be either strokes or outlines, depending on what it is (paper tape is strokes, `PEUBG/KH-R` is outlines.)
+- Raw steno is ambiguous. `T-` could refer to the [**starter**](#starter) `T-`, the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, or the [**outline**](#outline) consisting of only the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`.
 
 ## Untranslate / Untranslated Stroke / Untran
 Noun
