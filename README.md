@@ -7,7 +7,7 @@ Noun
 
 - A key on a [**steno layout**](#steno-layout).
 
-Notes:
+**Notes**
 - While some keys may share the same name (`S`, the [**starter**](#starter), and `-S`, the [**ender**](#ender), for example), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them. These keys can be referred to by their [**raw steno**](#raw-steno) form, like "`S`" and "`-S`".
 
 ## Chord
@@ -16,8 +16,7 @@ Noun
 - A set of [**keys**](#key) that typically represent some part of a [**translation**](#translation).
 
 Notes:
-- A chord may be empty, and map thus represent no [**translation**](#translation).
-  - TODO Or the empty translation?
+- A chord may be empty, and thus represent no [**translation**](#translation), or an "empty" [**translation**](#translation).
 - Chords are the building blocks of [**strokes**](#strokes), and are the smallest meaningful unit in steno.
 - Chords are sets of [**keys**](#key), and thus cannot "span" more than one [**stroke**](#stroke).
   - For example, `-G/-R` is not a chord, it is an [**outline**](#outline) made up of 2 [**strokes**](#stroke), each made up of 1 chord.
@@ -306,6 +305,7 @@ Notes:
 - Conflict resolution?
 - Steno Order
   - As defined by layout
+  - A raw steno stroke with all keys will follow steno order, and is often used to represent it.
 - Syllabic Splitting
   - As defined by theory
 - Mandatory (outline / entry)
