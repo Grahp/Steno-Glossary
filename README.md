@@ -321,8 +321,8 @@ another steno layout, but this one has 2 more keys :)
 
 - [Plover Wiki Glossary](https://plover.wiki/index.php/Glossary)
 - [Steno Explainers](https://sammdot.ca/steno/explainers)
-- [Learn Plover! Glossary](https://www.openstenoproject.org/learn-plover/glossary.html)
 - [Lapwing Glossary](https://lapwing.aerick.ca/Glossary.html#steno-theory)
+- [Learn Plover! Glossary](https://www.openstenoproject.org/learn-plover/glossary.html)
 - [Plover Wiki Steno Hardware Terminology](https://plover.wiki/index.php/Steno_hardware_terminology)
 
 # TODO
