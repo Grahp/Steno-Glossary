@@ -180,9 +180,8 @@ TODO maybe move to conflict and use in theory rule definition?
 - Short for abbreviated or abbreviation, An "abbreviated" [**outline**](#outline), used to reduce the number of [**strokes**](#strokes) required to output a [**translation**](#translation).
 
 **Notes**
-- Defined by [**theory rules**](#theory-rule)
+- Defined by [**theory rules**](#theory-rule).
 - Tends to deviate from most [**theory rules**](#theory-rule).
-See [**theory rule**](#theory-rule)
 
 ## Templated Brief
 Noun
