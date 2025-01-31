@@ -37,8 +37,6 @@ Noun
 - A set of [**keys**](#key), typically constructed out of [**chords**](#chord).
 
 **Notes**
-<!-- - Strokes cannot be empty, unlike [**chords**](#chord). -->
-<!-- - The differences between a stroke and a [**chord**](#chord) are that strokes cannot be empty, while [**chord**](#chord)s can, [**chord**](#chord)s are only used to represent simple [**translations**](#translation), such as a sound or orthographic sequence, while strokes are more complex, and usually exist on their own, only being modified via affixes and common patterns. -->
 - The differences between a stroke and a [**chord**](#chord) is that [**chords**](#chord) typically represent simple [**translations**](#translation), such as a sound or orthographic sequence, while strokes are more complex, and exist mostly on their own. [**Chords**](#chord) are usually combined to form strokes.
 - Strokes can be composed together to form [**outlines**](#outline).
 
@@ -52,13 +50,13 @@ Noun
 - A sequence of one or more [**strokes**](#stroke).
 
 **Notes**
-- [**Strokes**](#stroke) can belong to multiple outlines.
 - Outlines are only sequences of [**strokes**](#stroke), not [**chords**](#chord) or [**keys**](#key). It may appear that a [**key**](#key) or [**chord**](#chord), such as `T-` or `-PBLG` are in an outline, but these are actually [**strokes**](#stroke) that contain 1 [**chord**](#chord) each.
+- A [**stroke**](#stroke) may "belong" to multiple outlines. Outlines are not greedy.
 
 ## Translation
 Noun
 
-- Text that may represent a word, phrase, any part of a word or phrase, sound, affix, **Plover command**, punctuation, or any other arbitrary output.
+- Text that may represent a word, phrase, a part of a word or phrase, sound, affix, **Plover command**, punctuation, or any other arbitrary output.
 
 **Notes**
 - Translations can be combined, composed, or concatenated to form new translations.
@@ -80,9 +78,10 @@ Noun
 
 **Notes**
 - Dictionaries may consist of enumerated [**entries**](#entry), and stored in file formats such as JSON or RTF, or generated on-the-fly by a **programmatic dictionary**.
-- The purpose of a dictionary is to provide the ability to give it an [**outline**](#outline) and it will give you back a [**translation**](#translation).
-- A dictionary provides thee ability to give it an outline, and it will give you back a translation.
-<!-- - **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format). -->
+<!-- - The purpose of a dictionary is to provide the ability to give it an [**outline**](#outline) and it will give you back a [**translation**](#translation). -->
+<!-- don't love this but aah -->
+- A dictionary provides the ability to give it an [**outline**](#outline), and it will give you back a [**translation**](#translation).
+- **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format).
 - Because an [**entry**](#entry)'s job is to fulfill a [**theory rule**](#theory-rule), dictionaries can be thought of as the realization of a [**theory**](#theory).
 
 ## Theory Rule
