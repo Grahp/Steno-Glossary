@@ -16,7 +16,7 @@ Noun
 - A set of [**keys**](#key) that typically represent some part of a [**translation**](#translation).
 
 **Notes**
-- A chord may be empty, and thus represent no [**translation**](#translation), or an "empty" [**translation**](#translation).
+<!-- - A chord may be empty, and thus represent no [**translation**](#translation), or an "empty" [**translation**](#translation). -->
 - Chords are the building blocks of [**strokes**](#strokes), and are the smallest meaningful unit in steno.
 - Chords are sets of [**keys**](#key), and thus cannot "span" more than one [**stroke**](#stroke).
   - For example, `-G/-R` is not a chord, it is an [**outline**](#outline) made up of 2 [**strokes**](#stroke), each made up of 1 chord.
@@ -37,8 +37,9 @@ Noun
 - A set of [**keys**](#key), typically constructed out of [**chords**](#chord).
 
 **Notes**
-- Strokes cannot be empty, unlike [**chords**](#chord).
-- The differences between a stroke and a [**chord**](#chord) are that strokes cannot be empty, while [**chord**](#chord)s can, [**chord**](#chord)s are only used to represent simple [**translations**](#translation), such as a sound or orthographic sequence, while strokes are more complex, and usually exist on their own, only being modified via affixes and common patterns.
+<!-- - Strokes cannot be empty, unlike [**chords**](#chord). -->
+<!-- - The differences between a stroke and a [**chord**](#chord) are that strokes cannot be empty, while [**chord**](#chord)s can, [**chord**](#chord)s are only used to represent simple [**translations**](#translation), such as a sound or orthographic sequence, while strokes are more complex, and usually exist on their own, only being modified via affixes and common patterns. -->
+- The differences between a stroke and a [**chord**](#chord) is that [**chords**](#chord) typically represent simple [**translations**](#translation), such as a sound or orthographic sequence, while strokes are more complex, and exist mostly on their own. [**Chords**](#chord) are usually combined to form strokes.
 - Strokes can be composed together to form [**outlines**](#outline).
 
 Verb
