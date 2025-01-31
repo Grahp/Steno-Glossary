@@ -134,7 +134,7 @@ Noun
 - A group of [**keys**](#key) that are positioned in a specific area on a [**steno layout**](#steno-layout).
   - The banks on the **WSI layout** are [**Starters**](#starter), [**Vowels**](#vowel), and [**Enders**](#ender).
 
-### Starter
+## Starter
 Noun
 
 - A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the starter [**bank**](#bank).
@@ -143,7 +143,7 @@ Adj.
 
 - Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the starter [**bank**](#bank).
 
-### Ender
+## Ender
 Noun
 
 - A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the ender [**bank**](#bank).
@@ -152,7 +152,7 @@ Adj.
 
 - Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the ender [**bank**](#bank).
 
-### Vowel
+## Vowel
 Noun
 
 - A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the vowel [**bank**](#bank).
