@@ -279,6 +279,7 @@ Noun
 
 ## WSI Layout
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 a steno layout
 
 ## Extended Stenotype Layout
