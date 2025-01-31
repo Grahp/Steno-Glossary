@@ -78,7 +78,6 @@ Noun
 
 **Notes**
 - Dictionaries may consist of enumerated [**entries**](#entry), and stored in file formats such as JSON or RTF, or generated on-the-fly by a **programmatic dictionary**.
-<!-- - The purpose of a dictionary is to provide the ability to give it an [**outline**](#outline) and it will give you back a [**translation**](#translation). -->
 <!-- don't love this but aah -->
 - A dictionary provides the ability to give it an [**outline**](#outline), and it will give you back a [**translation**](#translation).
 - **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format).
@@ -88,7 +87,7 @@ Noun
 Noun
 
 - A rule defining how any pattern of [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline) should map to [**translations**](#translation).
-  - May do this phonetically, orthographically, based on shape, or completely arbitrarily.
+  - They may do this phonetically, orthographically, based on shape, or completely arbitrarily.
 
 **Notes**
 - A theory rule may match many [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline), or be a single override to avoid a [**conflict**](#conflict).
@@ -104,14 +103,16 @@ Noun
 - Theories may be designed to work well with other theories (such as a number theory, symbol theory, or movement theory), or to exist independently.
 
 ## Conflict
-Adj.
-
-- An [**outline**](#outline) that has a conflict.
-
 Noun
 
-- An [**outline**](#outline) with multiple valid [**translations**](#translation) it could map to. This comes from [**theory rules**](#theory-rule) overlapping.
-- A [**dictionary**](#dictionary) overriding another [**dictionary**](#dictionary) with lower priority.
+<!-- - An [**outline**](#outline) with multiple valid [**translations**](#translation) it could map to. This comes from [**theory rules**](#theory-rule) overlapping. -->
+<!-- - A [**dictionary**](#dictionary) overriding another [**dictionary**](#dictionary) with lower priority. -->
+- An [**outline**](#outline) with multiple plausible [**translations**](#translation) it could map to.
+
+**Notes**
+- This comes from [**theory rules**](#theory-rule) overlapping.
+- A [**dictionary**](#dictionary) may override an [**entry**](#entry) from another [**dictionary**](#dictionary), which would cause the [**entry**](#entry) in the [**dictionary**](#dictionary) with higher priority to "shadow" the other [**entry**](#entry).
+<!-- - In order to avoid conflicts, you must resolve them. -->
 
 ## Word Boundary
 Noun
@@ -316,11 +317,11 @@ another steno layout, but this one has 2 more keys :)
 
 # Other Sources
 
-- [Learn Plover! Glossary](https://www.openstenoproject.org/learn-plover/glossary.html)
+- [Plover Wiki Glossary](https://plover.wiki/index.php/Glossary)
 - [Steno Explainers](https://sammdot.ca/steno/explainers)
+- [Learn Plover! Glossary](https://www.openstenoproject.org/learn-plover/glossary.html)
 - [Lapwing Glossary](https://lapwing.aerick.ca/Glossary.html#steno-theory)
 - [Plover Wiki Steno Hardware Terminology](https://plover.wiki/index.php/Steno_hardware_terminology)
-- [Plover Wiki Glossary](https://plover.wiki/index.php/Glossary)
 
 # TODO
 
