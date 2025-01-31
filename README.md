@@ -82,17 +82,6 @@ Noun
 <!-- - **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format). -->
 - Because an [**entry**](#entry)'s job is to fulfill a [**theory rule**](#theory-rule), dictionaries can be thought of as the realization of a [**theory**](#theory).
 
-## Conflict
-Adj.
-
-- An [**outline**](#outline) that has a conflict.
-
-Noun
-
-- TODO An [**outline**](#outline) with multiple valid [**translations**](#translation) it could map to, coming from [**theory rules**](#theory-rule) overlapping.
-- A [**dictionary**](#dictionary) overriding another [**dictionary**](#dictionary) with lower priority.
-
-
 ## Theory Rule
 Noun
 
@@ -114,13 +103,23 @@ Noun
 - May have learning resources, a wiki, a specification, etc.
 - Theories may be designed to work well with other theories (such as a number theory, symbol theory, or movement theory), or to exist independently.
 
+## Conflict
+Adj.
+
+- An [**outline**](#outline) that has a conflict.
+
+Noun
+
+- An [**outline**](#outline) with multiple valid [**translations**](#translation) it could map to. This comes from [**theory rules**](#theory-rule) overlapping.
+- A [**dictionary**](#dictionary) overriding another [**dictionary**](#dictionary) with lower priority.
+
 ## Word Boundary
 Noun
 
-- Has to do with theory rules
-- comes from not knowing where the words start an end in a sequence of strokes, or an outline.
+- Something to do with splitting.
 
-- TODO A type of [**conflict**](#conflict) that comes from having multiple possible [**translations**](#translation) from a sequence of [**strokes**](#stroke).
+<!-- - TODO A type of [**conflict**](#conflict) that comes from having multiple possible [**translations**](#translation) from a sequence of [**strokes**](#stroke). -->
+- A sequence of [**strokes**](#stroke) that could be split into overlapping [**outlines**](#outline) with valid [**translations**](#translation).
 
 ## Bank
 Noun
