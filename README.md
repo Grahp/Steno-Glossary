@@ -289,9 +289,11 @@ TODO another steno layout, but this one has 2 more keys :)
 - TODO A professional steno machine.
 (the machine isn't professional the user is ._.)
 
-## (Hobbyist) Steno Keyboard
+## Steno Keyboard / Hobbyist machine
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
 - TODO A steno machine made for hobbyists.
+- Not a dedicated machine, just a keyboard.
 
 # Other Sources
 
