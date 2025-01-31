@@ -22,6 +22,7 @@ Noun
   - For example, `-G/-R` is not a chord, it is an [**outline**](#outline) made up of 2 [**strokes**](#stroke), each made up of 1 chord.
 - Chords can be composed. Composing 2 chords results in a [**stroke**](#stroke) with the set of [**keys**](#key) in the first chord, and [**keys**](#key) in the second chord.
 - Chords and strokes look identical in [**raw steno form**](#raw-steno). The [**stroke**](#stroke) `TPH-` and the chord `TPH-` appear the same, but they may be different.
+- An example chord might be `TPH-`, which represents the starting `n-` sound.
 
 Verb
 
@@ -79,6 +80,7 @@ Noun
 **Notes**
 - Dictionaries may consist of enumerated [**entries**](#entry), and stored in file formats such as JSON or RTF, or generated on-the-fly by a **programmatic dictionary**.
 - The purpose of a dictionary is to provide the ability to give it an [**outline**](#outline) and it will give you back a [**translation**](#translation).
+- A dictionary provides thee ability to give it an outline, and it will give you back a translation.
 <!-- - **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format). -->
 - Because an [**entry**](#entry)'s job is to fulfill a [**theory rule**](#theory-rule), dictionaries can be thought of as the realization of a [**theory**](#theory).
 
