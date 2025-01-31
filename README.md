@@ -115,21 +115,27 @@ Noun
 <!-- - In order to avoid conflicts, you must resolve them. -->
 
 ## Word Boundary
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 Noun
 
-- Something to do with splitting.
+<!-- - Something to do with splitting. -->
 
 <!-- - TODO A type of [**conflict**](#conflict) that comes from having multiple possible [**translations**](#translation) from a sequence of [**strokes**](#stroke). -->
-- A sequence of [**strokes**](#stroke) that could be split into overlapping [**outlines**](#outline) with valid [**translations**](#translation).
+<!-- - A sequence of [**strokes**](#stroke) that could be split into overlapping [**outlines**](#outline) with valid [**translations**](#translation). -->
+- A type of [**conflict**](#conflict) that comes from a sequence of strokes being able to split into multiple overlapping [**outlines**](#outline) with valid [**translations**](#translation).
+
+
+**Notes**
+- There are priorities for how these are avoided
 
 ## Bank
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
 Noun
 
-
 - A group of [**keys**](#key) that are positioned in a specific area on a [**steno layout**](#steno-layout).
-  - Banks on the **WSI layout** are Starters, Vowels, and Enders.
+  - The banks on the **WSI layout** are [**Starters**](#starter), [**Vowels**](#vowel), and [**Enders**](#ender).
 
 ## Starter
 Noun
