@@ -85,13 +85,11 @@ Noun
 ## Theory Rule
 Noun
 
-TODO could apply to a sequence of these things (\[stroke match, anything, chord match] is a valid thing for rules to apply)
-
 - A rule defining how any pattern of [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline) should map to [**translations**](#translation).
   - May do this phonetically, orthographically, based on shape, or completely arbitrarily.
 
 **Notes**
-- TODO A theory rule may match many [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline), or be a single override to avoid a [**conflict**](#conflict)
+- A theory rule may match many [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline), or be a single override to avoid a [**conflict**](#conflict).
 
 ## Theory
 Noun
@@ -122,9 +120,9 @@ Noun
 - A sequence of [**strokes**](#stroke) that could be split into overlapping [**outlines**](#outline) with valid [**translations**](#translation).
 
 ## Bank
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 Noun
 
-TODO still not satisfied.
 
 - A group of [**keys**](#key) that are positioned in a specific area on a [**steno layout**](#steno-layout).
   - Banks on the **WSI layout** are Starters, Vowels, and Enders.
@@ -157,7 +155,7 @@ Adj.
 - Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the vowel [**bank**](#bank).
 
 ## Write-out
-TODO
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
 - This should talk about how much outlines follow theory rules or like how weird they are.
   - Maybe unify theory rule coverage with this idea?
@@ -195,6 +193,7 @@ Noun
 - TODO A briefing technique.
 
 ## Fingerspelling
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 TODO
 
 Verb
@@ -217,18 +216,21 @@ TODO
 - Orthospelling is more about broader orthographic patters?
 
 ## Orthospelling
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 Verb
 
 - The use of an orthospelling [**theory**](#theory).
 
 Noun
 - An orthospelling [**theory**](#theory).
+  - Or dict?
 
 Adj.
 - Describing a [**theory rule**](#theory-rule) that is orthographic.
 - Describing a [**theory**](#theory) that is composed of orthographic [**theory rules**](#theory-rule).
 
 ## Modal
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 Adj.
 
 - A characteristic of a [**theory**](#theory) where [**theory rules**](#theory-rule) can change depending on the current active mode?
@@ -244,24 +246,27 @@ Adj.
 
 Noun
 
-- The format for representing  [**keys**](#key), [**chords**](#chord), [**strokes**](#stroke), and [**outlines**](#outline) in textual form.
+- The format for representing [**keys**](#key), [**chords**](#chord), [**strokes**](#stroke), and [**outlines**](#outline) in textual form.
 
 **Notes**
 - Includes non-[**keys**](#key) such as `-` to denote the lack of [**keys**](#key) in the [**vowel bank**](#vowel), and `/` to denote the start of a new [**stroke**](#stroke).
 - Raw steno is ambiguous. `T-` could refer to the [**starter**](#starter) `T-`, the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, or the [**outline**](#outline) consisting of only the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`.
 
 ## Untranslate / Untranslated Stroke / Untran
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 Noun
 TODO adj as well
 
-- TODO An outline that no dictionary has a translation for, and it shows up as raw steno.
+- An outline that no dictionary has a translation for, and it shows up as raw steno.
 
 ## Steno Layout
-TODO I have no idea lmao.
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+I have no idea lmao.
 - Not a physical thing
 
 ## Steno Order
-TODO Noun
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+Noun
 
 - The order in which keys are?
 - The order in which keys are displayed?
@@ -273,20 +278,24 @@ TODO Noun
   - Steno order is often display like this, such as `#STKPWHRAO*EUFRPBLGTSDZ`
 
 ## WSI Layout
-TODO a steno layout
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+a steno layout
 
 ## Extended Stenotype Layout
-TODO another steno layout, but this one has 2 more keys :)
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+another steno layout, but this one has 2 more keys :)
 
 ## Steno Machine
-- TODO A chorded stenographic input device.
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+- A chorded stenographic input device.
 
 **Notes**
-- TODO Refers to both professional and hobbyist keyboards.
+- Refers to both professional and hobbyist keyboards.
 
 ## Steno Writer
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
-- TODO A professional steno machine.
+- A professional steno machine.
 (the machine isn't professional the user is ._.)
 
 ## Steno Keyboard / Hobbyist machine
