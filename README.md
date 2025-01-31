@@ -27,7 +27,7 @@ Noun
 Verb
 
 - The act of simultaneously pressing down the set of [**keys**](#key) that constitute a chord on a [**steno machine**](#steno-machine).
-- Often used interchangeably with [**stroke**](#stroke).
+- Often used interchangeably with [**stroke**](#stroke) (specifically as a verb, not as a noun).
 
 ## Stroke
 Noun
@@ -44,7 +44,7 @@ Noun
 
 Verb
 
-- The act of simultaneously pressing down the set of [**keys**](#key) that constitute a stroke on a [**steno machine**](#steno-machine).
+- The act of simultaneously pressing down the set of [**keys**](#key) that make up a stroke on a [**steno machine**](#steno-machine).
 
 ## Outline
 Noun
