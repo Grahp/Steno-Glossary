@@ -260,6 +260,18 @@ TODO adj as well
 TODO I have no idea lmao.
 - Not a physical thing
 
+## Steno Order
+TODO Noun
+
+- The order in which keys are?
+- The order in which keys are displayed?
+- It's not just about human consumption, it's also about chords and how chords can compose with each other except for when it's not...
+- As defined by steno layout
+
+**Notes**
+- Raw steno displays keys in strokes and outlines in this order.
+  - Steno order is often display like this, such as `#STKPWHRAO*EUFRPBLGTSDZ`
+
 ## WSI Layout
 TODO a steno layout
 
@@ -294,7 +306,6 @@ TODO another steno layout, but this one has 2 more keys :)
 - Steno Engine
   - Plover
 - Pseudosteno?
-- Shrimplification?
 - Folding
 - Dropping
 - Clip-on
@@ -302,11 +313,9 @@ TODO another steno layout, but this one has 2 more keys :)
 - Phrasing?
 - Commands
 - Conflict resolution?
-- Steno Order
-  - As defined by layout
-  - A raw steno stroke with all keys will follow steno order, and is often used to represent it.
 - Syllabic Splitting
   - As defined by theory
 - Mandatory (outline / entry)
 - Programmatic dictionary
 - Paper tape
+  - Raw steno something?
