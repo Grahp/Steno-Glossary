@@ -105,8 +105,6 @@ Noun
 ## Conflict
 Noun
 
-<!-- - An [**outline**](#outline) with multiple valid [**translations**](#translation) it could map to. This comes from [**theory rules**](#theory-rule) overlapping. -->
-<!-- - A [**dictionary**](#dictionary) overriding another [**dictionary**](#dictionary) with lower priority. -->
 - An [**outline**](#outline) with multiple plausible [**translations**](#translation) it could map to.
 
 **Notes**
@@ -119,8 +117,6 @@ Noun
 
 Noun
 
-<!-- - Something to do with splitting. -->
-
 <!-- - TODO A type of [**conflict**](#conflict) that comes from having multiple possible [**translations**](#translation) from a sequence of [**strokes**](#stroke). -->
 <!-- - A sequence of [**strokes**](#stroke) that could be split into overlapping [**outlines**](#outline) with valid [**translations**](#translation). -->
 - A type of [**conflict**](#conflict) that comes from a sequence of strokes being able to split into multiple overlapping [**outlines**](#outline) with valid [**translations**](#translation).
@@ -128,6 +124,7 @@ Noun
 
 **Notes**
 - There are priorities for how these are avoided
+<!-- Can be avoided with splitting? -->
 
 ## Bank
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
@@ -137,7 +134,7 @@ Noun
 - A group of [**keys**](#key) that are positioned in a specific area on a [**steno layout**](#steno-layout).
   - The banks on the **WSI layout** are [**Starters**](#starter), [**Vowels**](#vowel), and [**Enders**](#ender).
 
-## Starter
+### Starter
 Noun
 
 - A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the starter [**bank**](#bank).
@@ -146,7 +143,7 @@ Adj.
 
 - Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the starter [**bank**](#bank).
 
-## Ender
+### Ender
 Noun
 
 - A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the ender [**bank**](#bank).
@@ -155,7 +152,7 @@ Adj.
 
 - Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the ender [**bank**](#bank).
 
-## Vowel
+### Vowel
 Noun
 
 - A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the vowel [**bank**](#bank).
