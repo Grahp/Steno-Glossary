@@ -121,6 +121,7 @@ Noun
 
 ## Bank
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 Noun
 
 
@@ -194,7 +195,6 @@ Noun
 
 ## Fingerspelling
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-TODO
 
 Verb
 - The use of a fingerspelling [**theory**](#theory).
@@ -217,6 +217,7 @@ TODO
 
 ## Orthospelling
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 Verb
 
 - The use of an orthospelling [**theory**](#theory).
@@ -231,6 +232,7 @@ Adj.
 
 ## Modal
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 Adj.
 
 - A characteristic of a [**theory**](#theory) where [**theory rules**](#theory-rule) can change depending on the current active mode?
@@ -254,6 +256,7 @@ Noun
 
 ## Untranslate / Untranslated Stroke / Untran
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 Noun
 TODO adj as well
 
@@ -261,11 +264,13 @@ TODO adj as well
 
 ## Steno Layout
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 I have no idea lmao.
 - Not a physical thing
 
 ## Steno Order
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 Noun
 
 - The order in which keys are?
@@ -284,10 +289,12 @@ a steno layout
 
 ## Extended Stenotype Layout
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 another steno layout, but this one has 2 more keys :)
 
 ## Steno Machine
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 - A chorded stenographic input device.
 
 **Notes**
