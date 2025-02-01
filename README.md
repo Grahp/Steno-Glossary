@@ -206,26 +206,18 @@ Noun
 - Skeleton strokes are often used for [**briefs**](#brief), as all [**strokes**](#stroke) of all words contain a vowel sound, and thus you will never override a real word.
 
 ## Fingerspelling
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
 Verb
-- The use of a fingerspelling [**theory**](#theory).
-
-Noun
-- A fingerspelling [**theory**](#theory)?
+- The use of a fingerspelling [**theory**](#theory) or [**dictionary**](#dictionary).
 
 Adj.
 
-- A theory that mostly outputs autonomous characters. That is, they usually exist on their own, but can be joined with other characters to output them a few at a time.
-
-TODO
-- A theory that used to output autonomous characters, outputting characters one at a time.
+- A [**theory**](#theory) or [**dictionary**](#dictionary)that mostly outputs autonomous characters. That is, characters that usually exist on their own, but can be joined with other characters to output multiple characters at a time.
 
 **Notes**
-- TODO Differs from [**orthospelling**](#orthospelling) in that it's typically only done one letter at a time.
-  - TODO Can be done multiple letters at a time, but still it's about letters and not orthography, really.
+- Differs from [**orthospelling**](#orthospelling) in that it's mostly done one character at a time.
+<!-- TODO orthospelling theories are really about orthographic sequences and combining them, as opposed to just combining letters -->
 - [**Orthospelling**](#orthospelling) theories can also be modal, which fingerspelling theories typically aren't.
-- Orthospelling is more about broader orthographic patters?
+<!-- - Orthospelling is more about broader orthographic patters? -->
 
 ## Orthospelling
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
