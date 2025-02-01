@@ -23,6 +23,7 @@ Noun
 - Chords can be composed. Composing 2 chords results in a [**stroke**](#stroke) with the set of [**keys**](#key) in the first chord, and [**keys**](#key) in the second chord.
 - Chords and strokes look identical in [**raw steno form**](#raw-steno). The [**stroke**](#stroke) `TPH-` and the chord `TPH-` appear the same, but they may be different.
 - An example chord might be `TPH-`, which represents the starting `n-` sound.
+- See [**stroke**](#stroke) for the differences between a [**stroke**](#stroke) and a chord.
 
 Verb
 
@@ -190,6 +191,12 @@ Noun
 
 - A [**brief**](#brief) that is defined by [**theory rules**](#theory-rule) that are completely arbitrary.
 
+## Mandatory
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
+- The only way to output a translation is with an arb.
+- A translation with only an arbitrary briefs to output it.
+
 ## Skeleton Stroke
 Noun
 
@@ -253,11 +260,13 @@ Adj.
 
 Noun
 
-- The format for representing [**keys**](#key), [**chords**](#chord), [**strokes**](#stroke), and [**outlines**](#outline) in textual form.
+- the format for representing [**keys**](#key), [**chords**](#chord), [**strokes**](#stroke), and [**outlines**](#outline) in textual form.
 
 **Notes**
 - Includes non-[**keys**](#key) such as `-` to denote the lack of [**keys**](#key) in the [**vowel bank**](#vowel), and `/` to denote the start of a new [**stroke**](#stroke).
 - Raw steno is ambiguous. `T-` could refer to the [**starter**](#starter) `T-`, the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, or the [**outline**](#outline) consisting of only the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`.
+<!-- TODO make clearer -->
+- Written in [**steno order**](#steno-order).
 
 ## Untranslate / Untranslated Stroke / Untran
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
@@ -314,8 +323,24 @@ another steno layout, but this one has 2 more keys :)
 ## Steno Keyboard / Hobbyist machine
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
-- TODO A steno machine made for hobbyists.
+- A steno machine made for hobbyists.
 - Not a dedicated machine, just a keyboard.
+<!-- - A steno machine made for hobbyist. Typically not a dedicated machine, just a keyboard-->
+
+## Steno Engine
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
+Allows dictionaries to work?
+Provides many other facilities around steno?
+
+## Plover
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
+Free and Open Source [**steno engine**](#steno-engine)
+
+**Notes**
+- [Download Plover](https://github.com/openstenoproject/plover/releases/latest).
+- [Plover Wiki Beginner's Guide](https://plover.wiki/index.php/Beginner%27s_Guide)
 
 # Other Sources
 
@@ -327,8 +352,8 @@ another steno layout, but this one has 2 more keys :)
 
 # TODO
 
-- Steno Engine
-  - Plover
+<!-- - Steno Engine -->
+<!--   - Plover -->
 - Pseudosteno?
 - Folding
 - Dropping
