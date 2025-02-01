@@ -203,7 +203,7 @@ Noun
 - A [**stroke**](#stroke) with [**keys**](#key) in the [**starter**](#starter) and [**ender**](#ender) [**banks**](#bank), but no [**vowels**](#vowel)
 
 **Notes**
-- TODO A briefing technique.
+- Skeleton strokes are often used for [**briefs**](#brief), as all [**strokes**](#stroke) of all words contain a vowel sound, and thus you will never override a real word.
 
 ## Fingerspelling
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
