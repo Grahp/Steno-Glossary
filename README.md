@@ -28,7 +28,7 @@ Noun
 Verb
 
 - The act of simultaneously pressing down the set of [**keys**](#key) that constitute a chord on a [**steno machine**](#steno-machine).
-- Often used interchangeably with [**stroke**](#stroke) (specifically as a verb, not as a noun).
+- Often used interchangeably with [**stroke**](#stroke) (specifically as a verb).
 
 ## Stroke
 Noun
@@ -244,6 +244,7 @@ Adj.
 
 **Notes**
 - TODO There is typically a [**stroke**](#stroke) or dedicated [**key**](#key) used to switch between modes.
+- A dedicated key might also denote that just this stroke is in a different mode.
 
 ## Raw Steno
 Adj.
