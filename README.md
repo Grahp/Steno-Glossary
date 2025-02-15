@@ -8,7 +8,7 @@ Noun
 - An individual key on a [**steno layout**](#steno-layout).
 
 **Notes**
-- Some keys share the same name, such as `S` the [**starter**](#starter) and `-S` the [**ender**](#ender). These are different keys in different [**banks**](#bank) that are represented by the same character (`S`). These keys can be referred to by their [**raw steno**](#raw-steno) form, like "`S`" and "`-S`".
+- Some keys share the same name, such as `S` the [**starter**](#starter) and `-S` the [**ender**](#ender). These are different keys in different [**banks**](#bank) that are represented by the same character (`S`). These keys can be differentiated by their [**raw steno**](#raw-steno) form, like "`S`" and "`-S`".
 
 ## Chord
 Noun
