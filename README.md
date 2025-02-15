@@ -196,7 +196,7 @@ Noun
 - The only way to output a translation is with an arb.
 - A translation with only an arbitrary briefs to output it.
 
-## Skeleton Stroke
+## Skeleton (Stroke)
 Noun
 
 - A [**stroke**](#stroke) with [**keys**](#key) in the [**starter**](#starter) and [**ender**](#ender) [**banks**](#bank), but no [**vowels**](#vowel).
