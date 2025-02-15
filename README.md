@@ -105,6 +105,7 @@ Noun
 
 ## Conflict
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 Noun
 
 - An [**outline**](#outline) contained in multiple [**entries**](#entry).
