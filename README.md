@@ -64,23 +64,24 @@ Noun
 ## Entry
 Noun
 
-- An [**outline**](#outline) that maps to a [**translation**](#translation). 
+- A mapping between an [**outline**](#outline) and a [**translation**](#translation).
 
 **Notes**
-- May be stored in a [**dictionary**](#dictionary) or generated on-the-fly.
+- Stored in [**dictionaries**](#dictionary).
+- May be stored in an enumerated dictionary, or generated on-the-fly.
+  - All dictionaries have a set of entries, even if they are generated on-the-fly.
+  - What entries a dictionary contains may change based on context.
 - These mappings are specified by [**theory rules**](#theory-rule).
-- Entries may not be enumerated, but they still exist.
-  - A dynamic dictionary has a set of entries it contains, but they are calculated on-the-fly.
 
 ## Dictionary
 Noun
 
+- A collection of [**entries**](#entry).
 - A mapping between [**outlines**](#outline) and [**translations**](#translations).
 
 **Notes**
 - Dictionaries may consist of enumerated [**entries**](#entry), and stored in file formats such as JSON or RTF, or generated on-the-fly by a **programmatic dictionary**.
-<!-- don't love this but aah -->
-- A dictionary provides the ability to give it an [**outline**](#outline), and it will give you back a [**translation**](#translation).
+- A dictionary provides a way to "lookup" an [**outline**](#outline) and get the [**translation**](#translation) it maps to.
 - **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format).
 - Because an [**entry**](#entry)'s job is to fulfill a [**theory rule**](#theory-rule), dictionaries can be thought of as the realization of a [**theory**](#theory).
 
