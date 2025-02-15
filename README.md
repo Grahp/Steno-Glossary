@@ -58,7 +58,7 @@ Noun
 - Text that may represent a word, phrase, a part of a word or phrase, sound, affix, **Plover command**, punctuation, or any other arbitrary output.
 
 **Notes**
-- Translations can be combined, composed, or concatenated to form new translations.
+- Translations can be concatenated to form new translations.
 - Translations are used in [**dictionaries**](#dictionary) as output.
 
 ## Entry
