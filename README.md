@@ -62,6 +62,8 @@ Noun
 - Translations are used in [**entries**](#entry) as their output.
 
 ## Entry
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 Noun
 
 - A mapping between an [**outline**](#outline) and a [**translation**](#translation).
@@ -74,9 +76,11 @@ Noun
 - These mappings are specified by [**theory rules**](#theory-rule).
 
 ## Dictionary
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 Noun
 
-- A collection of [**entries**](#entry).
+- A collection of [**entries**](#entry) with unique [**outlines**](#outline).
 - A mapping between [**outlines**](#outline) and [**translations**](#translations).
 
 **Notes**
