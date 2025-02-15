@@ -33,8 +33,6 @@ Verb
 ## Stroke
 Noun
 
-<!-- TODO what is the fundamental purpose of a stroke? -->
-
 - A set of [**keys**](#key), typically constructed out of [**chords**](#chord).
 
 **Notes**
