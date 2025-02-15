@@ -59,7 +59,7 @@ Noun
 
 **Notes**
 - Translations can be concatenated to form new translations.
-- Translations are used in [**dictionaries**](#dictionary) as output.
+- Translations are used in [**entries**](#entry) as their output.
 
 ## Entry
 Noun
