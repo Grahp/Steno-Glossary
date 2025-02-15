@@ -252,21 +252,18 @@ Adj.
 
 Noun
 
-- the format for representing [**keys**](#key), [**chords**](#chord), [**strokes**](#stroke), and [**outlines**](#outline) in textual form.
+- The format for representing [**keys**](#key), [**chords**](#chord), [**strokes**](#stroke), and [**outlines**](#outline) in textual form.
 
 **Notes**
 - Includes non-[**keys**](#key) such as `-` to denote the lack of [**keys**](#key) in the [**vowel bank**](#vowel), and `/` to denote the start of a new [**stroke**](#stroke).
 - Raw steno is ambiguous. `T-` could refer to the [**starter**](#starter) `T-`, the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, or the [**outline**](#outline) consisting of only the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`.
-<!-- TODO make clearer -->
-- Written in [**steno order**](#steno-order).
+- [**Keys**](#key) in [**strokes**](#stroke) appear in [**steno order**](#steno-order).
 
 ## Untranslate / Untranslated Stroke / Untran
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
 Noun
-TODO adj as well
 
-- An outline that no dictionary has a translation for, and it shows up as raw steno.
+- An [**outline**](#outline) that does not appear in any [**entry**](#entry). Typically outputted as the [**outline**](#outline)'s [**raw steno**](#raw-steno) form.
 
 ## Steno Layout
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
@@ -286,6 +283,7 @@ Noun
 - The order in which keys are displayed?
 - It's not just about human consumption, it's also about chords and how chords can compose with each other except for when it's not...
 - As defined by steno layout
+- Used in theories for something.
 
 **Notes**
 - Raw steno displays keys in strokes and outlines in this order.
@@ -335,7 +333,7 @@ Free and Open Source [**steno engine**](#steno-engine)
 
 **Notes**
 - [Download Plover](https://github.com/openstenoproject/plover/releases/latest).
-- [Plover Wiki Beginner's Guide](https://plover.wiki/index.php/Beginner%27s_Guide)
+- [Plover Wiki Beginner's Guide](https://plover.wiki/index.php/Beginner%27s_Guide).
 
 # Other Sources
 
