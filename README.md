@@ -5,7 +5,7 @@ WIP, Contributions welcome :)
 ## Key
 Noun
 
-- A key on a [**steno layout**](#steno-layout).
+- An individual key on a [**steno layout**](#steno-layout).
 
 **Notes**
 - While some keys may share the same name (`S`, the [**starter**](#starter), and `-S`, the [**ender**](#ender), for example), these are different keys, differentiated by what [**bank**](#bank) they are in, that happen to use the same key character to represent them. These keys can be referred to by their [**raw steno**](#raw-steno) form, like "`S`" and "`-S`".
@@ -273,6 +273,9 @@ TODO adj as well
 
 I have no idea lmao.
 - Not a physical thing
+
+A set of keys?
+In different banks?
 
 ## Steno Order
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
