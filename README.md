@@ -85,13 +85,19 @@ Noun
 - Because an [**entry**](#entry)'s job is to fulfill a [**theory rule**](#theory-rule), dictionaries can be thought of as the realization of a [**theory**](#theory).
 
 ## Theory Rule
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 Noun
 
 - A rule defining how any pattern of [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline) should map to [**translations**](#translation).
   - They may do this phonetically, orthographically, based on shape, or completely arbitrarily.
+- A definition of how to take an entry and return and updated translation.
+- Gives an update translation from an entry.
+- A definition of how to map an entry to a translation?
 
 **Notes**
 - A theory rule may match many [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline), or be a single override to avoid a [**conflict**](#conflict).
+- Most theory rules don't apply to all entries, meaning they will do nothing a lot of the time.
 
 ## Theory
 Noun
@@ -106,18 +112,25 @@ Noun
 ## Conflict
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
+<!-- Maybe specify that it's contained in existing entries? -->
+
+Adj.
+
+- An [**outline**](#outline) that is a conflict.
+
 Noun
 
 - An [**outline**](#outline) contained in multiple [**entries**](#entry).
+<!-- Multiple existing entries? -->
+<!-- Multiple real entries? -->
 
 **Notes**
 - This means the translation you might get from an looking up an outline could be wrong?
   - Or can't be known maybe.
 - This comes from [**theory rules**](#theory-rule) overlapping.
 - A [**dictionary**](#dictionary) may override an [**entry**](#entry) from another [**dictionary**](#dictionary), which would cause the [**entry**](#entry) in the [**dictionary**](#dictionary) with higher priority to "shadow" the other [**entry**](#entry).
-<!-- - In order to avoid conflicts, you must resolve them. -->
 
-## Word Boundary
+## Word Boundary Conflict
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
 Noun
