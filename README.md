@@ -70,9 +70,6 @@ Noun
 
 **Notes**
 - Stored in [**dictionaries**](#dictionary).
-- May be stored in an enumerated dictionary, or generated on-the-fly.
-  - All dictionaries have a set of entries, even if they are generated on-the-fly.
-  - What entries a dictionary contains may change based on context.
 - These mappings are specified by [**theory rules**](#theory-rule).
 
 ## Dictionary
@@ -80,29 +77,27 @@ Noun
 
 Noun
 
-- A collection of [**entries**](#entry) with unique [**outlines**](#outline).
-- A mapping between [**outlines**](#outline) and [**translations**](#translations).
+- A possibly adaptive set of [**entries**](#entry) with unique [**outlines**](#outline).
 
 **Notes**
-- Dictionaries may consist of enumerated [**entries**](#entry), and stored in file formats such as JSON or RTF, or generated on-the-fly by a **programmatic dictionary**.
+- Dictionaries serve as a mapping between [**outlines**](#outline) and [**translations**](#translation).
+- Dictionaries may consist of enumerated [**entries**](#entry), and stored in file formats such as JSON or RTF, or entries generated on-the-fly by a **programmatic dictionary**.
 - A dictionary provides a way to "lookup" an [**outline**](#outline) and get the [**translation**](#translation) it maps to.
 - **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format).
 - Because an [**entry**](#entry)'s job is to fulfill a [**theory rule**](#theory-rule), dictionaries can be thought of as the realization of a [**theory**](#theory).
+- What [**entries**](#entry) a dictionary has may adapt based on context, see **context aware** and [**modal**](#modal).
 
 ## Theory Rule
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
 Noun
 
-- A rule defining how any pattern of [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline) should map to [**translations**](#translation).
-  - They may do this phonetically, orthographically, based on shape, or completely arbitrarily.
-- A definition of how to take an entry and return and updated translation.
-- Gives an update translation from an entry.
-- A definition of how to map an entry to a translation?
+- A rule defining how to map a given [**entry**](#entry) to a derived [**translation**](#translation).
+  - A rule may do this based on phonetics, orthography, shape, or completely arbitrarily.
 
 **Notes**
-- A theory rule may match many [**chords**](#chord), [**strokes**](#stroke), or [**outlines**](#outline), or be a single override to avoid a [**conflict**](#conflict).
-- Most theory rules don't apply to all entries, meaning they will do nothing a lot of the time.
+- Theory rules vary in how many entries they cover.
+  - Most theory rules don't apply to all entries, meaning they will do nothing a lot of the time.
 
 ## Theory
 Noun
