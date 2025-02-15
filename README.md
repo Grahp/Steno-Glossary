@@ -71,6 +71,8 @@ Noun
 **Notes**
 - May be stored in a [**dictionary**](#dictionary) or generated on-the-fly.
 - These mappings are specified by [**theory rules**](#theory-rule).
+- Entries may not be enumerated, but they still exist.
+  - A dynamic dictionary has a set of entries it contains, but they are calculated on-the-fly.
 
 ## Dictionary
 Noun
@@ -104,11 +106,14 @@ Noun
 - Theories may be designed to work well with other theories (such as a number theory, symbol theory, or movement theory), or to exist independently.
 
 ## Conflict
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 Noun
 
-- An [**outline**](#outline) with multiple plausible [**translations**](#translation) it could map to.
+- An [**outline**](#outline) contained in multiple [**entries**](#entry).
 
 **Notes**
+- This means the translation you might get from an looking up an outline could be wrong?
+  - Or can't be known maybe.
 - This comes from [**theory rules**](#theory-rule) overlapping.
 - A [**dictionary**](#dictionary) may override an [**entry**](#entry) from another [**dictionary**](#dictionary), which would cause the [**entry**](#entry) in the [**dictionary**](#dictionary) with higher priority to "shadow" the other [**entry**](#entry).
 <!-- - In order to avoid conflicts, you must resolve them. -->
@@ -117,15 +122,10 @@ Noun
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
 Noun
-
-<!-- - TODO A type of [**conflict**](#conflict) that comes from having multiple possible [**translations**](#translation) from a sequence of [**strokes**](#stroke). -->
-<!-- - A sequence of [**strokes**](#stroke) that could be split into overlapping [**outlines**](#outline) with valid [**translations**](#translation). -->
-- A type of [**conflict**](#conflict) that comes from a sequence of strokes being able to split into multiple overlapping [**outlines**](#outline) with valid [**translations**](#translation).
-
+- An [**outline**](#outline) that can be split into multiple [**outlines**](#outline) contained in [**entries**](#entry).
 
 **Notes**
 - There are priorities for how these are avoided
-<!-- Can be avoided with splitting? -->
 
 ## Bank
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
@@ -361,3 +361,4 @@ Free and Open Source [**steno engine**](#steno-engine)
 - Programmatic dictionary
 - Paper tape
   - Raw steno something?
+- Dynamic dictionary
