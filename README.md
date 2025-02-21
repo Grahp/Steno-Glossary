@@ -16,7 +16,6 @@ Noun
 - A set of [**keys**](#key) that typically represent some part of a [**translation**](#translation).
 
 **Notes**
-<!-- - A chord may be empty, and thus represent no [**translation**](#translation), or an "empty" [**translation**](#translation). -->
 - Chords are the building blocks of [**strokes**](#strokes), and are the smallest meaningful unit in steno.
 - Chords are sets of [**keys**](#key), and thus cannot "span" more than one [**stroke**](#stroke).
   - For example, `-G/-R` is not a chord, it is an [**outline**](#outline) made up of 2 [**strokes**](#stroke), each made up of 1 chord.
@@ -62,14 +61,12 @@ Noun
 - Translations are used in [**entries**](#entry) as their output.
 
 ## Entry
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
 Noun
 
 - A mapping between an [**outline**](#outline) and a [**translation**](#translation).
 
 **Notes**
-- Stored in [**dictionaries**](#dictionary).
+- Typically stored in [**dictionaries**](#dictionary).
 - These mappings are specified by [**theory rules**](#theory-rule).
 
 ## Dictionary
@@ -77,15 +74,19 @@ Noun
 
 Noun
 
-- A possibly adaptive set of [**entries**](#entry) with unique [**outlines**](#outline).
+- A possibly adaptive (changing) collection of [**entries**](#entry) with unique [**outlines**](#outline).
 
 **Notes**
 - Dictionaries serve as a mapping between [**outlines**](#outline) and [**translations**](#translation).
 - Dictionaries may consist of enumerated [**entries**](#entry), and stored in file formats such as JSON or RTF, or entries generated on-the-fly by a **programmatic dictionary**.
 - A dictionary provides a way to "lookup" an [**outline**](#outline) and get the [**translation**](#translation) it maps to.
-- **Plover** uses JSON files to represent it's dictionaries. For more information about **Plover**'s dictionary format, see [The Plover Wiki](https://plover.wiki/index.php/Dictionary_format).
 - Because an [**entry**](#entry)'s job is to fulfill a [**theory rule**](#theory-rule), dictionaries can be thought of as the realization of a [**theory**](#theory).
 - What [**entries**](#entry) a dictionary has may adapt based on context, see **context aware** and [**modal**](#modal).
+
+### Programmatic Dictionary
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
+- A dynamic dictionary. Translations are generated on-the-fly based on given outlines, as opposed to being looked up in an enumerated dictionary.
 
 ## Theory Rule
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
@@ -94,6 +95,8 @@ Noun
 
 - A rule defining how to map a given [**entry**](#entry) to a derived [**translation**](#translation).
   - A rule may do this based on phonetics, orthography, shape, or completely arbitrarily.
+- A rule defining how entries should be formed?
+- A rule defining entries?
 
 **Notes**
 - Theory rules vary in how many entries they cover.
@@ -102,7 +105,7 @@ Noun
 ## Theory
 Noun
 
-- A set of [**theory rules**](#theory-rule).
+- A continuous set of [**theory rules**](#theory-rule).
 
 **Notes**
 - Usually has a name (probably bird related for some reason)
@@ -147,7 +150,7 @@ Noun
 - A group of [**keys**](#key) that are positioned in a specific area on a [**steno layout**](#steno-layout).
   - The banks on the **WSI layout** are [**Starters**](#starter), [**Vowels**](#vowel), and [**Enders**](#ender).
 
-## Starter
+### Starter
 Noun
 
 - A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the starter [**bank**](#bank).
@@ -156,7 +159,7 @@ Adj.
 
 - Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the starter [**bank**](#bank).
 
-## Ender
+### Ender
 Noun
 
 - A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the ender [**bank**](#bank).
@@ -165,7 +168,7 @@ Adj.
 
 - Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the ender [**bank**](#bank).
 
-## Vowel
+### Vowel
 Noun
 
 - A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the vowel [**bank**](#bank).
@@ -193,10 +196,14 @@ TODO maybe move to conflict and use in theory rule definition?
 - Defined by [**theory rules**](#theory-rule).
 - Tends to deviate from most [**theory rules**](#theory-rule).
 
-## Templated Brief
+## Template
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
 Noun
 
-- TODO A [**brief**](#brief) that can be broken down into separately-defined rules that typically apply to multiple [**briefs**](#brief).
+- A [**brief**](#brief) that can be broken down into separately-defined rules that typically apply to multiple [**briefs**](#brief).
+
+A type of rule?
 
 ## Arbitrary Brief (Arb)
 Noun
@@ -223,7 +230,7 @@ Verb
 
 Adj.
 
-- A [**theory**](#theory) or [**dictionary**](#dictionary)that mostly outputs autonomous characters. That is, characters that usually exist on their own, but can be joined with other characters to output multiple characters at a time.
+- A [**theory**](#theory) or [**dictionary**](#dictionary) that mostly outputs autonomous characters. That is, characters that usually exist on their own, but can be joined with other characters to output multiple characters at a time.
 
 **Notes**
 - Differs from [**orthospelling**](#orthospelling) in that it's mostly done one character at a time.
@@ -245,6 +252,7 @@ Noun
 Adj.
 - Describing a [**theory rule**](#theory-rule) that is orthographic.
 - Describing a [**theory**](#theory) that is composed of orthographic [**theory rules**](#theory-rule).
+- Orthospelling theories are about composing orthographic sequences as opposed to letters.
 
 ## Modal
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
@@ -354,22 +362,24 @@ Free and Open Source [**steno engine**](#steno-engine)
 - [Steno Explainers](https://sammdot.ca/steno/explainers)
 - [Lapwing Glossary](https://lapwing.aerick.ca/Glossary.html#steno-theory)
 - [Learn Plover! Glossary](https://www.openstenoproject.org/learn-plover/glossary.html)
+- [StudySteno Glossary](https://studysteno.com/moo/mod/glossary/view.php?id=22)
 - [Plover Wiki Steno Hardware Terminology](https://plover.wiki/index.php/Steno_hardware_terminology)
+
+Terms not covered here:
+
+- [Vernor Court Reporters Transcription & Court Reporting Glossary](https://academy.vernoncourtreporters.com/)
 
 # TODO
 
-<!-- - Steno Engine -->
-<!--   - Plover -->
 - Pseudosteno?
 - Folding
 - Dropping
 - Clip-on
-- More software and shit?
+- More software?
 - Phrasing?
 - Commands
 - Conflict resolution?
 - Syllabic Splitting
-  - As defined by theory
 - Mandatory (outline / entry)
 - Programmatic dictionary
 - Paper tape
