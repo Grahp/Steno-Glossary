@@ -78,7 +78,7 @@ Noun
 
 **Notes**
 - A dictionary provides a way to lookup an [**outline**](#outline) and provide the [**translation**](#translation) the [**outline**](#outline) maps to.
-- Dictionaries may consist of enumerated [**entries**](#entry), and stored in file formats such as JSON or RTF, or entries generated on-the-fly by a [**programmatic dictionary**](#programmatic-dictionary).
+- Dictionaries may consist of enumerated [**entries**](#entry), and stored in file formats such as JSON or RTF, or [**entries**](#entry) generated on-the-fly by a [**programmatic dictionary**](#programmatic-dictionary).
 - Because an [**entry**](#entry)'s job is to fulfill a [**theory rule**](#theory-rule), dictionaries can be thought of as the realization of a [**theory**](#theory).
 - What [**entries**](#entry) a dictionary contains may adapt based on context, see **context aware** and [**modal**](#modal).
 
