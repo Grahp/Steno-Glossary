@@ -86,6 +86,7 @@ Noun
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
 - A dynamic dictionary. Translations are generated on-the-fly based on given outlines, as opposed to being looked up in an enumerated dictionary.
+  - In other words, entries are discovered on-the-fly instead of being enumerated.
 
 ## Theory Rule
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
@@ -94,10 +95,10 @@ Noun
 
 - A rule defining how to map a given [**entry**](#entry) to a derived [**translation**](#translation).
   - A rule may do this based on phonetics, orthography, shape, or completely arbitrarily.
-- A rule defining how entries should be formed?
-- A rule defining entries?
+- A rule that defines all of or some part of how an outline maps to a translation.
 
 **Notes**
+- The constituents of a [**theory**](#theory).
 - Theory rules vary in how many entries they cover.
   - Most theory rules don't apply to all entries, meaning they will do nothing a lot of the time.
 
