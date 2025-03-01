@@ -105,7 +105,7 @@ Noun
 ## Theory
 Noun
 
-- A continuous set of [**theory rules**](#theory-rule).
+- A set of [**theory rules**](#theory-rule).
 
 **Notes**
 - Usually has a name (probably bird related for some reason)
