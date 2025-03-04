@@ -139,9 +139,10 @@ Noun
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
 Noun
-- An [**outline**](#outline) that can be split into multiple [**outlines**](#outline) contained in [**entries**](#entry).
+- An [**outline**](#outline) that can be split into multiple [**outlines**](#outline) contained in existing [**entries**](#entry).
 
 **Notes**
+- Your steno engine must pick one outline?
 - There are priorities for how these are avoided
 
 ## Bank
