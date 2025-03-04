@@ -85,8 +85,10 @@ Noun
 ### Programmatic Dictionary
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
 
-- A dynamic dictionary. Translations are generated on-the-fly based on given outlines, as opposed to being looked up in an enumerated dictionary.
-  - In other words, entries are discovered on-the-fly instead of being enumerated.
+- A [**dictionary**](#dictionary) whose [**entries**](#entry) are not pre-defined, but generated on-the-fly.
+
+**Notes**
+- [**Entries**](#entry) are not stored in a file, but given via a lookup function.
 
 ## Theory Rule
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
