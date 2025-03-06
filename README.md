@@ -2,7 +2,7 @@
 
 WIP, Contributions welcome :)
 
-Also at [https://grahp.dev/steno-glossary](https://grahp.dev/steno-glossary).
+Also found at [https://grahp.dev/steno-glossary](https://grahp.dev/steno-glossary).
 
 ## Key
 Noun
