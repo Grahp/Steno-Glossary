@@ -2,6 +2,8 @@
 
 WIP, Contributions welcome :)
 
+Also at [https://grahp.dev/steno-glossary](https://grahp.dev/steno-glossary).
+
 ## Key
 Noun
 
@@ -356,21 +358,21 @@ Provides many other facilities around steno?
 Free and Open Source [**steno engine**](#steno-engine)
 
 **Notes**
-- [Download Plover](https://github.com/openstenoproject/plover/releases/latest).
-- [Plover Wiki Beginner's Guide](https://plover.wiki/index.php/Beginner%27s_Guide).
+- Download Plover - [https://github.com/openstenoproject/plover/releases/latest](https://github.com/openstenoproject/plover/releases/latest).
+- Plover Wiki Beginner's Guide - [https://plover.wiki/index.php/Beginner%27s_Guide](https://plover.wiki/index.php/Beginner%27s_Guide).
 
 # Other Sources
 
-- [Plover Wiki Glossary](https://plover.wiki/index.php/Glossary)
-- [Steno Explainers](https://sammdot.ca/steno/explainers)
-- [Lapwing Glossary](https://lapwing.aerick.ca/Glossary.html#steno-theory)
-- [Learn Plover! Glossary](https://www.openstenoproject.org/learn-plover/glossary.html)
-- [StudySteno Glossary](https://studysteno.com/moo/mod/glossary/view.php?id=22)
-- [Plover Wiki Steno Hardware Terminology](https://plover.wiki/index.php/Steno_hardware_terminology)
+- Plover Wiki Glossary - [https://plover.wiki/index.php/Glossary](https://plover.wiki/index.php/Glossary)
+- Steno Explainers - [https://sammdot.ca/steno/explainers](https://sammdot.ca/steno/explainers)
+- Lapwing Glossary - [https://lapwing.aerick.ca/Glossary.html#steno-theory](https://lapwing.aerick.ca/Glossary.html#steno-theory)
+- Learn Plover! Glossary - [https://www.openstenoproject.org/learn-plover/glossary.html](https://www.openstenoproject.org/learn-plover/glossary.html)
+- StudySteno Glossary - [https://studysteno.com/moo/mod/glossary/view.php?id=22](https://studysteno.com/moo/mod/glossary/view.php?id=22)
+- Plover Wiki Steno Hardware Terminology - [https://plover.wiki/index.php/Steno_hardware_terminology](https://plover.wiki/index.php/Steno_hardware_terminology)
 
 Terms not covered here:
 
-- [Vernor Court Reporters Transcription & Court Reporting Glossary](https://academy.vernoncourtreporters.com/)
+- Vernon Court Reporters Transcription & Court Reporting Glossary - [https://academy.vernoncourtreporters.com/](https://academy.vernoncourtreporters.com/)
 
 # TODO
 
