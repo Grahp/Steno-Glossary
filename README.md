@@ -376,14 +376,11 @@ Terms not covered here:
 
 # TODO
 
-- Pseudosteno?
 - Folding
 - Dropping
 - Clip-on
-- Phrasing?
-- Commands
-- Conflict resolution?
+- Phrasing
+- Plover Command
 - Syllabic Splitting
-- Programmatic dictionary
 - Paper tape
-  - Raw steno something?
+- Pseudosteno
