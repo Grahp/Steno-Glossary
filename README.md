@@ -72,11 +72,9 @@ Noun
 - These mappings are specified by [**theory rules**](#theory-rule).
 
 ## Dictionary
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
 Noun
 
-- A collection of [**entries**](#entry) with unique [**outlines**](#outline) that maps [**outlines**](#outline) to [**translations**](#translation).
+- A collection of [**entries**](#entry) with unique [**outlines**](#outline) which maps [**outlines**](#outline) to [**translations**](#translation).
 
 **Notes**
 - A dictionary provides a way to lookup an [**outline**](#outline) and provide the [**translation**](#translation) the [**outline**](#outline) maps to.
@@ -210,13 +208,20 @@ Noun
 
 A type of rule?
 
-## Arbitrary Brief (Arb)
+## Arbitrary
 Noun
 
 - A [**brief**](#brief) that is defined by [**theory rules**](#theory-rule) that are completely arbitrary.
 
 ## Mandatory
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
+Adj.
+
+- ...
+
+Noun
+- A mandatory outline, translation, or entry.
 
 - The only way to output a translation is with an arb.
 - A translation with only an arbitrary briefs to output it.
