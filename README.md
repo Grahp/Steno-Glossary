@@ -10,7 +10,7 @@ Noun
 - An individual key on a [**steno layout**](#steno-layout).
 
 **Notes**
-- Some keys share the same name, such as `S` the [**starter**](#starter) and `-S` the [**ender**](#ender). These are different keys in different [**banks**](#bank) that are represented by the same character (`S`). These keys can be differentiated by their [**raw steno**](#raw-steno) form, like "`S`" and "`-S`".
+- Some keys share the same name, such as `S-` the [**starter**](#starter) and `-S` the [**ender**](#ender). These are different keys in different [**banks**](#bank) that are represented by the same character (`S`). These keys can be differentiated by their [**raw steno**](#raw-steno) form, like "`S-`" and "`-S`".
 
 ## Chord
 Noun
@@ -42,7 +42,7 @@ Noun
 
 Verb
 
-- The act of simultaneously pressing down the set of [**keys**](#key) that make up a stroke on a [**steno machine**](#steno-machine).
+- The act of simultaneously pressing down the set of [**keys**](#key) that constitute a stroke on a [**steno machine**](#steno-machine).
 
 ## Outline
 Noun
