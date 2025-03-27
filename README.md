@@ -1,6 +1,6 @@
 # Steno Glossary
 
-WIP, Contributions welcome :)
+Contributions welcome :)
 
 Also found at [https://grahp.dev/steno-glossary](https://grahp.dev/steno-glossary).
 
@@ -10,7 +10,7 @@ Noun
 - An individual key on a [**steno layout**](#steno-layout).
 
 **Notes**
-- Some keys share the same name, such as `S` the [**starter**](#starter) and `-S` the [**ender**](#ender). These are different keys in different [**banks**](#bank) that are represented by the same character (`S`). These keys can be differentiated by their [**raw steno**](#raw-steno) form, like "`S`" and "`-S`".
+- Some keys share the same name, such as `S-` the [**starter**](#starter) and `-S` the [**ender**](#ender). These are different keys in different [**banks**](#bank) that are represented by the same character (`S`). These keys can be differentiated by their [**raw steno**](#raw-steno) form, like "`S-`" and "`-S`".
 
 ## Chord
 Noun
@@ -42,7 +42,7 @@ Noun
 
 Verb
 
-- The act of simultaneously pressing down the set of [**keys**](#key) that make up a stroke on a [**steno machine**](#steno-machine).
+- The act of simultaneously pressing down the set of [**keys**](#key) that constitute a stroke on a [**steno machine**](#steno-machine).
 
 ## Outline
 Noun
@@ -290,7 +290,9 @@ Noun
 - Raw steno is ambiguous. `T-` could refer to the [**starter**](#starter) `T-`, the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, or the [**outline**](#outline) consisting of only the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`.
 - [**Keys**](#key) in [**strokes**](#stroke) appear in [**steno order**](#steno-order).
 
-## Untranslate / Untranslated Stroke / Untran
+## Untranslate
+
+Also Known As: Untran
 
 Noun
 
