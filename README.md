@@ -10,7 +10,7 @@ Noun
 - An individual key on a [**steno layout**](#steno-layout).
 
 **Notes**
-- Some keys share the same name, such as `S-` the [**starter**](#starter) and `-S` the [**ender**](#ender). These are different keys in different [**banks**](#bank) that are represented by the same character (`S`). These keys can be differentiated by their [**raw steno**](#raw-steno) form, like "`S-`" and "`-S`".
+- Some keys share the same name, such as `S-` the [**starter**](#starter) and `-S` the [**ender**](#ender). These are different keys in different [**banks**](#bank) that are represented by the same character (`S`). These keys can be differentiated by their [**raw steno**](#raw-steno) notation, like '`S-`' and '`-S`'.
 
 ## Chord
 Noun
@@ -18,18 +18,19 @@ Noun
 - A set of [**keys**](#key) that typically represent some part of a [**translation**](#translation).
 
 **Notes**
-- Chords are the building blocks of [**strokes**](#strokes), and are the smallest meaningful unit in steno.
+- Chords are the smallest unit of meaning in steno.
+- Chords are the building blocks of [**strokes**](#strokes).
 - Chords are sets of [**keys**](#key), and thus cannot "span" more than one [**stroke**](#stroke).
   - For example, `-G/-R` is not a chord, it is an [**outline**](#outline) made up of 2 [**strokes**](#stroke), each made up of 1 chord.
 - Chords can be composed. Composing 2 chords results in a [**stroke**](#stroke) with the set of [**keys**](#key) in the first chord, and [**keys**](#key) in the second chord.
+- An example chord might be `TPH-`, which represents the starting /n/ sound.
 - Chords and strokes look identical in [**raw steno form**](#raw-steno). The [**stroke**](#stroke) `TPH-` and the chord `TPH-` appear the same, but they may be different.
-- An example chord might be `TPH-`, which represents the starting `n-` sound.
 - See [**stroke**](#stroke) for the differences between a [**stroke**](#stroke) and a chord.
 
 Verb
 
 - The act of simultaneously pressing down the set of [**keys**](#key) that constitute a chord on a [**steno machine**](#steno-machine).
-- Often used interchangeably with [**stroke**](#stroke) (specifically as a verb).
+- Often used interchangeably with the verb [**stroke**](#stroke).
 
 ## Stroke
 Noun
@@ -61,6 +62,7 @@ Noun
 **Notes**
 - Translations can be concatenated to form new translations.
 - Translations are used in [**entries**](#entry) as their output.
+- Some example translations include "cat", and "{^es}".
 
 ## Entry
 Noun
@@ -68,18 +70,19 @@ Noun
 - A mapping between an [**outline**](#outline) and a [**translation**](#translation).
 
 **Notes**
-- Typically stored in [**dictionaries**](#dictionary).
+- Entries are the building blocks of [**dictionaries**](#dictionary)
 - These mappings are specified by [**theory rules**](#theory-rule).
 
 ## Dictionary
 Noun
 
 - A collection of [**entries**](#entry) with unique [**outlines**](#outline) which maps [**outlines**](#outline) to [**translations**](#translation).
+- A set of [**outlines**](#outline) with mapped [**translations**](#translation).
 
 **Notes**
 - A dictionary provides a way to lookup an [**outline**](#outline) and provide the [**translation**](#translation) the [**outline**](#outline) maps to.
 - Dictionaries may consist of enumerated [**entries**](#entry), and stored in file formats such as JSON or RTF, or [**entries**](#entry) generated on-the-fly by a [**programmatic dictionary**](#programmatic-dictionary).
-- Because an [**entry**](#entry)'s job is to fulfill a [**theory rule**](#theory-rule), dictionaries can be thought of as the realization of a [**theory**](#theory).
+<!-- - Because an [**entry**](#entry)'s job is to fulfill a [**theory rule**](#theory-rule), dictionaries can be thought of as the realization of a [**theory**](#theory). -->
 - What [**entries**](#entry) a dictionary contains may adapt based on context, see **context aware** and [**modal**](#modal).
 
 ### Programmatic Dictionary
