@@ -19,7 +19,7 @@ Noun
 
 **Notes**
 - Chords are the smallest unit of meaning in steno.
-- Chords are the building blocks of [**strokes**](#strokes).
+- Chords are the building blocks of [**strokes**](#stroke).
 - Chords are sets of [**keys**](#key), and thus cannot "span" more than one [**stroke**](#stroke).
   - For example, `-G/-R` is not a chord, it is an [**outline**](#outline) made up of 2 [**strokes**](#stroke), each made up of 1 chord.
 - Chords can be composed. Composing 2 chords results in a [**stroke**](#stroke) with the set of [**keys**](#key) in the first chord, and [**keys**](#key) in the second chord.
