@@ -15,17 +15,14 @@ Noun
 ## Chord
 Noun
 
-- A set of [**keys**](#key) that typically represent some part of a [**translation**](#translation).
+- A set of [**keys**](#key) that typically represent a small part of a [**translation**](#translation).
 
 **Notes**
-- Chords are the smallest unit of meaning in steno.
-- Chords are the building blocks of [**strokes**](#stroke).
-- Chords are sets of [**keys**](#key), and thus cannot "span" more than one [**stroke**](#stroke).
-  - For example, `-G/-R` is not a chord, it is an [**outline**](#outline) made up of 2 [**strokes**](#stroke), each made up of 1 chord.
-- Chords can be composed. Composing 2 chords results in a [**stroke**](#stroke) with the set of [**keys**](#key) in the first chord, and [**keys**](#key) in the second chord.
 - An example chord might be `TPH-`, which represents the starting /n/ sound.
+- Chords are the smallest unit of meaning in steno.
 - Chords and strokes look identical in [**raw steno form**](#raw-steno). The [**stroke**](#stroke) `TPH-` and the chord `TPH-` appear the same, but they may be different.
 - See [**stroke**](#stroke) for the differences between a [**stroke**](#stroke) and a chord.
+- The differences between chords, [keys](#key), and [strokes](#stroke) can often be subtle. (Make and link to page explaining the difference)
 
 Verb
 
@@ -53,6 +50,7 @@ Noun
 **Notes**
 - Outlines are only sequences of [**strokes**](#stroke), not [**chords**](#chord) or [**keys**](#key). It may appear that a [**key**](#key) or [**chord**](#chord), such as `T-` or `-PBLG` are in an outline, but these are actually [**strokes**](#stroke) that contain 1 [**chord**](#chord) each.
 - A [**stroke**](#stroke) may "belong" to multiple outlines. Outlines are not greedy.
+- An example outline might be `KEUT/KAT`.
 
 ## Translation
 Noun
@@ -208,13 +206,15 @@ TODO maybe move to conflict and use in theory rule definition?
 Noun
 
 - A [**brief**](#brief) that can be broken down into separately-defined rules that typically apply to multiple [**briefs**](#brief).
+- A [**brief**](#brief) that is defined by [**theory rules**](#theory-rule), rather than chosen arbitrarily.
 
-A type of rule?
+**Notes**
+- The opposite of an [Arbitrary](#arbitrary) outline 
 
 ## Arbitrary
 Noun
 
-- A [**brief**](#brief) that is defined by [**theory rules**](#theory-rule) that are completely arbitrary.
+- An outline that is not defined by [**theory rules**](#theory-rule), but chosen arbitrarily.
 
 ## Mandatory
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
