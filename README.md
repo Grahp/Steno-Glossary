@@ -275,6 +275,20 @@ Adj.
 - TODO There is typically a [**stroke**](#stroke) or dedicated [**key**](#key) used to switch between modes.
 - A dedicated key might also denote that just this stroke is in a different mode.
 
+### Mode Enter Outline
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
+Noun
+
+- The outline used to enter a [**mode**](#modal)
+
+### Mode Exit Outline
+![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+
+Noun
+
+- The outline used to exit a [**mode**](#modal)
+
 ## Raw Steno
 Adj.
 
@@ -293,9 +307,13 @@ Noun
 
 Also Known As: Untran
 
+Adj.
+
+- Describing an [**outline**](#outline) that is not found in any [**dictionaries**](#dictionary), and appears in [**raw steno form**](#raw-steno).
+
 Noun
 
-- An [**outline**](#outline) that does not appear in any [**entry**](#entry). Typically outputted as the [**outline**](#outline)'s [**raw steno**](#raw-steno) form.
+- An [**outline**](#outline) that is not found in any [**dictionaries**](#dictionary), and appears in [**raw steno form**](#raw-steno).
 
 ## Steno Layout
 ![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
