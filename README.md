@@ -7,22 +7,20 @@ Also found at [https://grahp.dev/steno-glossary](https://grahp.dev/steno-glossar
 ## Key
 Noun
 
-- An individual key on a [**steno layout**](#steno-layout).
+- An individual key on a [**steno layout**](#steno-layout) or [**steno machine**](#steno-machine).
 
 **Notes**
-- Some keys share the same name, such as `S-` the [**starter**](#starter) and `-S` the [**ender**](#ender). These are different keys in different [**banks**](#bank) that are represented by the same character (`S`). These keys can be differentiated by their [**raw steno**](#raw-steno) notation, like '`S-`' and '`-S`'.
+- Some keys share the same name, such as `S-` the [**starter**](#starter) and `-S` the [**ender**](#ender). These are different keys in different [**banks**](#bank) that are represented by the same character (`S`). These keys can be differentiated by their [**raw steno**](#raw-steno) notation, like _`S-`_ and _`-S`_.
 
 ## Chord
 Noun
 
-- A set of [**keys**](#key) that typically represent a small part of a [**translation**](#translation).
+- A set of [**keys**](#key) that typically represent part of a [**translation**](#translation).
 
 **Notes**
-- An example chord might be `TPH-`, which represents the starting /n/ sound.
+- An example chord might be `TPH-`, which consists of the keys `T-`, `P-`, and `H-`, and represents the starting /n/ sound on the [**WSI layout](#wsi-layout).
 - Chords are the smallest unit of meaning in steno.
-- Chords and strokes look identical in [**raw steno form**](#raw-steno). The [**stroke**](#stroke) `TPH-` and the chord `TPH-` appear the same, but they may be different.
-- See [**stroke**](#stroke) for the differences between a [**stroke**](#stroke) and a chord.
-- The differences between chords, [keys](#key), and [strokes](#stroke) can often be subtle. (Make and link to page explaining the difference)
+- The difference between chords and [**strokes**](#stroke) can often be subtle. See [Chords vs. Strokes](https://grahp.dev/chords-vs-strokes).
 
 Verb
 
@@ -35,7 +33,7 @@ Noun
 - A set of [**keys**](#key), typically constructed out of [**chords**](#chord).
 
 **Notes**
-- The differences between a stroke and a [**chord**](#chord) is that [**chords**](#chord) typically represent simple [**translations**](#translation), such as a sound or orthographic sequence, while strokes are more complex, and exist mostly on their own. [**Chords**](#chord) are usually combined to form strokes.
+- The differences between a stroke and a [**chord**](#chord) is that [**chords**](#chord) typically represent simple [**translations**](#translation), such as a sound or orthographic sequence, while strokes are more complex, and exist mostly on their own. [**Chords**](#chord) are usually combined to form strokes. (Link to website page)
 - Strokes can be composed together to form [**outlines**](#outline).
 
 Verb
@@ -394,3 +392,6 @@ Terms not covered here:
 - Syllabic Splitting
 - Paper tape
 - Pseudosteno
+- Modal entry and exit outlines?
+- Better descriptions.
+- Replace all the disambiguation of keys, chords, and strokes with a steno notation page.
