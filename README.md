@@ -1,8 +1,8 @@
 # Steno Glossary
 
-Contributions welcome :)
+Mirror of [https://grahp.dev/steno-glossary](https://grahp.dev/steno-glossary).
 
-Also found at [https://grahp.dev/steno-glossary](https://grahp.dev/steno-glossary).
+I can't promise this will be up to date, so I'd look there instead :)
 
 ## Key
 Noun
