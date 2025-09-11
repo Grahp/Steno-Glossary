@@ -20,14 +20,14 @@ Outline:
   - [_Lookup_](#lookup)
   - [_Reverse Lookup_](#reverse-lookup)
   - [_Programmatic Dictionary_](#programmatic-dictionary)
-  - **Modal Dictionary** (links from **modal**)
+  - Modal Dictionary
 - [_Theory Rule_](#theory-rule)
 - [_Theory_](#theory)
   - Long
   - Short
   - Phonetic
   - Orthographic
-  - **Orthospelling**
+  - Orthospelling
 - [_Conflict_](#conflict)
   - [_Word Boundary Conflict_](#word-boundary-conflict)
   - Word-affix Conflicts
@@ -42,7 +42,7 @@ Outline:
 - [_Steno Order_](#steno-order)
 - [_Layout_](#layout)
   - [_WSI Layout_](#wsi-layout)
-  - **Extended Stenotype Layout**
+  - Extended Stenotype Layout
 - Steno Engine
   - Plover
 - Steno Writer
@@ -53,10 +53,10 @@ Outline:
 - Shadowing
 - Dropping
 - [_Bank_](#bank)
-  - Initial/**Starter** (links from _starter_)
-  - **Vowel**
-  - Final/**Ender** (links from **ender**)
-  - **Skeleton**
+  - Initial/Starter
+  - Vowel
+  - Final/Ender
+  - Skeleton
 - Key Label
 - [_Fingerspelling_](#fingerspelling)
 
@@ -73,7 +73,7 @@ An individual key on a _steno machine_ or _layout_. Analogous to a key on a keyb
 A set, or group, of [_keys_](#key). Chords may denote a sound, letter, affix, or any other part of a _translation_.
 
 - Chords can be combined to form [_strokes_](#stroke).
-- The difference between a chord and a [_stroke_](#stroke) can often be subtle. See [[Chords vs Strokes|Chords vs. Strokes]].
+- The difference between a chord and a [_stroke_](#stroke) can often be subtle. See https://grahp.dev/chords-vs-strokes
 - An example chord is `TPH-`, which _translates_ to the _initial_ "n" sound (/n/).
 
 **Verb**
