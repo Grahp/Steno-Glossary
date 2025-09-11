@@ -4,411 +4,229 @@ Mirror of [https://grahp.dev/steno-glossary](https://grahp.dev/steno-glossary).
 
 I can't promise this will be up to date, so I'd look there instead :)
 
+The content on this page is dedicated to the public domain under CC0 1.0 Universal. Feel free to use it however you'd like :)
+
+Outline:
+- [_Key_](#key)
+- [_Chord_](#chord)
+- [_Stroke_](#stroke)
+- [_Outline_](#outline)
+- [_Translation_](#translation)
+  - Affixes
+  - Commands
+  - Untran
+- [_Entry_](#entry)
+- [_Dictionary_](#dictionary)
+  - [_Lookup_](#lookup)
+  - [_Reverse Lookup_](#reverse-lookup)
+  - [_Programmatic Dictionary_](#programmatic-dictionary)
+  - **Modal Dictionary** (links from **modal**)
+- [_Theory Rule_](#theory-rule)
+- [_Theory_](#theory)
+  - Long
+  - Short
+  - Phonetic
+  - Orthographic
+  - **Orthospelling**
+- [_Conflict_](#conflict)
+  - [_Word Boundary Conflict_](#word-boundary-conflict)
+  - Word-affix Conflicts
+  - Homophonic Conflicts
+- [_Write-out_](#write-out)
+- [_Brief_](#brief)
+  - Misstroke
+  - Arbitrary
+- [_Mandatory_](#mandatory)
+- [_Raw Steno_](#raw-steno)
+- Paper Tape/Steno Paper
+- [_Steno Order_](#steno-order)
+- [_Layout_](#layout)
+  - [_WSI Layout_](#wsi-layout)
+  - **Extended Stenotype Layout**
+- Steno Engine
+  - Plover
+- Steno Writer
+  - Steno Machine
+  - Steno Keyboard
+  - Stenotype
+- Philly Shift
+- Shadowing
+- Dropping
+- [_Bank_](#bank)
+  - Initial/**Starter** (links from _starter_)
+  - **Vowel**
+  - Final/**Ender** (links from **ender**)
+  - **Skeleton**
+- Key Label
+- [_Fingerspelling_](#fingerspelling)
+
 ## Key
-Noun
+**Noun**
 
-- An individual key on a [**steno layout**](#steno-layout) or [**steno machine**](#steno-machine).
+An individual key on a _steno machine_ or _layout_. Analogous to a key on a keyboard.
 
-**Notes**
-- Some keys share the same name, such as `S-` the [**starter**](#starter) and `-S` the [**ender**](#ender). These are different keys in different [**banks**](#bank) that are represented by the same character (`S`). These keys can be differentiated by their [**raw steno**](#raw-steno) notation, like _`S-`_ and _`-S`_.
+- Multiple keys may share the same _label_, with a dash (-) denoting what _bank_ the key is in. For example, in the _WSI layout_, there are two keys _labeled_ '`S`': the _initial_ `S-` key, and the _final_ `-S` key. Notice the dash at the start and end of the key.
 
 ## Chord
-Noun
+**Noun**
 
-- A set of [**keys**](#key) that typically represent part of a [**translation**](#translation).
+A set, or group, of [_keys_](#key). Chords may denote a sound, letter, affix, or any other part of a _translation_.
 
-**Notes**
-- An example chord might be `TPH-`, which consists of the keys `T-`, `P-`, and `H-`, and represents the starting /n/ sound on the [**WSI layout**](#wsi-layout).
-- Chords are the smallest unit of meaning in steno.
-- The difference between chords and [**strokes**](#stroke) can often be subtle. See [Chords vs. Strokes](https://grahp.dev/chords-vs-strokes).
+- Chords can be combined to form [_strokes_](#stroke).
+- The difference between a chord and a [_stroke_](#stroke) can often be subtle. See [[Chords vs Strokes|Chords vs. Strokes]].
+- An example chord is `TPH-`, which _translates_ to the _initial_ "n" sound (/n/).
 
-Verb
+**Verb**
 
-- The act of simultaneously pressing down the set of [**keys**](#key) that constitute a chord on a [**steno machine**](#steno-machine).
-- Often used interchangeably with the verb [**stroke**](#stroke).
+Pressing down all the [_keys_](#key) that make up a chord on a _steno machine_.
+
+- "Chording" is a term outside of _steno_, which means "pressing multiple [_keys_](#key) together at once", rather than one at a time.
+- Often used interchangeably with the verb [_stroke_](#stroke).
 
 ## Stroke
-Noun
+**Noun**
 
-- A set of [**keys**](#key), typically constructed out of [**chords**](#chord).
+A set, or group, or [_keys_](#key) pressed together simultaneously.
 
-**Notes**
-- The differences between a stroke and a [**chord**](#chord) is that [**chords**](#chord) typically represent simple [**translations**](#translation), such as a sound or orthographic sequence, while strokes are more complex, and exist mostly on their own. [**Chords**](#chord) are usually combined to form strokes. (Link to website page)
-- Strokes can be composed together to form [**outlines**](#outline).
+- If that sounds like what a [_chord_](#chord) is, that's because [_chords_](#chord) and strokes are very similar. They are both sets of [_keys_](#key). When you press down a set of [_keys_](#key) simultaneously, that is a stroke. A [_chord_](#chord) is something you can use to build strokes.
+- A helpful way to think of it is that when you combine two [_chords_](#chord), you get a stroke, but when you combine two strokes, you get an [_outline_](#outline)
+- For a full explanation of the difference between [_chords_](#chord) and strokes, see [[Chords vs Strokes|Chords vs. Strokes]].
 
-Verb
+**Verb**
 
-- The act of simultaneously pressing down the set of [**keys**](#key) that constitute a stroke on a [**steno machine**](#steno-machine).
+Pressing down all the [_keys_](#key) that make up a stroke on a _steno machine_.
+
+- Often used interchangeably with the verb [_chord_](#chord).
 
 ## Outline
-Noun
+**Noun**
 
-- A sequence of one or more [**strokes**](#stroke).
-
-**Notes**
-- Outlines are only sequences of [**strokes**](#stroke), not [**chords**](#chord) or [**keys**](#key). It may appear that a [**key**](#key) or [**chord**](#chord), such as `T-` or `-PBLG` are in an outline, but these are actually [**strokes**](#stroke) that contain 1 [**chord**](#chord) each.
-- A [**stroke**](#stroke) may "belong" to multiple outlines. Outlines are not greedy.
-- An example outline might be `KEUT/KAT`.
+One or more [_strokes_](#stroke) [_chorded_](#chord), or pressed, in sequence.
 
 ## Translation
-Noun
+**Noun**
 
-- Text that may represent a word, phrase, a part of a word or phrase, sound, affix, **Plover command**, punctuation, or any other arbitrary output.
+A word, phrase, part of a word or phase, sound, affix, command, punctuation, or any other output.
 
-**Notes**
-- Translations can be concatenated to form new translations.
-- Translations are used in [**entries**](#entry) as their output.
-- Some example translations include "cat", and "{^es}".
+**Verb**
+
+To "translate". The translation that an [_outline_](#outline) maps to is referred to as its "translation".
+
+- For example, the [_outline_](#outline) `KAT` translates to "cat".
 
 ## Entry
-Noun
+**Noun**
 
-- A mapping between an [**outline**](#outline) and a [**translation**](#translation).
+An entry, or [_dictionary_](#dictionary) entry, is a mapping between an [_outline_](#outline) and a [_translation_](#translation).
 
-**Notes**
-- Entries are the building blocks of [**dictionaries**](#dictionary)
-- These mappings are specified by [**theory rules**](#theory-rule).
+- For example, the [_outline_](#outline) `HOT/TKOG` might map to the [_translation_](#translation) "hotdog".
 
 ## Dictionary
-Noun
+**Noun**
 
-- A collection of [**entries**](#entry) with unique [**outlines**](#outline) which maps [**outlines**](#outline) to [**translations**](#translation).
-- A set of [**outlines**](#outline) with mapped [**translations**](#translation).
+A set of [_outlines_](#outline) with mappings to [_translations_](#translation). Dictionaries are made up of dictionary [_entries_](#entry).
 
-**Notes**
-- A dictionary provides a way to lookup an [**outline**](#outline) and provide the [**translation**](#translation) the [**outline**](#outline) maps to.
-- Dictionaries may consist of enumerated [**entries**](#entry), and stored in file formats such as JSON or RTF, or [**entries**](#entry) generated on-the-fly by a [**programmatic dictionary**](#programmatic-dictionary).
-<!-- - Because an [**entry**](#entry)'s job is to fulfill a [**theory rule**](#theory-rule), dictionaries can be thought of as the realization of a [**theory**](#theory). -->
-- What [**entries**](#entry) a dictionary contains may adapt based on context, see **context aware** and [**modal**](#modal).
+## Lookup
+**Noun**
 
-### Programmatic Dictionary
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+The process of "looking up" a [_translation_](#translation) in a [_dictionary_](#dictionary).
 
-- A [**dictionary**](#dictionary) whose [**entries**](#entry) are not pre-defined, but generated on-the-fly.
+## Reverse Lookup
+**Noun**
 
-**Notes**
-- [**Entries**](#entry) are not stored in a file, but given via a lookup function.
+The process of "looking up" the [_outlines_](#outlines) that map to a given [_translation_](#translation) in a [_dictionary_](#dictionary).
+
+- Called "reverse lookup" as it is the opposite of regular [_lookup_](#lookup).
+
+## Programmatic Dictionary
+**Noun**
+
+A [_dictionary_](#dictionary) that [_translates_](#translation) [_outlines_](#outline) as you _write_ them, rather having a pre-defined collection of [_entries_](#entry).
 
 ## Theory Rule
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+**Noun**
 
-Noun
-
-- A rule defining how to map a given [**entry**](#entry) to a derived [**translation**](#translation).
-  - A rule may do this based on phonetics, orthography, shape, or completely arbitrarily.
-- A rule that defines all of or some part of how an outline maps to a translation.
-
-**Notes**
-- The constituents of a [**theory**](#theory).
-- Theory rules vary in how many entries they cover.
-  - Most theory rules don't apply to all entries, meaning they will do nothing a lot of the time.
+A "rule" defining some part of how [_outlines_](#outline) should be mapped to [_translations_](#translation).
 
 ## Theory
-Noun
+**Noun**
 
-- A set of [**theory rules**](#theory-rule).
+A set of [_theory rules_](#theory-rule) that defines how [_outlines_](#outline) should map to [_translations_](#translation).
 
-**Notes**
-- Usually has a name (probably bird related for some reason)
-- May have learning resources, a wiki, a specification, etc.
-- Theories may be designed to work well with other theories (such as a number theory, symbol theory, or movement theory), or to exist independently.
+- Theories usually come with [_dictionaries_](#ditionaries), which are usually the theory author's best attempt to follow their [_theory rules_](#theory-rule).
 
 ## Conflict
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+**Noun**
 
-<!-- Maybe specify that it's contained in existing entries? -->
+An [_outline_](#outline) that has multiple valid [_translations_](#translation) according to your [_theories_](#theory).
 
-Adj.
-
-- An [**outline**](#outline) that is a conflict.
-
-Noun
-
-- An [**outline**](#outline) contained in multiple [**entries**](#entry).
-<!-- Multiple existing entries? -->
-<!-- Multiple real entries? -->
-
-**Notes**
-- This means the translation you might get from an looking up an outline could be wrong?
-  - Or can't be known maybe.
-- This comes from [**theory rules**](#theory-rule) overlapping.
-- A [**dictionary**](#dictionary) may override an [**entry**](#entry) from another [**dictionary**](#dictionary), which would cause the [**entry**](#entry) in the [**dictionary**](#dictionary) with higher priority to "shadow" the other [**entry**](#entry).
+- There are many different kinds of conflicts that happen for different reasons.
 
 ## Word Boundary Conflict
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+**Noun**
 
-Noun
-- An [**outline**](#outline) that can be split into multiple [**outlines**](#outline) contained in existing [**entries**](#entry).
-
-**Notes**
-- Your steno engine must pick one outline?
-- There are priorities for how these are avoided
-
-## Bank
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
-Noun
-
-- A group of [**keys**](#key) that are positioned in a specific area on a [**steno layout**](#steno-layout).
-  - The banks on the **WSI layout** are [**Starters**](#starter), [**Vowels**](#vowel), and [**Enders**](#ender).
-
-### Starter
-Noun
-
-- A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the starter [**bank**](#bank).
-
-Adj.
-
-- Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the starter [**bank**](#bank).
-
-### Ender
-Noun
-
-- A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the ender [**bank**](#bank).
-
-Adj.
-
-- Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the ender [**bank**](#bank).
-
-### Vowel
-Noun
-
-- A [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) in the vowel [**bank**](#bank).
-
-Adj.
-
-- Referring to a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) being in the vowel [**bank**](#bank).
+A type of [_conflict_](#conflict) where it is unclear where [_outlines_](#outline) should start and stop given a sequence of [_strokes_](#stroke).
 
 ## Write-out
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+**Noun**
 
-- This should talk about how much outlines follow theory rules or like how weird they are.
-  - Maybe unify theory rule coverage with this idea?
-- TODO an entry that uses rules only?
-  - If I split rules and templates, then this is fine I guess?
+An [_outline_](#outline) that follows all [_theory rules_](#theory-rule), and isn't _shortened_ in any way.
 
 ## Brief
-Noun
+**Noun**
 
-TODO maybe move to conflict and use in theory rule definition?
+An "abbreviated" [_outline_](#outline), used to reduce the number of [_strokes_](#stroke) required to _write_ a [_translation_](#translation).
 
-- Short for abbreviated or abbreviation, An "abbreviated" [**outline**](#outline), used to reduce the number of [**strokes**](#strokes) required to output a [**translation**](#translation).
+**Verb**
 
-**Notes**
-- Defined by [**theory rules**](#theory-rule).
-- Tends to deviate from most [**theory rules**](#theory-rule).
-
-## Template
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
-Noun
-
-- A [**brief**](#brief) that can be broken down into separately-defined rules that typically apply to multiple [**briefs**](#brief).
-- A [**brief**](#brief) that is defined by [**theory rules**](#theory-rule), rather than chosen arbitrarily.
-
-**Notes**
-- The opposite of an [Arbitrary](#arbitrary) outline 
-
-## Arbitrary
-Noun
-
-- An outline that is not defined by [**theory rules**](#theory-rule), but chosen arbitrarily.
+To "abbreviate" an [_outline_](#outline). To use a [_translation_](#translation)'s brief rather than its [_write-out_](#write-out).
 
 ## Mandatory
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+**Noun**
 
-Adj.
+An [_outline_](#outline) with no [_write-out_](#write-out), and only [_briefs_](#brief).
 
-- ...
+**Adjective**
 
-Noun
-- A mandatory outline, translation, or entry.
-
-- The only way to output a translation is with an arb.
-- A translation with only an arbitrary briefs to output it.
-
-## Skeleton
-Noun
-
-- A [**stroke**](#stroke) with [**keys**](#key) in the [**starter**](#starter) and [**ender**](#ender) [**banks**](#bank), but no keys in the [**vowel bank**](#vowel).
-
-**Notes**
-- Skeleton strokes are often used for [**briefs**](#brief), as all real words contain vowel sounds, and thus will never collide with skeletons.
-
-## Fingerspelling
-Verb
-
-- The use of a fingerspelling [**theory**](#theory) or [**dictionary**](#dictionary).
-
-Adj.
-
-- A [**theory**](#theory) or [**dictionary**](#dictionary) that mostly outputs singular characters, used to spell words one letter at a time.
-
-**Notes**
-- Different from [**orthospelling**](#orthospelling), which outputs multiple characters at a time as full orthographic sequences.
-
-## Orthospelling
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
-Verb
-
-- The use of an orthospelling [**theory**](#theory).
-
-Noun
-- An orthospelling [**theory**](#theory).
-  - Or dict?
-
-Adj.
-- Describing a [**theory rule**](#theory-rule) that is orthographic.
-- Describing a [**theory**](#theory) that is composed of orthographic [**theory rules**](#theory-rule).
-- Orthospelling theories are about composing orthographic sequences as opposed to letters.
-
-## Modal
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
-Adj.
-
-- A characteristic of a [**theory**](#theory) where [**theory rules**](#theory-rule) can change depending on the current active mode?
-- A characteristic of a [**dictionary**](#dictionary) where [**outlines**](#outlines) can refer to different [**translations**](#translation) depending on the current active mode.
-
-**Notes**
-- TODO There is typically a [**stroke**](#stroke) or dedicated [**key**](#key) used to switch between modes.
-- A dedicated key might also denote that just this stroke is in a different mode.
-
-### Mode Enter Outline
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
-Noun
-
-- The outline used to enter a [**mode**](#modal)
-
-### Mode Exit Outline
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
-Noun
-
-- The outline used to exit a [**mode**](#modal)
+Having no [_writeouts_](#write-out), and only [_briefs_](#brief).
 
 ## Raw Steno
-Adj.
+**Noun**
 
-- Describing a [**key**](#key), [**chord**](#chord), [**stroke**](#stroke), or [**outline**](#outline) represented in raw steno form.
+A notation for writing _keys_, _strokes_, _chords_, and _outlines_ in a more human-readable form.
 
-Noun
-
-- The format for representing [**keys**](#key), [**chords**](#chord), [**strokes**](#stroke), and [**outlines**](#outline) in textual form.
-
-**Notes**
-- Includes non-[**keys**](#key) such as `-` to denote the lack of [**keys**](#key) in the [**vowel bank**](#vowel), and `/` to denote the start of a new [**stroke**](#stroke).
-- Raw steno is ambiguous. `T-` could refer to the [**starter**](#starter) `T-`, the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`, or the [**outline**](#outline) consisting of only the [**stroke**](#stroke) constructed of only the [**chord**](#chord) containing only the [**starter**](#starter) `T-`.
-- [**Keys**](#key) in [**strokes**](#stroke) appear in [**steno order**](#steno-order).
-
-## Untranslate
-
-Also Known As: Untran
-
-Adj.
-
-- Describing an [**outline**](#outline) that is not found in any [**dictionaries**](#dictionary), and appears in [**raw steno form**](#raw-steno).
-
-Noun
-
-- An [**outline**](#outline) that is not found in any [**dictionaries**](#dictionary), and appears in [**raw steno form**](#raw-steno).
-
-## Steno Layout
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
-I have no idea lmao.
-- Not a physical thing
-
-A set of keys?
-In different banks?
+- `-T` is a _key_ on the _final_ _bank_ of the _WSI Layout_.
+- `KWR-` is a _chord_ in the _initial_ _bank_ of the _WSI Layout_.
+- `KAT` is a _stroke_.
+- `KEUT/KAT` is an _outline_.
 
 ## Steno Order
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+**Noun**
 
-Noun
+The order that the _keys_ of a _layout_ are written in with _raw steno_.
 
-- The order in which keys are?
-- The order in which keys are displayed?
-- It's not just about human consumption, it's also about chords and how chords can compose with each other except for when it's not...
-- As defined by steno layout
-- Used in theories for something.
+- Steno order is often used in a few ways by _theories_ to make it clear when you can do certain things.
 
-**Notes**
-- Raw steno displays keys in strokes and outlines in this order.
-  - Steno order is often display like this, such as `#STKPWHRAO*EUFRPBLGTSDZ`
+## Layout
+**Noun**
+
+A set of [_keys_](#key) with _labels_, often grouped into _banks_, often with a defined _steno order_, that can be grouped into [_chords_](#chord).
+
+- The most common, and "standard" steno layout is the _WSI Layout_.
 
 ## WSI Layout
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+**Noun**
 
-a steno layout
+The "standard" steno _layout_
 
-## Extended Stenotype Layout
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+## Bank
+**Noun**
 
-another steno layout, but this one has 2 more keys :)
+A logical group of _keys_ on a _layout_, used to organize keys based on their position.
 
-## Steno Machine
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
+- The _WSI layout_ has 3 banks: the _initial_, _vowel_, and _final_ banks.
 
-- A chorded stenographic input device.
+## Fingerspelling
+**Noun**
 
-**Notes**
-- Refers to both professional and hobbyist keyboards.
-
-## Steno Writer
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
-- A professional steno machine.
-(the machine isn't professional the user is ._.)
-
-## Steno Keyboard / Hobbyist machine
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
-- A steno machine made for hobbyists.
-- Not a dedicated machine, just a keyboard.
-<!-- - A steno machine made for hobbyist. Typically not a dedicated machine, just a keyboard-->
-
-## Steno Engine
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
-Allows dictionaries to work?
-Provides many other facilities around steno?
-
-## Plover
-![TODO](https://img.shields.io/badge/TODO-orange?style=flat)
-
-Free and Open Source [**steno engine**](#steno-engine)
-
-**Notes**
-- Download Plover - [https://github.com/openstenoproject/plover/releases/latest](https://github.com/openstenoproject/plover/releases/latest).
-- Plover Wiki Beginner's Guide - [https://plover.wiki/index.php/Beginner%27s_Guide](https://plover.wiki/index.php/Beginner%27s_Guide).
-
-# Other Sources
-
-- Plover Wiki Glossary - [https://plover.wiki/index.php/Glossary](https://plover.wiki/index.php/Glossary)
-- Steno Explainers - [https://sammdot.ca/steno/explainers](https://sammdot.ca/steno/explainers)
-- Lapwing Glossary - [https://lapwing.aerick.ca/Glossary.html#steno-theory](https://lapwing.aerick.ca/Glossary.html#steno-theory)
-- Learn Plover! Glossary - [https://www.openstenoproject.org/learn-plover/glossary.html](https://www.openstenoproject.org/learn-plover/glossary.html)
-- StudySteno Glossary - [https://studysteno.com/moo/mod/glossary/view.php?id=22](https://studysteno.com/moo/mod/glossary/view.php?id=22)
-- Plover Wiki Steno Hardware Terminology - [https://plover.wiki/index.php/Steno_hardware_terminology](https://plover.wiki/index.php/Steno_hardware_terminology)
-
-Terms not covered here:
-
-- Vernon Court Reporters Transcription & Court Reporting Glossary - [https://academy.vernoncourtreporters.com/](https://academy.vernoncourtreporters.com/)
-
-# TODO
-
-- Folding
-- Dropping
-- Clip-on
-- Phrasing
-- Plover Command
-- Syllabic Splitting
-- Paper tape
-- Pseudosteno
-- Stenonym
-- Modal entry and exit outlines?
-- Better descriptions.
-- Replace all the disambiguation of keys, chords, and strokes with a steno notation page.
+A way to write any word one letter at a time, even if it's not in your _dictionary_.
