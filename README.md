@@ -19,15 +19,14 @@ Outline:
 - [_Dictionary_](#dictionary)
   - [_Lookup_](#lookup)
   - [_Reverse Lookup_](#reverse-lookup)
-  - [_Programmatic Dictionary_](#programmatic-dictionary)
-  - Modal Dictionary
+  - [_Programmatic_](#programmatic) (From `#programmtic-dictionary`)
+  - [_Modal_](#modal)
 - [_Theory Rule_](#theory-rule)
 - [_Theory_](#theory)
   - Long
   - Short
   - Phonetic
   - Orthographic
-  - Orthospelling
 - [_Conflict_](#conflict)
   - [_Word Boundary Conflict_](#word-boundary-conflict)
   - Word-affix Conflicts
@@ -42,7 +41,7 @@ Outline:
 - [_Steno Order_](#steno-order)
 - [_Layout_](#layout)
   - [_WSI Layout_](#wsi-layout)
-  - Extended Stenotype Layout
+  - [_Extended Stenotype Layout_](#extended-stenotype-layout)
 - Steno Engine
   - Plover
 - Steno Writer
@@ -53,12 +52,14 @@ Outline:
 - Shadowing
 - Dropping
 - [_Bank_](#bank)
-  - Initial/Starter
-  - Vowel
-  - Final/Ender
-  - Skeleton
+  - Initial/**Starter** (links from _starter_)
+  - **Vowel**
+  - Final/**Ender** (links from **ender**)
+  - **Skeleton**
 - Key Label
 - [_Fingerspelling_](#fingerspelling)
+- [_Orthospelling_](#orthospelling)
+- Dedicated
 
 ## Key
 **Noun**
@@ -73,7 +74,7 @@ An individual key on a _steno machine_ or _layout_. Analogous to a key on a keyb
 A set, or group, of [_keys_](#key). Chords may denote a sound, letter, affix, or any other part of a _translation_.
 
 - Chords can be combined to form [_strokes_](#stroke).
-- The difference between a chord and a [_stroke_](#stroke) can often be subtle. See https://grahp.dev/chords-vs-strokes
+- The difference between a chord and a [_stroke_](#stroke) can often be subtle. See https://grahp.dev/chords-vs-strokes.
 - An example chord is `TPH-`, which _translates_ to the _initial_ "n" sound (/n/).
 
 **Verb**
@@ -90,7 +91,7 @@ A set, or group, or [_keys_](#key) pressed together simultaneously.
 
 - If that sounds like what a [_chord_](#chord) is, that's because [_chords_](#chord) and strokes are very similar. They are both sets of [_keys_](#key). When you press down a set of [_keys_](#key) simultaneously, that is a stroke. A [_chord_](#chord) is something you can use to build strokes.
 - A helpful way to think of it is that when you combine two [_chords_](#chord), you get a stroke, but when you combine two strokes, you get an [_outline_](#outline)
-- For a full explanation of the difference between [_chords_](#chord) and strokes, see [[Chords vs Strokes|Chords vs. Strokes]].
+- For a full explanation of the difference between [_chords_](#chord) and strokes, see https://grahp.dev/chords-vs-strokes.
 
 **Verb**
 
@@ -138,10 +139,17 @@ The process of "looking up" the [_outlines_](#outlines) that map to a given [_tr
 
 - Called "reverse lookup" as it is the opposite of regular [_lookup_](#lookup).
 
-## Programmatic Dictionary
-**Noun**
+## Programmatic
+**Adjective**
 
-A [_dictionary_](#dictionary) that [_translates_](#translation) [_outlines_](#outline) as you _write_ them, rather having a pre-defined collection of [_entries_](#entry).
+A _dictionary_ being programmatic means that it [_translates_](#translation) [_outlines_](#outline) as you _write_ them, rather having a pre-defined collection of [_entries_](#entry).
+
+## Modal
+**Adjective**
+
+A _dictionary_ being modal means that it may contain different _entries_, and thus "do different things", depending on what "mode" you are in.
+
+- Your current mode can change through a mode-switching _stroke_, based on _context_, or really for any other reason.
 
 ## Theory Rule
 **Noun**
@@ -217,16 +225,49 @@ A set of [_keys_](#key) with _labels_, often grouped into _banks_, often with a 
 ## WSI Layout
 **Noun**
 
-The "standard" steno _layout_
+The "standard" steno [_layout_](#layout).
+
+## Extended Stenotype Layout
+**Noun**
+
+An "extended" version of the [_WSI layout_](#wsi-layout) featuring 2 more [_keys_](#key), `^` and `+`.
 
 ## Bank
 **Noun**
 
-A logical group of _keys_ on a _layout_, used to organize keys based on their position.
+A logical group of [_keys_](#key) on a [_layout_](#layout), used to organize [_keys_](#key) based on their position.
 
-- The _WSI layout_ has 3 banks: the _initial_, _vowel_, and _final_ banks.
+- The [_WSI layout_](#wsi-layout) has 3 banks: the _initial_, _vowel_, and _final_ banks.
 
 ## Fingerspelling
 **Noun**
 
-A way to write any word one letter at a time, even if it's not in your _dictionary_.
+A method of _writing_ words letter-by-letter using a fingerspelling theory/dictionary.
+
+**Adjective**
+
+A theory/dictionary where words are _written_ letter-by-letter, allowing you to _write_ words that aren't in your _dictionary_
+
+**Verb**
+
+The act of _writing_ with a fingerspelling _theory_/_dictionary_
+
+## Orthospelling
+**Noun**
+
+A method of _writing_ words multiple letters at a time using an orthospelling _theory_/_dictionary_.
+
+**Adjective**
+
+An orthospelling [_theory_](#theory)/[_dictionary_](#dictionary) is fully _orthographic_. It's like [_fingerspelling_](#fingerspelling), but uses the whole [_layout_](#layout), or more of the [_layout_](#layout) than just one [_fingerspelling_](#fingerspelling) [_bank_](#bank).
+
+An _orthographic_ theory/dictionary where words are written multiple letters at a time.
+
+**Verb**
+
+The act of _writing_ using an orthospelling [_theory_](#theory) or [_dictionary_](#dictionary).
+
+## Dedicated
+**Adjective**
+
+A dedicated [_key_](#key), [_chord_](#chord), [_stroke_](#stroke), or [_outline_](#outline) is reserved for a specific purpose and cannot be used for anything else.
