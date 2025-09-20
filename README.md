@@ -4,7 +4,7 @@ Mirror of [https://grahp.dev/steno-glossary](https://grahp.dev/steno-glossary).
 
 I can't promise this will be up to date, so I'd look there instead :)
 
-The content on this page is dedicated to the public domain under CC0 1.0 Universal. Feel free to use it however you'd like :)
+The content on this page is dedicated to the public domain under CC0 1.0 Universal. Feel free to use it however you'd like
 
 Outline:
 - [_Key_](#key)
