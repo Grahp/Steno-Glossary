@@ -1,6 +1,6 @@
 # Steno Glossary
 
-Mirror of [https://grahp.dev/steno-glossary](https://grahp.dev/steno-glossary).
+Moved to [https://grahp.dev/steno-glossary](https://grahp.dev/steno-glossary).
 
 I can't promise this will be up to date, so I'd look there instead :)
 
