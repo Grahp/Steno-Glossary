@@ -100,7 +100,7 @@ An individual key on a [_steno writer_](#steno-writer) or [_layout_](#layout). A
 A set of [_keys_](#key). Chords may denote a sound, letter, affix, or any other part of a [_translation_](#translation).
 
 - Chords can be combined to form [_strokes_](#stroke).
-- The difference between a chord and a [_stroke_](#stroke) can often be subtle. See [[Chords vs Strokes|Chords vs. Strokes]].
+- The difference between a chord and a [_stroke_](#stroke) can often be subtle. See https://grahp.dev/chords-vs-strokes
 - An example chord is `TPH-`, which [_translates_](#translation) to the [_initial_](#initial) "n" sound (/n/).
 
 **Verb**
@@ -117,7 +117,7 @@ A set of [_keys_](#key) pressed together simultaneously.
 
 - If that sounds like what a [_chord_](#chord) is, that's because [_chords_](#chord) and strokes are very similar. They are both sets of [_keys_](#key). When you press down a set of [_keys_](#key) simultaneously, that is a stroke. A [_chord_](#chord) is something you can use to build strokes.
 - A helpful way to think of it is that when you combine two [_chords_](#chord), you get a stroke, but when you combine two strokes, you get an [_outline_](#outline)
-- For a full explanation of the difference between [_chords_](#chord) and strokes, see [[Chords vs Strokes|Chords vs. Strokes]].
+- For a full explanation of the difference between [_chords_](#chord) and strokes, see https://grahp.dev/chords-vs-strokes
 
 **Verb**
 
@@ -345,7 +345,7 @@ A set of [_keys_](#key) with _labels_, often grouped into [_banks_](#bank), ofte
 
 The "standard" steno [_layout_](#layout). Featuring 23 keys, in [_steno order_](#steno-order): `STKPWHRAO*EUFRPBLGTSDZ`.
 
-- See [[WSI|WSI]].
+- See https://grahp.dev/wsi
 
 ## Extended Stenotype Layout
 **Noun**
@@ -374,7 +374,7 @@ A popular hobbyist [_steno engine_](#steno-engine) that runs as an app on your c
 ## Javelin
 **Noun**
 
-[[Javelin|Javelin]] is An [_embedded_](#embedded) [_steno engine_](#steno-engine) that can run on most [_hobbyist keyboards_](#steno-keyboard). By running directly on the keyboard itself, you avoid needing to keep an application running to use steno.
+Javelin is An [_embedded_](#embedded) [_steno engine_](#steno-engine) that can run on most [_hobbyist keyboards_](#steno-keyboard). By running directly on the keyboard itself, you avoid needing to keep an application running to use steno.
 
 - Website: [https://lim.au/#/software/javelin-steno](https://lim.au/#/software/javelin-steno)
 
@@ -415,7 +415,7 @@ A stenotype machine, or just "stenotype" is another word for a [_steno writer_](
 
 N-key rollollver, or NKRO, means that a [_keyboard_](#steno-keyboard) can register every keypress, regardless of how many are pressed down. Many keyboards can only register a few keys being pressed down before any more keys won't register at all.
 
-- NKRO is basically required for [[Steno Glossary#Chorded|chording]], as you need to press down many keys at once.
+- NKRO is basically required for [_chording_](#chorded), as you need to press down many keys at once.
 
 ## Chorded
 **Adjective**
@@ -471,7 +471,7 @@ The [_bank_](#bank) with the vowel sound or spelling of a word, one of the 3 [_b
 Can also refer to a [_key_](#key), [_chord_](#chord), [_stroke_](#stroke), or [_outline_](#outline) in the final [_bank_](#bank).
 
 - E.g. the "t" in "cat"
-- Sometimes called the "ender" bank (no relation to [[Minecraft|Minecraft]] :p).
+- Sometimes called the "ender" bank (no relation to Minecraft :p).
 - In the [_WSI Layout_](#wsi-layout) these are the `-F`, `-R`, `-P`, `-B`, `-L`, `-G`, `-T`, `-S`, `-D`, and `-Z` [_keys_](#key).
 
 ## Skeleton
@@ -545,4 +545,4 @@ Terms not covered here:
 
 ---
 
-*The content on this page is dedicated to the public domain under [[CC0|CC0 1.0 Universal]].*
+*The content on this page is dedicated to the public domain under CC0 1.0 Universal.*
